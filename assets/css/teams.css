@@ -1,0 +1,11 @@
+.team-card img {
+  transition: 0.4s ease;
+}
+
+.team-card:hover img {
+  transform: scale(1.05);
+}
+
+.team-card:hover {
+  border-color: var(--primary);
+}

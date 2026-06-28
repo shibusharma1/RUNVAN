@@ -1,0 +1,15 @@
+.testimonialSwiper .swiper-pagination {
+  position: relative;
+  margin-top: 40px;
+}
+
+.testimonialSwiper .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+  background: #cbd5e1;
+}
+
+.testimonialSwiper .swiper-pagination-bullet-active {
+  background: var(--primary);
+}
