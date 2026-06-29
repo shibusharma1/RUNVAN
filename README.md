@@ -4,6 +4,9 @@ A modern, responsive, and professional website developed for **RUNVAN (Returned 
 
 The platform showcases RUNVAN's mission, programs, leadership, publications, certifications, biographies, gallery, and community engagement initiatives through a clean and accessible user experience.
 
+![License](https://img.shields.io/badge/license-MIT-green)
+![Status](https://img.shields.io/badge/status-active-success)
+
 ---
 
 ## Overview
