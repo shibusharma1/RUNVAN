@@ -1,0 +1,16 @@
+.pagination-btn {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  transition: 0.3s;
+}
+
+.pagination-btn:hover,
+.pagination-btn.active {
+  background: var(--primary);
+  color: #fff;
+}

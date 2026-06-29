@@ -1,53 +1,112 @@
 </main>
-<footer class="bg-footer text-white">
+<footer class="bg-footer text-white overflow-hidden">
+
+    <!-- Top CTA Strip -->
+
+    <div class="border-b border-white/10">
+
+        <div class="container">
+
+            <div
+                class="py-10 flex flex-col lg:flex-row items-center justify-between gap-6">
+
+                <div>
+
+                    <h3 class="text-white mb-2">
+
+                        Join RUNVAN's Volunteer Network
+
+                    </h3>
+
+                    <p class="text-white/70">
+
+                        Connect with returned UN volunteers and contribute
+                        towards sustainable development initiatives.
+
+                    </p>
+
+                </div>
+
+                <div class="flex flex-wrap gap-4">
+
+                    <a href="#"
+                        class="px-6 py-3 bg-white text-[var(--primary)] rounded-[10px] font-medium hover:-translate-y-1 transition-all">
+
+                        Become a Member
+
+                    </a>
+
+                    <a href="#"
+                        class="px-6 py-3 border border-white/20 rounded-[10px] hover:bg-white/10 transition-all">
+
+                        Contact Us
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Main Footer -->
 
     <div class="container">
 
-        <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-10 py-20">
+        <div
+            class="grid lg:grid-cols-12 gap-10 py-20">
 
-            <!-- About -->
+            <!-- Column 1 -->
 
-            <div>
+            <div class="lg:col-span-4">
 
-                <img
-                    src="./assets/images/logo-white.png"
-                    alt="RUNVAN"
-                    class="h-16 mb-6">
+                <a href="/"
+                    class="inline-block mb-6">
 
-                <p class="text-white/70 leading-relaxed">
+                    <img
+                        src="assets/images/logo-white.png"
+                        alt="RUNVAN"
+                        class="h-14">
+                </a>
+
+                <p class="text-white/70 leading-relaxed mb-6">
 
                     Returned United Nations Volunteers Association Nepal
                     (RUNVAN) is committed to promoting volunteerism,
-                    leadership, and sustainable community development across
-                    Nepal.
+                    knowledge sharing, leadership development, and
+                    sustainable community engagement across Nepal.
 
                 </p>
 
-                <div class="flex gap-3 mt-6">
+                <!-- Social -->
+
+                <div class="flex gap-3">
 
                     <a href="#"
-                        class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary transition">
+                        class="footer-social">
 
                         <i class="ri-facebook-fill"></i>
 
                     </a>
 
                     <a href="#"
-                        class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary transition">
+                        class="footer-social">
 
                         <i class="ri-linkedin-fill"></i>
 
                     </a>
 
                     <a href="#"
-                        class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary transition">
+                        class="footer-social">
 
-                        <i class="ri-twitter-x-fill"></i>
+                        <i class="ri-twitter-x-line"></i>
 
                     </a>
 
                     <a href="#"
-                        class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary transition">
+                        class="footer-social">
 
                         <i class="ri-youtube-fill"></i>
 
@@ -57,114 +116,230 @@
 
             </div>
 
-            <!-- Quick Links -->
+            <!-- Column 2 -->
 
-            <div>
+            <div class="lg:col-span-2">
 
-                <h4 class="mb-6">
+                <h5 class="footer-title">
+
                     Quick Links
-                </h4>
 
-                <ul class="space-y-3">
+                </h5>
 
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Programs</a></li>
-                    <li><a href="#">Team</a></li>
-                    <li><a href="#">Gallery</a></li>
+                <ul class="footer-links">
+
+                    <li>
+                        <a href="/">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/about">
+                            About Us
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/programs">
+                            Programs
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/publications">
+                            Publications
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/gallery">
+                            Gallery
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/contact">
+                            Contact
+                        </a>
+                    </li>
 
                 </ul>
 
             </div>
 
-            <!-- Resources -->
+            <!-- Column 3 -->
 
-            <div>
+            <div class="lg:col-span-3">
 
-                <h4 class="mb-6">
-                    Resources
-                </h4>
+                <h5 class="footer-title">
 
-                <ul class="space-y-3">
+                    Programs
 
-                    <li><a href="#">Publications</a></li>
-                    <li><a href="#">Reports</a></li>
-                    <li><a href="#">News & Updates</a></li>
-                    <li><a href="#">Membership</a></li>
-                    <li><a href="#">Volunteer Stories</a></li>
+                </h5>
+
+                <ul class="footer-links">
+
+                    <li>
+                        <a href="#">
+                            Volunteer Capacity Building
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            Leadership Development
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            Community Outreach
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            Knowledge Sharing
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            National Volunteer Events
+                        </a>
+                    </li>
 
                 </ul>
 
             </div>
 
-            <!-- Contact -->
+            <!-- Column 4 -->
 
-            <div>
+            <div class="lg:col-span-3">
 
-                <h4 class="mb-6">
-                    Contact Us
-                </h4>
+                <h5 class="footer-title">
 
-                <ul class="space-y-4 text-white/70">
+                    Contact Information
 
-                    <li class="flex gap-3">
+                </h5>
 
-                        <i class="ri-map-pin-line text-primary"></i>
+                <div class="space-y-5">
 
-                        <span>
+                    <div class="flex gap-4">
+
+                        <i class="ri-map-pin-line text-xl text-[var(--primary)]-light"></i>
+
+                        <span class="text-white/70">
+
                             Kathmandu, Nepal
+
                         </span>
 
-                    </li>
+                    </div>
 
-                    <li class="flex gap-3">
+                    <div class="flex gap-4">
 
-                        <i class="ri-phone-line text-primary"></i>
+                        <i class="ri-phone-line text-xl text-[var(--primary)]-light"></i>
 
-                        <span>
-                            +977 XXXXXXXXXX
+                        <span class="text-white/70">
+
+                            +977-XXXXXXXXXX
+
                         </span>
 
-                    </li>
+                    </div>
 
-                    <li class="flex gap-3">
+                    <div class="flex gap-4">
 
-                        <i class="ri-mail-line text-primary"></i>
+                        <i class="ri-mail-line text-xl text-[var(--primary)]-light"></i>
 
-                        <span>
+                        <span class="text-white/70">
+
                             info@runvan.org.np
+
                         </span>
 
-                    </li>
+                    </div>
 
-                </ul>
+                </div>
+
+                <!-- Newsletter -->
+
+                <div class="mt-8">
+
+                    <h6 class="mb-3 text-white">
+
+                        Newsletter
+
+                    </h6>
+
+                    <form
+                        class="flex">
+
+                        <input
+                            type="email"
+                            placeholder="Email Address"
+                            class="footer-input">
+
+                        <button
+                            type="submit"
+                            class="footer-submit">
+
+                            <i class="ri-send-plane-fill"></i>
+
+                        </button>
+
+                    </form>
+
+                </div>
 
             </div>
 
         </div>
 
-        <!-- Bottom Bar -->
+    </div>
+
+    <!-- Bottom -->
+
+    <div
+        class="border-t border-white/10">
 
         <div
-            class="border-t border-white/10 py-6 flex flex-col md:flex-row justify-between items-center gap-4">
+            class="container py-6">
 
-            <p class="text-white/60 text-sm">
+            <div
+                class="flex flex-col md:flex-row justify-between items-center gap-4">
 
-                © 2026 RUNVAN. All Rights Reserved.
+                <p class="text-white/60 text-sm">
 
-            </p>
+                    © 2026 RUNVAN Nepal. All Rights Reserved.
 
-            <p class="text-white/60 text-sm">
+                </p>
 
-                Designed with dedication for sustainable development.
+                <div
+                    class="flex gap-6 text-sm">
 
-            </p>
+                    <a href="#">
+                        Privacy Policy
+                    </a>
+
+                    <a href="#">
+                        Terms & Conditions
+                    </a>
+
+                </div>
+
+            </div>
 
         </div>
 
     </div>
 
 </footer>
+<?php
+include './includes/backtotop.php';
+?>
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
@@ -174,6 +349,11 @@
 <script src="./assets/js/herotext-typewriter.js"></script>
 <script src="./assets/js/testimonialSwiper.js"></script>
 <script src="./assets/js/certificationSwiper.js"></script>
+<script src="./assets/js/publications.js"></script>
+<script src="./assets/js/gallery.js"></script>
+<script src="./assets/js/backtotop.js"></script>
+<script src="./assets/js/testimonial.js"></script>
+<script src="./assets/js/certificates.js"></script>
 
 </body>
 

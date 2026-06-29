@@ -3,7 +3,7 @@ include './includes/header.php';
 ?>
 <section class="relative pt-40 pb-28 overflow-hidden">
 
-    <div class="absolute inset-0 bg-gradient-to-r from-primary to-primary-dark"></div>
+    <div class="absolute inset-0 bg-gradient-to-r from-[var(--primary)] to-[var(--primary-dark)]"></div>
 
     <div class="container relative z-10">
 
@@ -42,7 +42,7 @@ include './includes/header.php';
         <div class="section-title" data-aos="fade-up">
 
             <span
-                class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4">
+                class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-[var(--primary)] text-sm font-medium mb-4">
 
                 <i class="ri-focus-3-line"></i>
 
@@ -72,7 +72,7 @@ include './includes/header.php';
                 <div
                     class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-6">
 
-                    <i class="ri-eye-line text-3xl text-primary"></i>
+                    <i class="ri-eye-line text-3xl text-[var(--primary)]"></i>
 
                 </div>
 
@@ -98,7 +98,7 @@ include './includes/header.php';
                 <div
                     class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-6">
 
-                    <i class="ri-flag-line text-3xl text-primary"></i>
+                    <i class="ri-flag-line text-3xl text-[var(--primary)]"></i>
 
                 </div>
 
@@ -124,7 +124,7 @@ include './includes/header.php';
                 <div
                     class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-6">
 
-                    <i class="ri-target-line text-3xl text-primary"></i>
+                    <i class="ri-target-line text-3xl text-[var(--primary)]"></i>
 
                 </div>
 
@@ -135,22 +135,22 @@ include './includes/header.php';
                 <ul class="space-y-3 text-muted">
 
                     <li class="flex gap-3">
-                        <i class="ri-check-line text-primary mt-1"></i>
+                        <i class="ri-check-line text-[var(--primary)] mt-1"></i>
                         Promote volunteerism and civic engagement.
                     </li>
 
                     <li class="flex gap-3">
-                        <i class="ri-check-line text-primary mt-1"></i>
+                        <i class="ri-check-line text-[var(--primary)] mt-1"></i>
                         Strengthen leadership and capacity building.
                     </li>
 
                     <li class="flex gap-3">
-                        <i class="ri-check-line text-primary mt-1"></i>
+                        <i class="ri-check-line text-[var(--primary)] mt-1"></i>
                         Foster collaboration and partnerships.
                     </li>
 
                     <li class="flex gap-3">
-                        <i class="ri-check-line text-primary mt-1"></i>
+                        <i class="ri-check-line text-[var(--primary)] mt-1"></i>
                         Support sustainable development goals.
                     </li>
 
@@ -172,7 +172,7 @@ include './includes/header.php';
         <div class="section-title" data-aos="fade-up">
 
             <span
-                class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4">
+                class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-[var(--primary)] text-sm font-medium mb-4">
 
                 <i class="ri-route-line"></i>
 
@@ -205,7 +205,7 @@ include './includes/header.php';
                 <div
                     class="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mb-5">
 
-                    <i class="ri-team-line text-primary text-2xl"></i>
+                    <i class="ri-team-line text-[var(--primary)] text-2xl"></i>
 
                 </div>
 
@@ -231,7 +231,7 @@ include './includes/header.php';
                 <div
                     class="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mb-5">
 
-                    <i class="ri-building-line text-primary text-2xl"></i>
+                    <i class="ri-building-line text-[var(--primary)] text-2xl"></i>
 
                 </div>
 
@@ -256,7 +256,7 @@ include './includes/header.php';
                 <div
                     class="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mb-5">
 
-                    <i class="ri-book-open-line text-primary text-2xl"></i>
+                    <i class="ri-book-open-line text-[var(--primary)] text-2xl"></i>
 
                 </div>
 
@@ -280,7 +280,7 @@ include './includes/header.php';
                 <div
                     class="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mb-5">
 
-                    <i class="ri-user-star-line text-primary text-2xl"></i>
+                    <i class="ri-user-star-line text-[var(--primary)] text-2xl"></i>
 
                 </div>
 
@@ -305,7 +305,7 @@ include './includes/header.php';
                 <div
                     class="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mb-5">
 
-                    <i class="ri-government-line text-primary text-2xl"></i>
+                    <i class="ri-government-line text-[var(--primary)] text-2xl"></i>
 
                 </div>
 
@@ -330,7 +330,7 @@ include './includes/header.php';
                 <div
                     class="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mb-5">
 
-                    <i class="ri-earth-line text-primary text-2xl"></i>
+                    <i class="ri-earth-line text-[var(--primary)] text-2xl"></i>
 
                 </div>
 
@@ -359,7 +359,7 @@ include './includes/header.php';
         <div class="section-title" data-aos="fade-up">
 
             <span
-                class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4">
+                class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-[var(--primary)] text-sm font-medium mb-4">
 
                 <i class="ri-community-line"></i>
 
@@ -392,7 +392,7 @@ include './includes/header.php';
                     <div
                         class="w-14 h-14 mx-auto rounded-full bg-primary/10 flex items-center justify-center mb-4">
 
-                        <i class="ri-group-line text-primary text-2xl"></i>
+                        <i class="ri-group-line text-[var(--primary)] text-2xl"></i>
 
                     </div>
 
@@ -410,7 +410,7 @@ include './includes/header.php';
                     <div
                         class="w-14 h-14 mx-auto rounded-full bg-primary/10 flex items-center justify-center mb-4">
 
-                        <i class="ri-briefcase-line text-primary text-2xl"></i>
+                        <i class="ri-briefcase-line text-[var(--primary)] text-2xl"></i>
 
                     </div>
 
@@ -428,7 +428,7 @@ include './includes/header.php';
                     <div
                         class="w-14 h-14 mx-auto rounded-full bg-primary/10 flex items-center justify-center mb-4">
 
-                        <i class="ri-lightbulb-line text-primary text-2xl"></i>
+                        <i class="ri-lightbulb-line text-[var(--primary)] text-2xl"></i>
 
                     </div>
 
@@ -446,7 +446,7 @@ include './includes/header.php';
                     <div
                         class="w-14 h-14 mx-auto rounded-full bg-primary/10 flex items-center justify-center mb-4">
 
-                        <i class="ri-user-star-line text-primary text-2xl"></i>
+                        <i class="ri-user-star-line text-[var(--primary)] text-2xl"></i>
 
                     </div>
 
@@ -493,7 +493,7 @@ include './includes/header.php';
                         John Doe
                     </h5>
 
-                    <p class="text-primary text-sm mt-1">
+                    <p class="text-[var(--primary)] text-sm mt-1">
                         Chairperson
                     </p>
 
@@ -515,7 +515,7 @@ include './includes/header.php';
                         Jane Smith
                     </h5>
 
-                    <p class="text-primary text-sm mt-1">
+                    <p class="text-[var(--primary)] text-sm mt-1">
                         Vice Chairperson
                     </p>
 
@@ -537,7 +537,7 @@ include './includes/header.php';
                         Michael Rai
                     </h5>
 
-                    <p class="text-primary text-sm mt-1">
+                    <p class="text-[var(--primary)] text-sm mt-1">
                         Secretary
                     </p>
 
@@ -559,7 +559,7 @@ include './includes/header.php';
                         Sita Gurung
                     </h5>
 
-                    <p class="text-primary text-sm mt-1">
+                    <p class="text-[var(--primary)] text-sm mt-1">
                         Treasurer
                     </p>
 
@@ -592,7 +592,7 @@ include './includes/header.php';
     <div class="container">
 
         <div
-            class="relative overflow-hidden rounded-[10px] bg-gradient-to-r from-primary to-primary-dark p-10 md:p-16">
+            class="relative overflow-hidden rounded-[10px] bg-gradient-to-r from-[var(--primary)] to-[var(--primary-dark)] p-10 md:p-16">
 
             <!-- Decorative Elements -->
 
@@ -645,7 +645,7 @@ include './includes/header.php';
                     data-aos="fade-left">
 
                     <a href="#"
-                        class="bg-white text-primary px-7 py-4 rounded-[10px] font-semibold hover:-translate-y-1 transition-all duration-300">
+                        class="bg-white text-[var(--primary)] px-7 py-4 rounded-[10px] font-semibold hover:-translate-y-1 transition-all duration-300">
 
                         Become a Member
 
@@ -667,15 +667,6 @@ include './includes/header.php';
     </div>
 
 </section>
-
-
-
-
-
-
-
-
-
 <?php
 include './includes/footer.php';
 ?>

@@ -27,9 +27,21 @@
     <!-- Remix Icons -->
     <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css">
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+    
     <link rel="stylesheet" href="./assets/css/app.css">
     <link rel="stylesheet" href="./assets/css/teams.css">
     <link rel="stylesheet" href="./assets/css/testimonial.css">
+    <link rel="stylesheet" href="./assets/css/publications.css">
+    <link rel="stylesheet" href="./assets/css/pagination.css">
+    <link rel="stylesheet" href="./assets/css/gallery.css">
+    <link rel="stylesheet" href="./assets/css/contact.css">
+    <link rel="stylesheet" href="./assets/css/backtotop.css">
+    <link rel="stylesheet" href="./assets/css/certificates.css">
 
     <style>
         body {
