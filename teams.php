@@ -7,13 +7,13 @@
          src="./assets/images/team/team-hero.jpg"
          alt="Core Team"
          class="w-full h-full object-cover">
-      <div class="absolute inset-0 bg-[var(--primary)]/85"></div>
+      <div class="absolute inset-0 bg-[var(--primary)]"></div>
    </div>
    <div class="container relative z-10">
       <nav
          class="flex items-center gap-2 text-white/70 text-sm mb-8"
          data-aos="fade-up">
-         <a href="index.php" class="hover:text-white transition">
+         <a href="./" class="hover:text-white transition">
          Home
          </a>
          <i class="ri-arrow-right-s-line"></i>
@@ -47,7 +47,7 @@
          <!-- Image -->
          <div data-aos="fade-right">
             <img
-               src="./assets/images/team/team-overview.jpg"
+               src="./assets/images/team-overview.png"
                alt=""
                class="w-full rounded-[10px] shadow-lg">
          </div>
@@ -124,7 +124,81 @@
             class="group bg-white rounded-[10px] overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 hover:-translate-y-2">
             <div class="overflow-hidden">
                <img
-                  src="./assets/images/team/team-1.jpg"
+                  src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500"
+                  alt=""
+                  class="w-full h-80 object-cover transition duration-700 group-hover:scale-110">
+            </div>
+            <div class="p-6">
+               <h4 class="mb-2">
+                  Mr. Ram Sharma
+               </h4>
+               <p class="text-primary font-medium mb-4">
+                  President
+               </p>
+               <p class="text-muted text-sm leading-relaxed mb-5">
+                  Returned UN Volunteer with extensive experience in
+                  community development, leadership, and volunteer management.
+               </p>
+               <div class="flex items-center justify-between">
+                  <div class="flex gap-3">
+                     <a href="#" class="text-muted hover:text-primary">
+                     <i class="ri-linkedin-line"></i>
+                     </a>
+                     <a href="#" class="text-muted hover:text-primary">
+                     <i class="ri-mail-line"></i>
+                     </a>
+                  </div>
+                  <a
+                     href="team-detail.php"
+                     class="text-primary font-medium inline-flex items-center gap-2">
+                  View Profile
+                  <i class="ri-arrow-right-line"></i>
+                  </a>
+               </div>
+            </div>
+         </article>
+         <article
+            class="group bg-white rounded-[10px] overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 hover:-translate-y-2">
+            <div class="overflow-hidden">
+               <img
+                  src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500"
+                  alt=""
+                  class="w-full h-80 object-cover transition duration-700 group-hover:scale-110">
+            </div>
+            <div class="p-6">
+               <h4 class="mb-2">
+                  Mr. Ram Sharma
+               </h4>
+               <p class="text-primary font-medium mb-4">
+                  President
+               </p>
+               <p class="text-muted text-sm leading-relaxed mb-5">
+                  Returned UN Volunteer with extensive experience in
+                  community development, leadership, and volunteer management.
+               </p>
+               <div class="flex items-center justify-between">
+                  <div class="flex gap-3">
+                     <a href="#" class="text-muted hover:text-primary">
+                     <i class="ri-linkedin-line"></i>
+                     </a>
+                     <a href="#" class="text-muted hover:text-primary">
+                     <i class="ri-mail-line"></i>
+                     </a>
+                  </div>
+                  <a
+                     href="team-detail.php"
+                     class="text-primary font-medium inline-flex items-center gap-2">
+                  View Profile
+                  <i class="ri-arrow-right-line"></i>
+                  </a>
+               </div>
+            </div>
+         </article>
+         <article
+            class="group bg-white rounded-[10px] overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 hover:-translate-y-2">
+            <div class="overflow-hidden">
+               <img
+                  src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500"
                   alt=""
                   class="w-full h-80 object-cover transition duration-700 group-hover:scale-110">
             </div>

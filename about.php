@@ -36,7 +36,7 @@
             sustainable development and volunteer engagement.
          </p>
       </div>
-      <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-8 mt-16">
+      <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-8">
          <!-- Vision -->
          <div
             class="bg-white rounded-[10px] p-8 shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-2"
@@ -125,7 +125,7 @@
          </p>
       </div>
       <!-- Strategy Grid -->
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
          <!-- Strategy 1 -->
          <div
             class="bg-white border border-slate-200 rounded-[10px] p-8 shadow-sm hover:shadow-lg hover:-translate-y-2 transition-all duration-300"
@@ -248,7 +248,7 @@
          </p>
       </div>
       <!-- Organization Structure -->
-      <div class="mt-16">
+      <div class="mt-12">
          <div
             class="grid md:grid-cols-4 gap-6">
             <div
@@ -316,7 +316,7 @@
                class="bg-white rounded-[10px] p-8 shadow-sm text-center hover:shadow-lg transition-all duration-300"
                data-aos="zoom-in">
                <img
-                  src="./assets/images/team-1.jpg"
+                  src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500"
                   alt=""
                   class="w-[120px] h-[120px] rounded-full object-cover mx-auto mb-5">
                <h5>
@@ -332,7 +332,7 @@
                data-aos="zoom-in"
                data-aos-delay="100">
                <img
-                  src="./assets/images/team-2.jpg"
+                  src="https://randomuser.me/api/portraits/men/32.jpg"
                   alt=""
                   class="w-[120px] h-[120px] rounded-full object-cover mx-auto mb-5">
                <h5>
@@ -348,7 +348,7 @@
                data-aos="zoom-in"
                data-aos-delay="200">
                <img
-                  src="./assets/images/team-3.jpg"
+                  src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500"
                   alt=""
                   class="w-[120px] h-[120px] rounded-full object-cover mx-auto mb-5">
                <h5>
@@ -364,7 +364,7 @@
                data-aos="zoom-in"
                data-aos-delay="300">
                <img
-                  src="./assets/images/team-4.jpg"
+                  src="https://randomuser.me/api/portraits/men/32.jpg"
                   alt=""
                   class="w-[120px] h-[120px] rounded-full object-cover mx-auto mb-5">
                <h5>
@@ -379,7 +379,7 @@
          <div
             class="text-center mt-12"
             data-aos="fade-up">
-            <a href="team.html"
+            <a href="./teams.php"
                class="btn btn-primary">
             View Full Leadership Team
             </a>
@@ -387,7 +387,7 @@
       </div>
    </div>
 </section>
-<section class="pb-24">
+<section>
    <div class="container">
       <div
          class="relative overflow-hidden rounded-[10px] bg-gradient-to-r from-[var(--primary)] to-[var(--primary-dark)] p-10 md:p-16">

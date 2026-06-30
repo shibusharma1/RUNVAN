@@ -1,77 +1,44 @@
 <?php
-   include './includes/header.php';
-   ?>
-<section class="relative overflow-hidden pt-40 pb-28">
-   <!-- Background -->
-   <div class="absolute inset-0">
-      <img
-         src="./assets/images/certifications/hero-bg.jpg"
-         alt="RUNVAN Certifications"
-         class="w-full h-full object-cover">
-      <div class="absolute inset-0 bg-[var(--primary)]/85"></div>
-   </div>
-   <!-- Decorative Elements -->
-   <div
-      class="absolute top-20 left-10 w-72 h-72 border border-white/10 rounded-full">
-   </div>
-   <div
-      class="absolute bottom-0 right-0 w-96 h-96 border border-white/10 rounded-full">
-   </div>
-   <div
-      class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] border border-white/5 rounded-full">
-   </div>
+include './includes/header.php';
+?>
+<section class="relative pt-40 pb-24 overflow-hidden bg-gradient-to-br from-[var(--primary)] to-[var(--primary-dark)]">
+   <!-- Background Effects -->
+   <div class="absolute inset-0 bg-black/10"></div>
+   <div class="absolute top-0 left-0 w-96 h-96 bg-white/5 rounded-full blur-3xl"></div>
+   <div class="absolute bottom-0 right-0 w-[450px] h-[450px] bg-white/5 rounded-full blur-3xl"></div>
    <div class="container relative z-10">
-      <!-- Breadcrumb -->
-      <nav
-         class="flex items-center gap-2 text-white/70 text-sm mb-8"
-         data-aos="fade-up">
-         <a
-            href="index.php"
-            class="hover:text-white transition">
-         Home
-         </a>
-         <i class="ri-arrow-right-s-line"></i>
-         <span class="text-white">
-         Certifications
-         </span>
-      </nav>
-      <div
-         class="max-w-4xl"
-         data-aos="fade-up"
-         data-aos-delay="100">
-         <span
-            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm text-white text-sm mb-6">
-         <i class="ri-award-line"></i>
-         Trust • Recognition • Excellence
-         </span>
+      <div class="max-w-3xl">
+         <nav
+            class="flex flex-wrap items-center gap-2 text-white/70 text-sm mb-6"
+            data-aos="fade-up">
+            <a href="./" class="hover:text-white transition">
+               Home
+            </a>
+            <i class="ri-arrow-right-s-line"></i>
+            <span>
+               Certifications
+            </span>
+         </nav>
          <h1
-            class="text-white mb-6">
+            class="text-white mb-6"
+            data-aos="fade-up"
+            data-aos-delay="100">
             Certifications &
             Recognitions
          </h1>
          <p
-            class="text-white/80 text-lg leading-relaxed max-w-3xl mb-8">
+            class="text-lg text-white/80 max-w-2xl"
+            data-aos="fade-up"
+            data-aos-delay="200">
             Explore the certifications, memberships, affiliations,
             and recognitions that reflect RUNVAN's commitment to
             professional excellence, transparency, and impactful
             volunteer engagement.
          </p>
-         <div
-            class="flex flex-wrap gap-4">
-            <a
-               href="#certifications"
-               class="btn-light">
-            Explore Certifications
-            </a>
-            <a
-               href="contact.php"
-               class="px-6 py-3 border border-white/20 text-white rounded-[10px] hover:bg-white hover:text-[var(--primary)] transition-all duration-300">
-            Contact Us
-            </a>
-         </div>
       </div>
    </div>
 </section>
+
 <section class="bg-white">
    <div class="container">
       <div class="grid lg:grid-cols-2 gap-16 items-center">
@@ -80,7 +47,7 @@
             class="relative"
             data-aos="fade-right">
             <img
-               src="./assets/images/certifications/overview.jpg"
+               src="./assets/images/certifications/overview.png"
                alt="RUNVAN Certifications"
                class="rounded-[10px] shadow-lg w-full">
             <!-- Floating Badge -->
@@ -104,8 +71,8 @@
             data-aos="fade-left">
             <span
                class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-5">
-            <i class="ri-shield-check-line"></i>
-            Commitment to Excellence
+               <i class="ri-shield-check-line"></i>
+               Commitment to Excellence
             </span>
             <h2 class="mb-6">
                Recognized for Professional Standards and Impact
@@ -189,133 +156,17 @@
       </div>
    </div>
 </section>
-<section class="bg-white">
-   <div class="container">
-      <div class="grid lg:grid-cols-2 gap-16 items-center">
-         <!-- Image Side -->
-         <div
-            class="relative"
-            data-aos="fade-right">
-            <img
-               src="./assets/images/certifications/overview.jpg"
-               alt="RUNVAN Certifications"
-               class="rounded-[10px] shadow-lg w-full">
-            <!-- Floating Badge -->
-            <div
-               class="absolute -bottom-6 -right-6 bg-white rounded-[10px] shadow-xl p-5 max-w-[220px]">
-               <div
-                  class="w-12 h-12 rounded-[10px] bg-primary/10 flex items-center justify-center text-primary mb-3">
-                  <i class="ri-award-line text-xl"></i>
-               </div>
-               <h5 class="mb-2">
-                  Trusted Organization
-               </h5>
-               <p class="text-muted text-sm">
-                  Recognized through memberships, certifications,
-                  and strategic partnerships.
-               </p>
-            </div>
-         </div>
-         <!-- Content Side -->
-         <div
-            data-aos="fade-left">
-            <span
-               class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-5">
-            <i class="ri-shield-check-line"></i>
-            Commitment to Excellence
-            </span>
-            <h2 class="mb-6">
-               Recognized for Professional Standards and Impact
-            </h2>
-            <p class="text-muted leading-relaxed mb-5">
-               RUNVAN continuously strengthens its contribution to
-               volunteerism, leadership development, and community
-               engagement through recognized memberships,
-               certifications, affiliations, and institutional
-               partnerships.
-            </p>
-            <p class="text-muted leading-relaxed mb-8">
-               These recognitions reflect our dedication to
-               transparency, accountability, collaboration, and
-               sustainable development while serving returned
-               United Nations Volunteers across Nepal.
-            </p>
-            <!-- Highlights -->
-            <div class="grid sm:grid-cols-2 gap-4">
-               <div
-                  class="flex gap-3 p-4 rounded-[10px] bg-[var(--bg-light)]">
-                  <i
-                     class="ri-checkbox-circle-fill text-primary text-xl mt-1">
-                  </i>
-                  <div>
-                     <h6 class="mb-1">
-                        Verified Organization
-                     </h6>
-                     <p class="text-sm text-muted">
-                        Operates with recognized governance
-                        standards.
-                     </p>
-                  </div>
-               </div>
-               <div
-                  class="flex gap-3 p-4 rounded-[10px] bg-[var(--bg-light)]">
-                  <i
-                     class="ri-checkbox-circle-fill text-primary text-xl mt-1">
-                  </i>
-                  <div>
-                     <h6 class="mb-1">
-                        Volunteer Excellence
-                     </h6>
-                     <p class="text-sm text-muted">
-                        Supporting professional volunteer
-                        engagement.
-                     </p>
-                  </div>
-               </div>
-               <div
-                  class="flex gap-3 p-4 rounded-[10px] bg-[var(--bg-light)]">
-                  <i
-                     class="ri-checkbox-circle-fill text-primary text-xl mt-1">
-                  </i>
-                  <div>
-                     <h6 class="mb-1">
-                        Strategic Partnerships
-                     </h6>
-                     <p class="text-sm text-muted">
-                        Collaborating with national and
-                        international institutions.
-                     </p>
-                  </div>
-               </div>
-               <div
-                  class="flex gap-3 p-4 rounded-[10px] bg-[var(--bg-light)]">
-                  <i
-                     class="ri-checkbox-circle-fill text-primary text-xl mt-1">
-                  </i>
-                  <div>
-                     <h6 class="mb-1">
-                        Sustainable Impact
-                     </h6>
-                     <p class="text-sm text-muted">
-                        Driving meaningful community outcomes.
-                     </p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-</section>
+
 <section class="bg-[var(--bg-light)]">
    <div class="container">
       <!-- Section Header -->
       <div
-         class="max-w-3xl mx-auto text-center mb-16"
+         class="max-w-3xl mx-auto text-center mb-12"
          data-aos="fade-up">
          <span
             class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-5">
-         <i class="ri-folders-line"></i>
-         Certification Categories
+            <i class="ri-folders-line"></i>
+            Certification Categories
          </span>
          <h2 class="mb-5">
             Diverse Forms of Recognition
@@ -398,6 +249,7 @@
       </div>
    </div>
 </section>
+
 <section id="certifications">
    <div class="container">
       <!-- Section Header -->
@@ -406,8 +258,8 @@
          data-aos="fade-up">
          <span
             class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-5">
-         <i class="ri-award-line"></i>
-         Certifications & Recognitions
+            <i class="ri-award-line"></i>
+            Certifications & Recognitions
          </span>
          <h2 class="mb-5">
             Our Certifications and Affiliations
@@ -425,27 +277,27 @@
          <button
             class="cert-filter active-filter"
             data-filter="all">
-         All
+            All
          </button>
          <button
             class="cert-filter"
             data-filter="certification">
-         Certifications
+            Certifications
          </button>
          <button
             class="cert-filter"
             data-filter="award">
-         Awards
+            Awards
          </button>
          <button
             class="cert-filter"
             data-filter="membership">
-         Memberships
+            Memberships
          </button>
          <button
             class="cert-filter"
             data-filter="partnership">
-         Partnerships
+            Partnerships
          </button>
       </div>
       <!-- Grid -->
@@ -459,7 +311,7 @@
                <!-- Image -->
                <div class="overflow-hidden">
                   <img
-                     src="./assets/images/certifications/certificate-1.jpg"
+                     src="./assets/images/certifications/certificate-1.png"
                      alt=""
                      class="w-full h-64 object-cover transition duration-700 group-hover:scale-110">
                </div>
@@ -467,7 +319,7 @@
                <div class="p-6">
                   <span
                      class="inline-flex px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-medium mb-4">
-                  Certification
+                     Certification
                   </span>
                   <h4 class="mb-3">
                      Organizational Excellence Certification
@@ -484,17 +336,16 @@
                   </p>
                   <button
                      class="view-certificate text-primary font-medium inline-flex items-center gap-2"
-                     data-image="./assets/images/certifications/certificate-1.jpg"
+                     data-image="./assets/images/certifications/certificate-1.png"
                      data-title="Organizational Excellence Certification"
                      data-category="Certification"
                      data-issuer="Development Standards Council"
                      data-date="January 2026"
                      data-number="CERT-001"
                      data-description="Recognition of organizational governance, transparency, and volunteer management practices."
-                     data-pdf="./assets/pdfs/certificate.pdf">
-                  View Certificate
-                  <i class="ri-arrow-right-line"></i>
-                  </button>
+                     data-pdf="./assets/images/certifications/certificate-1.png">
+                     View Certificate
+                     <i class="ri-arrow-right-line"></i>
                   </button>
                </div>
             </div>
@@ -502,6 +353,7 @@
       </div>
    </div>
 </section>
+
 <!-- Certificate Modal -->
 <div
    id="certificateModal"
@@ -519,7 +371,7 @@
          <button
             id="closeCertificateModal"
             class="absolute top-5 right-5 z-20 w-10 h-10 rounded-[10px] bg-white shadow-md flex items-center justify-center">
-         <i class="ri-close-line text-xl"></i>
+            <i class="ri-close-line text-xl"></i>
          </button>
          <div class="grid lg:grid-cols-2">
             <!-- Certificate Image -->
@@ -535,7 +387,7 @@
                <span
                   id="modalCategory"
                   class="inline-flex px-3 py-1 rounded-full bg-primary/10 text-primary text-sm mb-4">
-               Certification
+                  Certification
                </span>
                <h3
                   id="modalTitle"
@@ -577,14 +429,14 @@
                   <a
                      id="modalPdf"
                      href="#"
-                     target="_blank"
+                     download
                      class="btn-primary">
-                  Download Certificate
+                     Download Certificate
                   </a>
                   <button
                      id="closeModalBtn"
                      class="px-6 py-3 border border-border rounded-[10px]">
-                  Close
+                     Close
                   </button>
                </div>
             </div>
@@ -592,12 +444,11 @@
       </div>
    </div>
 </div>
-<section class="relative overflow-hidden">
-   <!-- Background -->
+
+<!-- <section class="relative overflow-hidden">
    <div
       class="absolute inset-0 bg-gradient-to-r from-[var(--primary)] to-[var(--primary-dark)]">
    </div>
-   <!-- Decorations -->
    <div
       class="absolute top-0 left-0 w-72 h-72 border border-white/10 rounded-full -translate-x-1/2 -translate-y-1/2">
    </div>
@@ -610,8 +461,8 @@
          data-aos="fade-up">
          <span
             class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 text-white text-sm mb-6">
-         <i class="ri-award-line"></i>
-         Trusted • Recognized • Impact Driven
+            <i class="ri-award-line"></i>
+            Trusted • Recognized • Impact Driven
          </span>
          <h2 class="text-white mb-6">
             Committed to Excellence and Sustainable Impact
@@ -629,17 +480,18 @@
             <a
                href="membership.php"
                class="btn-light">
-            Become a Member
+               Become a Member
             </a>
             <a
                href="contact.php"
                class="px-6 py-3 border border-white/20 text-white rounded-[10px] hover:bg-white hover:text-[var(--primary)] transition-all duration-300">
-            Contact Us
+               Contact Us
             </a>
          </div>
       </div>
    </div>
-</section>
+</section> -->
+
 <?php
-   include './includes/footer.php';
-   ?>
+include './includes/footer.php';
+?>

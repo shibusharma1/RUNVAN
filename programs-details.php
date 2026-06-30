@@ -2,15 +2,15 @@
    include './includes/header.php';
    ?>
 <section class="relative overflow-hidden pt-40 pb-24">
-   <div class="absolute inset-0 bg-gradient-to-r from-primary to-primary-dark"></div>
+   <div class="absolute inset-0 bg-gradient-to-r from-[var(--primary)] to-[var(--primary-dark)]"></div>
    <div class="container relative z-10">
       <div class="max-w-3xl">
          <div class="flex items-center gap-2 text-white/70 text-sm mb-6">
-            <a href="index.html">
+            <a href="./">
             Home
             </a>
             <i class="ri-arrow-right-s-line"></i>
-            <a href="programs.html">
+            <a href="./programs.php">
             Programs & Activities
             </a>
             <i class="ri-arrow-right-s-line"></i>
@@ -38,7 +38,7 @@
       <div class="grid lg:grid-cols-2 gap-16 items-center">
          <div data-aos="fade-right">
             <img
-               src="./assets/images/program-detail.jpg"
+               src="./assets/images/program-main.png"
                alt=""
                class="w-full max-w-[550px] h-[400px] object-cover rounded-[10px] shadow-md">
          </div>
@@ -111,16 +111,16 @@
       </div>
       <div class="grid md:grid-cols-2 gap-6 mt-14">
          <img
-            src="./assets/images/gallery-1.jpg"
+            src="./assets/images/blog-featured.png"
             class="w-full h-[250px] object-cover rounded-[10px]">
          <img
-            src="./assets/images/gallery-2.jpg"
+            src="./assets/images/blog1.png"
             class="w-full h-[250px] object-cover rounded-[10px]">
          <img
-            src="./assets/images/gallery-3.jpg"
+            src="./assets/images/hero-2.png"
             class="w-full h-[250px] object-cover rounded-[10px]">
          <img
-            src="./assets/images/gallery-4.jpg"
+            src="./assets/images/program-main.png"
             class="w-full h-[250px] object-cover rounded-[10px]">
       </div>
    </div>
@@ -144,7 +144,7 @@
                and sustainable development.
             </p>
          </div>
-         <a href="programs.html"
+         <a href="./programs.php"
             data-aos="fade-left"
             class="inline-flex items-center gap-2 text-[var(--primary)] font-medium">
          View All Programs
@@ -159,7 +159,7 @@
             data-aos="fade-up">
             <div class="relative overflow-hidden">
                <img
-                  src="./assets/images/program-2.jpg"
+                  src="./assets/images/program-main.png"
                   alt=""
                   class="w-full h-[220px] object-cover group-hover:scale-110 transition duration-700">
                <span
@@ -175,7 +175,7 @@
                   Volunteer-driven engagement initiatives supporting
                   local communities through awareness and participation.
                </p>
-               <a href="program-detail.html"
+               <a href="./programs-details.php"
                   class="inline-flex items-center gap-2 text-[var(--primary)] font-medium">
                Learn More
                <i class="ri-arrow-right-line transition group-hover:translate-x-1"></i>
@@ -189,7 +189,7 @@
             data-aos-delay="100">
             <div class="relative overflow-hidden">
                <img
-                  src="./assets/images/program-3.jpg"
+                  src="./assets/images/blog-featured.png"
                   alt=""
                   class="w-full h-[220px] object-cover group-hover:scale-110 transition duration-700">
                <span
@@ -205,7 +205,7 @@
                   Building leadership capacity through mentorship,
                   networking opportunities, and practical learning.
                </p>
-               <a href="program-detail.html"
+               <a href="./programs-details.php"
                   class="inline-flex items-center gap-2 text-[var(--primary)] font-medium">
                Learn More
                <i class="ri-arrow-right-line transition group-hover:translate-x-1"></i>
@@ -219,7 +219,7 @@
             data-aos-delay="200">
             <div class="relative overflow-hidden">
                <img
-                  src="./assets/images/program-4.jpg"
+                  src="./assets/images/blog1.png"
                   alt=""
                   class="w-full h-[220px] object-cover group-hover:scale-110 transition duration-700">
                <span
@@ -235,7 +235,7 @@
                   Bringing together volunteers, professionals, and
                   stakeholders for collaboration and learning.
                </p>
-               <a href="program-detail.html"
+               <a href="./programs-details.php"
                   class="inline-flex items-center gap-2 text-[var(--primary)] font-medium">
                Learn More
                <i class="ri-arrow-right-line transition group-hover:translate-x-1"></i>
@@ -248,7 +248,7 @@
 <section class="py-20 overflow-hidden">
    <div class="container">
       <div
-         class="relative overflow-hidden rounded-[10px] bg-primary text-white">
+         class="relative overflow-hidden rounded-[10px] bg-[var(--primary)] text-white">
          <!-- Background Pattern -->
          <div
             class="absolute inset-0 opacity-10">
@@ -292,7 +292,7 @@
                      class="px-7 py-3 rounded-[10px] bg-white text-[var(--primary)] font-medium hover:-translate-y-1 transition-all duration-300">
                   Become a Member
                   </a>
-                  <a href="#"
+                  <a href="./contact.php"
                      class="px-7 py-3 rounded-[10px] border border-white/30 hover:bg-white/10 transition-all duration-300">
                   Contact Us
                   </a>

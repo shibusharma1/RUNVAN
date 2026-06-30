@@ -16,7 +16,7 @@
          <div
             class="flex items-center gap-2 text-white/70 text-sm mb-6"
             data-aos="fade-up">
-            <a href="index.html">
+            <a href="./">
             Home
             </a>
             <i class="ri-arrow-right-s-line"></i>
@@ -51,7 +51,7 @@
             class="relative mx-auto lg:mx-0"
             data-aos="fade-right">
             <img
-               src="./assets/images/program-overview.jpg"
+               src="./assets/images/program-main.png"
                alt="Programs Overview"
                class="w-full max-w-[500px] h-[350px] object-cover rounded-[10px] shadow-md">
             <!-- Floating Card -->
@@ -135,7 +135,7 @@
          </p>
       </div>
       <div
-         class="flex flex-wrap justify-center gap-3 mt-12 mb-14"
+         class="flex flex-wrap justify-center gap-3 mb-12"
          data-aos="fade-up">
          <button
             class="px-6 py-3 rounded-[10px] bg-primary text-white font-medium">
@@ -161,7 +161,7 @@
             <!-- Image -->
             <div class="overflow-hidden">
                <img
-                  src="./assets/images/program-1.jpg"
+                  src="./assets/images/program-main.png"
                   alt=""
                   class="w-full h-[220px] object-cover group-hover:scale-105 transition duration-500">
             </div>
@@ -178,7 +178,7 @@
                   Training, mentoring, and leadership development opportunities
                   designed to strengthen volunteer competencies.
                </p>
-               <a href="program-detail.html"
+               <a href="./programs-details.php"
                   class="inline-flex items-center gap-2 text-[var(--primary)] font-medium">
                Read More
                <i class="ri-arrow-right-line"></i>
@@ -192,7 +192,7 @@
             <!-- Image -->
             <div class="overflow-hidden">
                <img
-                  src="./assets/images/activity-1.jpg"
+                  src="./assets/images/blog1.png"
                   alt="Community Outreach Campaign"
                   class="w-full h-[220px] object-cover group-hover:scale-105 transition duration-500">
             </div>
@@ -209,7 +209,7 @@
                   Volunteer-led community engagement activities focused on awareness,
                   participation, and local development initiatives.
                </p>
-               <a href="program-detail.html"
+               <a href="./programs-details.php"
                   class="inline-flex items-center gap-2 text-[var(--primary)] font-medium">
                Read More
                <i class="ri-arrow-right-line"></i>
@@ -223,7 +223,7 @@
             <!-- Image -->
             <div class="overflow-hidden">
                <img
-                  src="./assets/images/event-1.jpg"
+                  src="./assets/images/blog-featured.png"
                   alt="National Volunteer Gathering"
                   class="w-full h-[220px] object-cover group-hover:scale-105 transition duration-500">
             </div>
@@ -240,7 +240,7 @@
                   Bringing together volunteers, development professionals, and
                   partners to share experiences, ideas, and future collaborations.
                </p>
-               <a href="program-detail.html"
+               <a href="./programs-details.php"
                   class="inline-flex items-center gap-2 text-[var(--primary)] font-medium">
                Read More
                <i class="ri-arrow-right-line"></i>

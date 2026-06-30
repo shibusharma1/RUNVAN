@@ -12,9 +12,8 @@
     <meta name="author"
         content="RUNVAN">
     <link rel="icon"
-        href="./assets/img/logo.jpg">
+        href="./assets/images/logo.jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
     <!-- Tailwind -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -30,9 +29,7 @@
     <link
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
-
     <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
-    
     <link rel="stylesheet" href="./assets/css/app.css">
     <link rel="stylesheet" href="./assets/css/teams.css">
     <link rel="stylesheet" href="./assets/css/testimonial.css">
@@ -42,7 +39,6 @@
     <link rel="stylesheet" href="./assets/css/contact.css">
     <link rel="stylesheet" href="./assets/css/backtotop.css">
     <link rel="stylesheet" href="./assets/css/certificates.css">
-
     <style>
         body {
             font-family: "Inter", sans-serif;
@@ -57,74 +53,120 @@
 <body>
     <nav class="navbar">
         <div class="container nav-container">
-
             <!-- Logo -->
-            <a href="/" class="logo">
-                <img src="assets/img/logo.jpg" alt="RUNVAN">
+            <a href="./" class="logo">
+                <img src="assets/images/logo.jpg" alt="RUNVAN">
                 <div class="logo-text">
                     <span class="logo-title">RUNVAN</span>
                     <span class="logo-subtitle">Returned United Nations Volunteers Association, Nepal</span>
                 </div>
             </a>
-
             <!-- Desktop Menu -->
             <ul class="nav-menu">
                 <li><a href="./" class="nav-link active">Home</a></li>
-
-                <li><a href="./about.php" class="nav-link">About</a></li>
-
-                <li><a href="./programs.php" class="nav-link">Programs</a></li>
-
-                <li><a href="./teams.php" class="nav-link">Teams</a></li>
-                <li><a href="./testimonials.php" class="nav-link">Testimonials</a></li>
-                <li><a href="./certifications.php" class="nav-link">Certifications</a></li>
-
-                <li><a href="./gallery.php" class="nav-link">Gallery</a></li>
-
-                <li><a href="./publications.php" class="nav-link">Publications</a></li>
-
+                <li class="dropdown">
+                    <a href="#" class="nav-link dropdown-toggle">
+                        About
+                        <i class="ri-arrow-down-s-line"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="./about.php">
+                                About RUNVAN
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./teams.php">
+                                Core Team
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./biographies.php">
+                                Biographies
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="./programs.php" class="nav-link">
+                        Programs
+                    </a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="nav-link dropdown-toggle">
+                        Resources
+                        <i class="ri-arrow-down-s-line"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="./publications.php">
+                                Publications
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./gallery.php">
+                                Gallery
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./testimonials.php">
+                                Testimonials
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./certifications.php">
+                                Certifications
+                            </a>
+                        </li>
+                    </ul>
+                </li>
                 <!-- <li><a href="#" class="nav-link">Contact</a></li> -->
             </ul>
-
             <!-- CTA -->
             <div class="nav-actions">
                 <a href="./contact.php" class="btn-primary">
                     Contact Us
                 </a>
             </div>
-
             <!-- Mobile Toggle -->
             <button class="mobile-toggle" id="mobileToggle">
                 <span></span>
                 <span></span>
                 <span></span>
             </button>
-
         </div>
-
         <!-- Mobile Menu -->
         <div class="mobile-menu text-center" id="mobileMenu">
-
             <a href="./" class="mobile-link">Home</a>
-
-            <a href="./about.php" class="mobile-link">About</a>
-
-            <a href="./programs.php" class="mobile-link">Programs</a>
-
-            <a href="./teams.php" class="mobile-link">Teams</a>
-            <a href="./testimonials.php" class="mobile-link">Testimonials</a>
-            <a href="./certifications.php" class="mobile-link">Certifications</a>
-
-            <a href="./gallery.php" class="mobile-link">Gallery</a>
-
-            <a href="./publications.php" class="mobile-link">Publications</a>
-
-            <!-- <a href="#" class="mobile-link">Contact</a> -->
-
+            <div class="mobile-dropdown">
+                <button class="mobile-dropdown-btn">
+                    About
+                    <i class="ri-arrow-down-s-line"></i>
+                </button>
+                <div class="mobile-dropdown-content">
+                    <a href="./about.php" class="mobile-link">About RUNVAN</a>
+                    <a href="./teams.php" class="mobile-link">Core Team</a>
+                    <a href="./biographies.php" class="mobile-link">Biographies</a>
+                </div>
+            </div>
+            <a href="./programs.php" class="mobile-link">
+                Programs
+            </a>
+            <div class="mobile-dropdown">
+                <button class="mobile-dropdown-btn">
+                    Resources
+                    <i class="ri-arrow-down-s-line"></i>
+                </button>
+                <div class="mobile-dropdown-content">
+                    <a href="./publications.php" class="mobile-link">Publications</a>
+                    <a href="./gallery.php" class="mobile-link">Gallery</a>
+                    <a href="./testimonials.php" class="mobile-link">Testimonials</a>
+                    <a href="./certifications.php" class="mobile-link">Certifications</a>
+                </div>
+            </div>
             <a href="./contact.php" class="btn-primary mobile-btn">
                 Contact Us
             </a>
-
         </div>
     </nav>
-    <main>
+    <main class="relative overflow-x-hidden">

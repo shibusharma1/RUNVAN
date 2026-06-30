@@ -1,5 +1,5 @@
 const filterBtns = document.querySelectorAll(".cert-filter");
-const cards = document.querySelectorAll(".certification-card");
+const certificationcards = document.querySelectorAll(".certification-card");
 
 filterBtns.forEach((btn) => {
   btn.addEventListener("click", () => {
@@ -9,7 +9,7 @@ filterBtns.forEach((btn) => {
 
     const filter = btn.dataset.filter;
 
-    cards.forEach((card) => {
+    certificationcards.forEach((card) => {
       if (filter === "all" || card.classList.contains(filter)) {
         card.style.display = "block";
       } else {

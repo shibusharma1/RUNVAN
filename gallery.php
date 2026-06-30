@@ -1,14 +1,14 @@
 <?php
    include './includes/header.php';
    ?>
-<section class="relative pt-40 pb-24 bg-gradient-to-br from-primary to-primary-dark overflow-hidden">
+<section class="relative pt-40 pb-24 bg-gradient-to-br from-[var(--primary)] to-[var(--primary-dark)] overflow-hidden">
    <div class="absolute inset-0 bg-black/10"></div>
    <div class="container relative z-10">
       <div class="max-w-3xl">
          <nav
             class="flex items-center gap-2 text-white/70 text-sm mb-6"
             data-aos="fade-up">
-            <a href="/">Home</a>
+            <a href="./">Home</a>
             <i class="ri-arrow-right-s-line"></i>
             <span>Gallery</span>
          </nav>
@@ -29,7 +29,7 @@
       </div>
    </div>
 </section>
-<section>
+<!-- <section>
    <div class="container">
       <div class="grid lg:grid-cols-2 gap-16 items-center">
          <div data-aos="fade-right">
@@ -74,7 +74,7 @@
          </div>
       </div>
    </div>
-</section>
+</section> -->
 <section class="pt-0">
    <div class="container">
       <div

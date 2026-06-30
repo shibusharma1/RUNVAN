@@ -4,10 +4,10 @@
 <section class="relative overflow-hidden pt-40 pb-20">
    <div class="absolute inset-0">
       <img
-         src="./assets/images/team/team-detail-bg.jpg"
+         src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500"
          alt=""
          class="w-full h-full object-cover">
-      <div class="absolute inset-0 bg-[var(--primary)]/85"></div>
+      <div class="absolute inset-0 bg-[var(--primary)]/80"></div>
    </div>
    <div class="container relative z-10">
       <nav
@@ -34,7 +34,7 @@
          <!-- Profile -->
          <div>
             <img
-               src="./assets/images/team/team-1.jpg"
+               src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500"
                alt=""
                class="w-full rounded-[10px] shadow-lg">
             <div
@@ -86,6 +86,7 @@
                achievements, and impact.
             </p>
          </div>
+         
       </div>
    </div>
 </section>
@@ -187,7 +188,7 @@
             class="group bg-white rounded-[10px] overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 hover:-translate-y-2">
             <div class="overflow-hidden">
                <img
-                  src="./assets/images/team/team-2.jpg"
+                  src="https://randomuser.me/api/portraits/men/32.jpg"
                   alt="Chairperson"
                   class="w-full h-80 object-cover transition duration-700 group-hover:scale-110">
             </div>
@@ -224,7 +225,7 @@
             class="group bg-white rounded-[10px] overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 hover:-translate-y-2">
             <div class="overflow-hidden">
                <img
-                  src="./assets/images/team/team-3.jpg"
+                  src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500"
                   alt="Vice President"
                   class="w-full h-80 object-cover transition duration-700 group-hover:scale-110">
             </div>
@@ -261,7 +262,7 @@
             class="group bg-white rounded-[10px] overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 hover:-translate-y-2">
             <div class="overflow-hidden">
                <img
-                  src="./assets/images/team/team-4.jpg"
+                  src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500"
                   alt="Secretary"
                   class="w-full h-80 object-cover transition duration-700 group-hover:scale-110">
             </div>

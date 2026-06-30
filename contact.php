@@ -1,14 +1,14 @@
 <?php
-   include './includes/header.php';
-   ?>
-<section class="relative pt-40 pb-24 bg-gradient-to-br from-primary to-primary-dark overflow-hidden">
+include './includes/header.php';
+?>
+<section class="relative pt-40 pb-24 bg-gradient-to-br from-[var(--primary)] to-[var(--primary-dark)] overflow-hidden">
    <div class="absolute inset-0 bg-black/10"></div>
    <div class="container relative z-10">
       <div class="max-w-3xl">
          <nav
             class="flex items-center gap-2 text-white/70 text-sm mb-6"
             data-aos="fade-up">
-            <a href="/">Home</a>
+            <a href="./">Home</a>
             <i class="ri-arrow-right-s-line"></i>
             <span>Contact Us</span>
          </nav>
@@ -32,18 +32,18 @@
 </section>
 <section>
    <div class="container">
-      <div class="grid lg:grid-cols-2 gap-16 items-center">
+      <div class="grid lg:grid-cols-2 gap-4 items-center">
          <div data-aos="fade-right">
             <img
-               src="assets/images/contact-overview.jpg"
+               src="assets/images/contact-overview.png"
                alt=""
                class="w-full max-w-[500px] h-[350px] object-cover rounded-[10px]">
          </div>
          <div data-aos="fade-left">
             <span
                class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-[var(--primary)] text-sm font-medium mb-5">
-            <i class="ri-customer-service-2-line"></i>
-            Get In Touch
+               <i class="ri-customer-service-2-line"></i>
+               Get In Touch
             </span>
             <h2 class="mb-5">
                Let's Work Together for Positive Change
@@ -148,7 +148,7 @@
                   class="form-input mb-5"></textarea>
                <button
                   class="btn-primary">
-               Send Message
+                  Send Message
                </button>
             </form>
          </div>
@@ -156,6 +156,11 @@
          <div
             class="flex flex-col justify-center"
             data-aos="fade-left">
+            <span
+               class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-[var(--primary)] text-sm font-medium mb-5">
+               <i class="ri-customer-service-2-line"></i>
+               Get In Touch
+            </span>
             <h2 class="mb-5">
                We Would Love to Hear From You
             </h2>
@@ -196,5 +201,5 @@
    </div>
 </section>
 <?php
-   include './includes/footer.php';
-   ?>
+include './includes/footer.php';
+?>

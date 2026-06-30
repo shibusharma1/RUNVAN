@@ -1,7 +1,7 @@
 <?php
    include './includes/header.php';
    ?>
-<section class="relative pt-40 pb-24 overflow-hidden bg-gradient-to-br from-primary to-primary-dark">
+<section class="relative pt-40 pb-24 overflow-hidden bg-gradient-to-br from-[var(--primary)] to-[var(--primary-dark)]">
    <!-- Background Effects -->
    <div class="absolute inset-0 bg-black/10"></div>
    <div class="absolute top-0 left-0 w-96 h-96 bg-white/5 rounded-full blur-3xl"></div>
@@ -11,7 +11,7 @@
          <nav
             class="flex flex-wrap items-center gap-2 text-white/70 text-sm mb-6"
             data-aos="fade-up">
-            <a href="/" class="hover:text-white transition">
+            <a href="./" class="hover:text-white transition">
             Home
             </a>
             <i class="ri-arrow-right-s-line"></i>
@@ -44,10 +44,10 @@
             class="relative"
             data-aos="fade-right">
             <img
-               src="assets/images/testimonial-overview.jpg"
+               src="assets/images/testimonial-overview.png"
                alt="Testimonials"
                class="w-full max-w-[500px] h-[350px] object-cover rounded-[10px]">
-            <div
+            <!-- <div
                class="absolute -bottom-6 -right-6 bg-white rounded-[10px] shadow-lg p-5">
                <div class="text-3xl font-semibold text-primary">
                   250+
@@ -55,7 +55,7 @@
                <p class="text-muted text-sm">
                   Shared Experiences
                </p>
-            </div>
+            </div> -->
          </div>
          <!-- Content -->
          <div data-aos="fade-left">
@@ -105,9 +105,9 @@
             <!-- Image -->
             <div class="lg:col-span-2">
                <img
-                  src="assets/images/featured-testimonial.jpg"
+                  src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500"
                   alt=""
-                  class="w-full h-full object-cover min-h-[450px]">
+                  class="w-full h-full object-cover max-h-[450px]">
             </div>
             <!-- Content -->
             <div
@@ -140,7 +140,7 @@
 <section class="pt-0">
    <div class="container">
       <div
-         class="flex flex-wrap justify-center gap-3 mb-14"
+         class="flex flex-wrap justify-center gap-3"
          data-aos="fade-up">
          <button
             class="testimonial-filter active-filter"
@@ -170,7 +170,7 @@
       </div>
    </div>
 </section>
-<section class="pt-0">
+<section>
    <div class="container">
       <div
          id="testimonialGrid"
@@ -182,7 +182,7 @@
             data-aos="fade-up">
             <div class="testimonial-top">
                <img
-                  src="assets/images/testimonial-1.jpg"
+                  src="https://randomuser.me/api/portraits/men/32.jpg"
                   alt="">
                <div>
                   <h5>
@@ -207,7 +207,7 @@
             data-aos-delay="100">
             <div class="testimonial-top">
                <img
-                  src="assets/images/testimonial-2.jpg"
+                  src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500"
                   alt="">
                <div>
                   <h5>
@@ -232,7 +232,7 @@
             data-aos-delay="200">
             <div class="testimonial-top">
                <img
-                  src="assets/images/testimonial-3.jpg"
+                  src="./assets/images/logo.jpg"
                   alt="">
                <div>
                   <h5>
@@ -255,7 +255,7 @@
 <?php
    include './includes/pagination.php';
    ?>
-<section class="py-20 overflow-hidden">
+<section class="overflow-hidden" style="padding-top: 0 !important;">
    <div class="container">
       <div
          class="relative rounded-[10px] overflow-hidden bg-gradient-to-r from-[var(--primary)] to-[var(--primary-dark)]">
@@ -304,7 +304,7 @@
                      class="px-7 py-3 rounded-[10px] bg-white text-primary font-medium hover:-translate-y-1 transition-all duration-300">
                   Submit Testimonial
                   </button>
-                  <a href="/membership"
+                  <a href="#"
                      class="px-7 py-3 rounded-[10px] border border-white/20 text-white hover:bg-white/10 transition-all duration-300">
                   Become a Member
                   </a>
@@ -347,7 +347,7 @@
                <div
                   class="relative mb-8">
                   <img
-                     src="assets/images/testimonial-modal.jpg"
+                     src="assets/images/testimonial-overview.png"
                      alt=""
                      class="w-full h-[240px] object-cover rounded-[10px] shadow-lg">
                </div>
@@ -360,14 +360,14 @@
                   class="text-white mb-5">
                   Your Experience Matters
                </h3>
-               <p
+     `          <!-- <p
                   class="text-white/80 leading-relaxed mb-6">
                   Every volunteer journey, partnership, and
                   community engagement story contributes to the
                   collective impact of RUNVAN. Share your
                   experience and inspire future volunteers and
                   development professionals.
-               </p>
+               </p>` -->
                <div
                   class="border-l-4 border-white/30 pl-4">
                   <p class="text-white/90 italic">
