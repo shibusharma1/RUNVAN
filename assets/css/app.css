@@ -80,6 +80,12 @@ p {
   box-sizing: border-box;
 }
 
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -566,6 +572,7 @@ section {
 
 main {
   padding-top: 90px;
+  overflow-x: hidden;
 }
 
 @media (max-width: 576px) {
@@ -615,6 +622,7 @@ main {
 .gallery-item {
   overflow: hidden;
   border-radius: 10px;
+  transition: all 0.35s ease;
 }
 
 .gallery-item img {
@@ -703,4 +711,11 @@ main {
   background: var(--primary);
   color: #fff;
   border-radius: 0 10px 10px 0;
+}
+
+.swiper {
+  overflow: hidden;
+}
+.swiper-wrapper {
+  overflow: hidden;
 }

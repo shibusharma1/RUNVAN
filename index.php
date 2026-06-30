@@ -4,7 +4,7 @@ include './includes/header.php';
 
 <section class="hero overflow-hidden">
    <div class="container mx-auto">
-      <div class="grid lg:grid-cols-2 gap-16 items-center">
+      <div class="grid lg:grid-cols-2 gap-8 items-center">
          <!-- Left -->
          <div data-aos="fade-right">
             <span

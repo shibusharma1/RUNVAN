@@ -37,7 +37,7 @@ include './includes/header.php';
             <img
                src="assets/images/contact-overview.png"
                alt=""
-               class="w-full max-w-[500px] h-[350px] object-cover rounded-[10px]">
+               class="w-full max-w-[700px] h-[350px] object-cover rounded-[10px]">
          </div>
          <div data-aos="fade-left">
             <span

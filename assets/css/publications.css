@@ -18,6 +18,11 @@
     color:#fff;
     border-color:var(--primary);
 }
+.active-filter:hover{
+    color:var(--primary);
+    background-color:#fff;
+    border-color:var(--primary);
+}
 .publication-card{
     background:#fff;
     border-radius:10px;

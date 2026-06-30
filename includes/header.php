@@ -39,6 +39,7 @@
     <link rel="stylesheet" href="./assets/css/contact.css">
     <link rel="stylesheet" href="./assets/css/backtotop.css">
     <link rel="stylesheet" href="./assets/css/certificates.css">
+    <link rel="stylesheet" href="./assets/css/programs.css">
     <style>
         body {
             font-family: "Inter", sans-serif;
@@ -80,11 +81,11 @@
                                 Core Team
                             </a>
                         </li>
-                        <li>
-                            <a href="./biographies.php">
+                        <!-- <li>
+                            <a href="./biography.php">
                                 Biographies
                             </a>
-                        </li>
+                        </li> -->
                     </ul>
                 </li>
                 <li>
@@ -146,7 +147,7 @@
                 <div class="mobile-dropdown-content">
                     <a href="./about.php" class="mobile-link">About RUNVAN</a>
                     <a href="./teams.php" class="mobile-link">Core Team</a>
-                    <a href="./biographies.php" class="mobile-link">Biographies</a>
+                    <!-- <a href="./biography.php" class="mobile-link">Biographies</a> -->
                 </div>
             </div>
             <a href="./programs.php" class="mobile-link">
@@ -169,4 +170,4 @@
             </a>
         </div>
     </nav>
-    <main class="relative overflow-x-hidden">
+    <main class="relative">

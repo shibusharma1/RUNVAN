@@ -38,6 +38,13 @@
   background: var(--primary);
   color: white;
 }
+
+.active-filter:hover{
+    color:var(--primary);
+    background-color:#fff;
+    border-color:var(--primary);
+}
+
 .certification-card .group{
 
     height:100%;

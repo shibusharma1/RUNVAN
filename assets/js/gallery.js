@@ -23,8 +23,15 @@ galleryFilters.forEach((button) => {
 
       if (filter === "all" || category === filter) {
         item.style.display = "block";
+        setTimeout(() => {
+          item.style.opacity = "1";
+        }, 50);
       } else {
         item.style.display = "none";
+
+        setTimeout(() => {
+          item.style.display = "none";
+        }, 300);
       }
     });
   });

@@ -265,7 +265,7 @@
                class="absolute -top-20 -left-20 w-80 h-80 border border-white/10 rounded-full">
             </div>
             <div
-               class="absolute -bottom-32 -right-32 w-[500px] h-[500px] border border-white/10 rounded-full">
+               class="absolute -bottom-32 -right-32 w-full max-w-[500px] h-[500px] border border-white/10 rounded-full">
             </div>
             <div
                class="absolute top-1/2 left-1/2 w-[300px] h-[300px] border border-white/5 rounded-full -translate-x-1/2 -translate-y-1/2">

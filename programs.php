@@ -1,6 +1,6 @@
 <?php
-   include './includes/header.php';
-   ?>
+include './includes/header.php';
+?>
 <section class="relative overflow-hidden pt-40 pb-24">
    <!-- Background -->
    <div class="absolute inset-0 bg-gradient-to-r from-[var(--primary)] to-[var(--primary-dark)]"></div>
@@ -17,11 +17,11 @@
             class="flex items-center gap-2 text-white/70 text-sm mb-6"
             data-aos="fade-up">
             <a href="./">
-            Home
+               Home
             </a>
             <i class="ri-arrow-right-s-line"></i>
             <span>
-            Programs & Activities
+               Programs & Activities
             </span>
          </div>
          <!-- Title -->
@@ -77,8 +77,8 @@
          <div data-aos="fade-left">
             <span
                class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-[var(--primary)] text-sm font-medium mb-4">
-            <i class="ri-briefcase-line"></i>
-            Programs Overview
+               <i class="ri-briefcase-line"></i>
+               Programs Overview
             </span>
             <h2 class="mb-6">
                Empowering Communities Through Action
@@ -123,8 +123,8 @@
       <div class="section-title" data-aos="fade-up">
          <span
             class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-[var(--primary)] text-sm font-medium mb-4">
-         <i class="ri-apps-line"></i>
-         Programs Directory
+            <i class="ri-apps-line"></i>
+            Programs Directory
          </span>
          <h2>
             Services, Activities & Events
@@ -135,28 +135,38 @@
          </p>
       </div>
       <div
-         class="flex flex-wrap justify-center gap-3 mb-12"
+         class="flex flex-wrap justify-center gap-3 mb-12 overflow-x-auto pb-2"
          data-aos="fade-up">
+
          <button
-            class="px-6 py-3 rounded-[10px] bg-primary text-white font-medium">
-         All
+            class="program-filter active-filter"
+            data-filter="all">
+            All
          </button>
+
          <button
-            class="px-6 py-3 rounded-[10px] bg-white border border-slate-200 hover:border-primary transition">
-         Services
+            class="program-filter"
+            data-filter="service">
+            Services
          </button>
+
          <button
-            class="px-6 py-3 rounded-[10px] bg-white border border-slate-200 hover:border-primary transition">
-         Activities
+            class="program-filter"
+            data-filter="activity">
+            Activities
          </button>
+
          <button
-            class="px-6 py-3 rounded-[10px] bg-white border border-slate-200 hover:border-primary transition">
-         Events
+            class="program-filter"
+            data-filter="event">
+            Events
          </button>
+
       </div>
       <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-8">
          <div
-            class="group bg-white rounded-[10px] overflow-hidden shadow-sm hover:shadow-lg hover:-translate-y-2 transition-all duration-300"
+            data-category="service"
+            class="group program-card bg-white rounded-[10px] overflow-hidden shadow-sm hover:shadow-lg hover:-translate-y-2 transition-all duration-300"
             data-aos="fade-up">
             <!-- Image -->
             <div class="overflow-hidden">
@@ -169,7 +179,7 @@
             <div class="p-6">
                <span
                   class="inline-block px-3 py-1 rounded-full bg-blue-100 text-[var(--primary)] text-sm mb-4">
-               Service
+                  Service
                </span>
                <h4 class="mb-3">
                   Volunteer Capacity Building
@@ -180,13 +190,15 @@
                </p>
                <a href="./programs-details.php"
                   class="inline-flex items-center gap-2 text-[var(--primary)] font-medium">
-               Read More
-               <i class="ri-arrow-right-line"></i>
+                  Read More
+                  <i class="ri-arrow-right-line"></i>
                </a>
             </div>
          </div>
+
          <div
-            class="group bg-white rounded-[10px] overflow-hidden shadow-sm hover:shadow-lg hover:-translate-y-2 transition-all duration-300"
+            data-category="activity"
+            class="group program-card bg-white rounded-[10px] overflow-hidden shadow-sm hover:shadow-lg hover:-translate-y-2 transition-all duration-300"
             data-aos="fade-up"
             data-aos-delay="100">
             <!-- Image -->
@@ -200,7 +212,7 @@
             <div class="p-6">
                <span
                   class="inline-block px-3 py-1 rounded-full bg-green-100 text-green-700 text-sm mb-4">
-               Activity
+                  Activity
                </span>
                <h4 class="mb-3">
                   Community Outreach Campaign
@@ -211,13 +223,14 @@
                </p>
                <a href="./programs-details.php"
                   class="inline-flex items-center gap-2 text-[var(--primary)] font-medium">
-               Read More
-               <i class="ri-arrow-right-line"></i>
+                  Read More
+                  <i class="ri-arrow-right-line"></i>
                </a>
             </div>
          </div>
          <div
-            class="group bg-white rounded-[10px] overflow-hidden shadow-sm hover:shadow-lg hover:-translate-y-2 transition-all duration-300"
+            data-category="event"
+            class="group program-card bg-white rounded-[10px] overflow-hidden shadow-sm hover:shadow-lg hover:-translate-y-2 transition-all duration-300"
             data-aos="fade-up"
             data-aos-delay="200">
             <!-- Image -->
@@ -231,7 +244,7 @@
             <div class="p-6">
                <span
                   class="inline-block px-3 py-1 rounded-full bg-orange-100 text-orange-700 text-sm mb-4">
-               Event
+                  Event
                </span>
                <h4 class="mb-3">
                   National Volunteer Gathering
@@ -242,8 +255,8 @@
                </p>
                <a href="./programs-details.php"
                   class="inline-flex items-center gap-2 text-[var(--primary)] font-medium">
-               Read More
-               <i class="ri-arrow-right-line"></i>
+                  Read More
+                  <i class="ri-arrow-right-line"></i>
                </a>
             </div>
          </div>
@@ -251,5 +264,5 @@
    </div>
 </section>
 <?php
-   include './includes/footer.php';
-   ?>
+include './includes/footer.php';
+?>

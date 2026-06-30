@@ -1,7 +1,7 @@
 <?php
    include './includes/header.php';
    ?>
-<section class="relative overflow-hidden pt-40 pb-24">
+<section class="relative overflow-hidden pt-40 pb-24 bg-gradient-to-br from-[var(--primary)] to-[var(--primary-dark)] overflow-hidden">
    <div class="absolute inset-0">
       <img
          src="./assets/images/biography/detail-bg.jpg"
@@ -14,7 +14,7 @@
          class="flex items-center gap-2 text-white/70 text-sm mb-8">
          <a href="index.php">Home</a>
          <i class="ri-arrow-right-s-line"></i>
-         <a href="biographies.php">Biographies</a>
+         <a href="biography.php">Biographies</a>
          <i class="ri-arrow-right-s-line"></i>
          <span class="text-white">
          Biography
@@ -34,7 +34,7 @@
          <!-- Photo -->
          <div>
             <img
-               src="./assets/images/biography/person-1.jpg"
+               src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500"
                alt=""
                class="w-full rounded-[10px] shadow-lg">
             <div

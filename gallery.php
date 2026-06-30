@@ -1,6 +1,6 @@
 <?php
-   include './includes/header.php';
-   ?>
+include './includes/header.php';
+?>
 <section class="relative pt-40 pb-24 bg-gradient-to-br from-[var(--primary)] to-[var(--primary-dark)] overflow-hidden">
    <div class="absolute inset-0 bg-black/10"></div>
    <div class="container relative z-10">
@@ -75,28 +75,29 @@
       </div>
    </div>
 </section> -->
-<section class="pt-0">
+<section>
    <div class="container">
       <div
-         class="flex flex-wrap justify-center gap-3 mb-14"
+         class="flex flex-nowrap sm:flex-wrap justify-start sm:justify-center gap-3 overflow-x-auto pb-2"
          data-aos="fade-up">
          <button class="gallery-filter active-filter" data-filter="all">
-         All
+            All
          </button>
          <button class="gallery-filter" data-filter="volunteer">
-         Volunteer Activities
+            Volunteer Activities
          </button>
          <button class="gallery-filter" data-filter="community">
-         Community Outreach
+            Community Outreach
          </button>
          <button class="gallery-filter" data-filter="training">
-         Training & Workshops
+            Training & Workshops
          </button>
          <button class="gallery-filter" data-filter="event">
-         Events
+            Events
          </button>
       </div>
    </div>
+
 </section>
 <section class="pt-0">
    <div class="container">
@@ -105,18 +106,63 @@
          class="columns-1 md:columns-2 lg:columns-3 gap-6 space-y-6">
          <!-- Item -->
          <div
-            class="gallery-item break-inside-avoid"
+            class="gallery-item break-inside-avoid group"
             data-category="volunteer">
+
             <a
-               href="assets/images/gallery-1.jpg"
-               class="gallery-popup">
-            <img
-               src="assets/images/gallery-1.jpg"
-               alt=""
-               class="w-full rounded-[10px]">
+               href="assets/images/about-main.png"
+               class="gallery-popup relative block overflow-hidden rounded-[10px]">
+
+               <img
+                  src="assets/images/about-main.png"
+                  alt=""
+                  class="w-full rounded-[10px] transition duration-700 group-hover:scale-105">
+
+               <!-- Overlay -->
+
+               <div
+                  class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300">
+
+                  <!-- Eye Icon -->
+
+                  <div class="absolute inset-0 flex items-center justify-center">
+
+                     <div
+                        class="w-12 h-12 rounded-full bg-white text-primary flex items-center justify-center">
+
+                        <i class="ri-eye-line text-xl"></i>
+
+                     </div>
+
+                  </div>
+
+                  <!-- Bottom Content -->
+
+                  <div
+                     class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent">
+
+                     <div
+                        class="absolute bottom-5 left-5 right-5">
+
+                        <h5 class="text-white mb-1">
+                           Volunteer Activities
+                        </h5>
+
+                        <p class="text-white/80 text-sm">
+                           Community Engagement Program
+                        </p>
+
+                     </div>
+
+                  </div>
+
+               </div>
+
             </a>
+
          </div>
-         <!-- More Items -->
+
+
       </div>
    </div>
 </section>
@@ -128,11 +174,11 @@
          <button
             id="loadMoreGallery"
             class="btn-primary">
-         Load More Photos
+            Load More Photos
          </button>
       </div>
    </div>
 </section>
 <?php
-   include './includes/footer.php';
-   ?>
+include './includes/footer.php';
+?>

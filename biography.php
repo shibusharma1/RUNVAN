@@ -1,24 +1,25 @@
 <?php
-   include './includes/header.php';
-   ?>
+include './includes/header.php';
+?>
+
 <section class="relative overflow-hidden pt-40 pb-28">
    <div class="absolute inset-0">
       <img
-         src="./assets/images/biography/hero-bg.jpg"
-         alt="Biographies"
+         src="./assets/images/team/team-hero.jpg"
+         alt="Core Team"
          class="w-full h-full object-cover">
-      <div class="absolute inset-0 bg-[var(--primary)]/85"></div>
+      <div class="absolute inset-0 bg-[var(--primary)]"></div>
    </div>
    <div class="container relative z-10">
       <nav
          class="flex items-center gap-2 text-white/70 text-sm mb-8"
          data-aos="fade-up">
-         <a href="index.php" class="hover:text-white transition">
-         Home
+         <a href="./" class="hover:text-white transition">
+            Home
          </a>
          <i class="ri-arrow-right-s-line"></i>
          <span class="text-white">
-         Biographies
+            Biographies
          </span>
       </nav>
       <div
@@ -27,15 +28,14 @@
          data-aos-delay="100">
          <span
             class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 text-white text-sm mb-6">
-         <i class="ri-book-open-line"></i>
-         Leadership Stories
+            <i class="ri-team-line"></i>
+            Leadership & Governance
          </span>
          <h1 class="text-white mb-6">
             Biographies &
             Leadership Legacy
          </h1>
-         <p
-            class="text-white/80 text-lg leading-relaxed max-w-3xl">
+         <p class="text-white/80 text-lg leading-relaxed max-w-3xl">
             Explore the journeys, achievements, and contributions of
             distinguished leaders, returned United Nations Volunteers,
             and development professionals who have helped shape
@@ -44,6 +44,8 @@
       </div>
    </div>
 </section>
+
+
 <section>
    <div class="container">
       <div class="grid lg:grid-cols-2 gap-16 items-center">
@@ -58,8 +60,8 @@
          <div data-aos="fade-left">
             <span
                class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-5">
-            <i class="ri-user-heart-line"></i>
-            Leadership Legacy
+               <i class="ri-user-heart-line"></i>
+               Leadership Legacy
             </span>
             <h2 class="mb-6">
                Celebrating Leadership and Service
@@ -97,6 +99,7 @@
       </div>
    </div>
 </section>
+
 <section class="bg-[var(--bg-light)]">
    <div class="container">
       <div
@@ -104,8 +107,8 @@
          data-aos="fade-up">
          <span
             class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-5">
-         <i class="ri-profile-line"></i>
-         Leadership Biographies
+            <i class="ri-profile-line"></i>
+            Leadership Biographies
          </span>
          <h2 class="mb-5">
             Inspiring Stories and Contributions
@@ -121,14 +124,14 @@
             class="group bg-white rounded-[10px] overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 hover:-translate-y-2">
             <div class="overflow-hidden">
                <img
-                  src="./assets/images/biography/person-1.jpg"
+                  src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500"
                   alt=""
                   class="w-full h-80 object-cover transition duration-700 group-hover:scale-110">
             </div>
             <div class="p-6">
                <span
                   class="inline-flex px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-medium mb-4">
-               Former President
+                  Former President
                </span>
                <h4 class="mb-2">
                   Mr. Ram Sharma
@@ -142,16 +145,17 @@
                   engagement and organizational growth.
                </p>
                <a
-                  href="biography-detail.php"
+                  href="biography-details.php"
                   class="text-primary font-medium inline-flex items-center gap-2">
-               Read Biography
-               <i class="ri-arrow-right-line"></i>
+                  Read Biography
+                  <i class="ri-arrow-right-line"></i>
                </a>
             </div>
          </article>
       </div>
    </div>
 </section>
+
 <section class="pb-24">
    <div class="container">
       <div
@@ -171,8 +175,8 @@
                data-aos="fade-right">
                <span
                   class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 text-white text-sm mb-4">
-               <i class="ri-heart-line"></i>
-               Inspired by Their Journey?
+                  <i class="ri-heart-line"></i>
+                  Inspired by Their Journey?
                </span>
                <h2 class="text-white mb-4">
                   Be Part of a Network Creating Positive Change
@@ -187,11 +191,11 @@
                data-aos="fade-left">
                <a href="#"
                   class="bg-white text-[var(--primary)] px-7 py-4 rounded-[10px] font-semibold hover:-translate-y-1 transition-all duration-300">
-               Become a Member
+                  Become a Member
                </a>
                <a href="contact.html"
                   class="border border-white/20 text-white px-7 py-4 rounded-[10px] font-semibold hover:bg-white/10 transition-all duration-300">
-               Contact Us
+                  Contact Us
                </a>
             </div>
          </div>
@@ -199,5 +203,5 @@
    </div>
 </section>
 <?php
-   include './includes/footer.php';
-   ?>
+include './includes/footer.php';
+?>

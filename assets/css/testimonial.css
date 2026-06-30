@@ -34,6 +34,11 @@
   color: #fff;
   border-color: var(--primary);
 }
+.active-filter:hover{
+    color:var(--primary);
+    background-color:#fff;
+    border-color:var(--primary);
+}
 .testimonial-card {
   background: #fff;
   border: 1px solid var(--border);

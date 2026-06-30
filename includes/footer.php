@@ -223,5 +223,7 @@
 <script src="./assets/js/backtotop.js"></script>
 <script src="./assets/js/testimonial.js"></script>
 <script src="./assets/js/certificates.js"></script>
+<script src="./assets/js/teams.js"></script>
+<script src="./assets/js/programs.js"></script>
 </body>
 </html>
