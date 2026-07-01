@@ -2,7 +2,6 @@
 include './includes/header.php';
 ?>
 <section class="relative overflow-hidden pt-40 pb-24">
-   <!-- Background -->
    <div class="absolute inset-0 bg-gradient-to-r from-[var(--primary)] to-[var(--primary-dark)]"></div>
    <div
       class="absolute top-0 right-0 w-96 h-96 bg-white/5 rounded-full blur-3xl">
@@ -12,7 +11,6 @@ include './includes/header.php';
    </div>
    <div class="container relative z-10">
       <div class="max-w-3xl">
-         <!-- Breadcrumb -->
          <div
             class="flex items-center gap-2 text-white/70 text-sm mb-6"
             data-aos="fade-up">
@@ -24,14 +22,12 @@ include './includes/header.php';
                Programs & Activities
             </span>
          </div>
-         <!-- Title -->
          <h1
             class="text-white mb-6"
             data-aos="fade-up"
             data-aos-delay="100">
             Programs & Activities
          </h1>
-         <!-- Description -->
          <p
             class="text-white/80 text-lg max-w-2xl"
             data-aos="fade-up"
@@ -46,7 +42,6 @@ include './includes/header.php';
 <section class="bg-white">
    <div class="container">
       <div class="grid lg:grid-cols-2 gap-16 items-center">
-         <!-- Image -->
          <div
             class="relative mx-auto lg:mx-0"
             data-aos="fade-right">
@@ -54,7 +49,6 @@ include './includes/header.php';
                src="./assets/images/program-main.png"
                alt="Programs Overview"
                class="w-full max-w-[500px] h-[350px] object-cover rounded-[10px] shadow-md">
-            <!-- Floating Card -->
             <div
                class="absolute -bottom-5 -right-5 bg-white rounded-[10px] shadow-lg px-6 py-4">
                <div class="flex items-center gap-3">
@@ -73,7 +67,6 @@ include './includes/header.php';
                </div>
             </div>
          </div>
-         <!-- Content -->
          <div data-aos="fade-left">
             <span
                class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-[var(--primary)] text-sm font-medium mb-4">
@@ -95,7 +88,6 @@ include './includes/header.php';
                engagement, and meaningful contribution to national
                development priorities.
             </p>
-            <!-- Focus Areas -->
             <div class="grid sm:grid-cols-2 gap-4 mb-8">
                <div class="flex gap-3">
                   <i class="ri-check-line text-[var(--primary)] mt-1"></i>
@@ -168,14 +160,12 @@ include './includes/header.php';
             data-category="service"
             class="group program-card bg-white rounded-[10px] overflow-hidden shadow-sm hover:shadow-lg hover:-translate-y-2 transition-all duration-300"
             data-aos="fade-up">
-            <!-- Image -->
             <div class="overflow-hidden">
                <img
                   src="./assets/images/program-main.png"
                   alt=""
                   class="w-full h-[220px] object-cover group-hover:scale-105 transition duration-500">
             </div>
-            <!-- Content -->
             <div class="p-6">
                <span
                   class="inline-block px-3 py-1 rounded-full bg-blue-100 text-[var(--primary)] text-sm mb-4">
@@ -201,14 +191,12 @@ include './includes/header.php';
             class="group program-card bg-white rounded-[10px] overflow-hidden shadow-sm hover:shadow-lg hover:-translate-y-2 transition-all duration-300"
             data-aos="fade-up"
             data-aos-delay="100">
-            <!-- Image -->
             <div class="overflow-hidden">
                <img
                   src="./assets/images/blog1.png"
                   alt="Community Outreach Campaign"
                   class="w-full h-[220px] object-cover group-hover:scale-105 transition duration-500">
             </div>
-            <!-- Content -->
             <div class="p-6">
                <span
                   class="inline-block px-3 py-1 rounded-full bg-green-100 text-green-700 text-sm mb-4">
@@ -233,14 +221,12 @@ include './includes/header.php';
             class="group program-card bg-white rounded-[10px] overflow-hidden shadow-sm hover:shadow-lg hover:-translate-y-2 transition-all duration-300"
             data-aos="fade-up"
             data-aos-delay="200">
-            <!-- Image -->
             <div class="overflow-hidden">
                <img
                   src="./assets/images/blog-featured.png"
                   alt="National Volunteer Gathering"
                   class="w-full h-[220px] object-cover group-hover:scale-105 transition duration-500">
             </div>
-            <!-- Content -->
             <div class="p-6">
                <span
                   class="inline-block px-3 py-1 rounded-full bg-orange-100 text-orange-700 text-sm mb-4">

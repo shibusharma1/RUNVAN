@@ -81,14 +81,22 @@ p {
   box-sizing: border-box;
 }
 
-html,
-body {
+html {
+  scroll-behavior: smooth;
+  /* overflow-y: auto; */
   overflow-x: hidden;
   width: 100%;
 }
 
-html {
-  scroll-behavior: smooth;
+body {
+  overflow-x: hidden;
+  min-height: 100vh;
+  width: 100%;
+}
+
+[data-aos] {
+  overflow: hidden;
+  transform-distance: 20px;
 }
 
 body {
@@ -121,8 +129,11 @@ ul {
     width: min(calc(100% - 2rem), var(--container));
   }
 }
+
 section {
   padding: 60px 0;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 @media (max-width: 992px) {

@@ -677,7 +677,7 @@ include './includes/header.php';
             <img src="./assets/images/logo.jpg" alt="" class="h-16 mx-auto grayscale hover:grayscale-0 transition duration-300">
          </div>
       </div> -->
-   </div>
+      </div>
 </section>
 <section class="section-light">
    <div class="container">
@@ -875,11 +875,10 @@ include './includes/header.php';
       </div>
    </div>
 </section>
-<section class="relative overflow-hidden">
+<!-- <section class="relative overflow-hidden">
    <div
       class="absolute inset-0 bg-gradient-to-r from-[var(--primary)] to-[var(--secondary)]">
    </div>
-   <!-- Decorative Shapes -->
    <div
       class="absolute -top-20 -left-20 w-72 h-72 bg-white/10 rounded-full blur-3xl">
    </div>
@@ -940,7 +939,8 @@ include './includes/header.php';
          </div>
       </div>
    </div>
-</section>
+</section> -->
+
 <?php
 include './includes/footer.php';
 ?>

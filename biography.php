@@ -155,11 +155,10 @@ include './includes/header.php';
    </div>
 </section>
 
-<section class="pb-24">
+<!-- <section class="pb-24">
    <div class="container">
       <div
          class="relative overflow-hidden rounded-[10px] bg-gradient-to-r from-[var(--primary)] to-[var(--primary-dark)] p-10 md:p-16">
-         <!-- Decorative Elements -->
          <div
             class="absolute -top-16 -right-16 w-48 h-48 bg-white/10 rounded-full">
          </div>
@@ -168,7 +167,6 @@ include './includes/header.php';
          </div>
          <div
             class="relative z-10 flex flex-col lg:flex-row items-center justify-between gap-8">
-            <!-- Content -->
             <div
                class="max-w-2xl"
                data-aos="fade-right">
@@ -184,7 +182,6 @@ include './includes/header.php';
                   Join a growing network of returned United Nations Volunteers and development professionals committed to creating positive change.
                </p>
             </div>
-            <!-- Buttons -->
             <div
                class="flex flex-wrap gap-4"
                data-aos="fade-left">
@@ -200,7 +197,7 @@ include './includes/header.php';
          </div>
       </div>
    </div>
-</section>
+</section> -->
 <?php
 include './includes/footer.php';
 ?>

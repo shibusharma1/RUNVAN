@@ -245,11 +245,10 @@
       </div>
    </div>
 </section>
-<section class="py-20 overflow-hidden">
+<!-- <section class="py-20 overflow-hidden">
    <div class="container">
       <div
          class="relative overflow-hidden rounded-[10px] bg-[var(--primary)] text-white">
-         <!-- Background Pattern -->
          <div
             class="absolute inset-0 opacity-10">
             <div
@@ -301,7 +300,7 @@
          </div>
       </div>
    </div>
-</section>
+</section> -->
 <?php
    include './includes/footer.php';
    ?>

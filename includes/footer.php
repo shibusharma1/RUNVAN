@@ -1,7 +1,6 @@
 </main>
 <footer class="bg-footer text-white overflow-hidden">
-   <!-- Top CTA Strip -->
-   <div class="border-b border-white/10">
+   <!-- <div class="border-b border-white/10">
       <div class="container">
          <div
             class="py-10 flex flex-col lg:flex-row items-center justify-between gap-6">
@@ -17,28 +16,28 @@
             <div class="flex flex-wrap gap-4">
                <a href="#"
                   class="px-6 py-3 bg-white text-[var(--primary)] rounded-[10px] font-medium hover:-translate-y-1 transition-all">
-               Become a Member
+                  Become a Member
                </a>
                <a href="./contact.php"
                   class="px-6 py-3 border border-white/20 rounded-[10px] hover:bg-white/10 transition-all">
-               Contact Us
+                  Contact Us
                </a>
             </div>
          </div>
       </div>
-   </div>
+   </div> -->
    <!-- Main Footer -->
    <div class="container">
       <div
-         class="grid lg:grid-cols-12 gap-10 py-20">
+         class="grid lg:grid-cols-12 gap-10 py-12">
          <!-- Column 1 -->
          <div class="lg:col-span-4">
             <a href="./" class="logo mb-6">
-                <img src="assets/images/logo.jpg" alt="RUNVAN">
-                <div class="logo-text">
-                    <span class="logo-title">RUNVAN</span>
-                    <span class="logo-subtitle">Returned United Nations Volunteers Association, Nepal</span>
-                </div>
+               <img src="assets/images/logo.jpg" alt="RUNVAN">
+               <div class="logo-text">
+                  <span class="logo-title">RUNVAN</span>
+                  <span class="logo-subtitle">Returned United Nations Volunteers Association, Nepal</span>
+               </div>
             </a>
             <p class="text-white/70 leading-relaxed mb-6">
                Returned United Nations Volunteers Association Nepal
@@ -50,19 +49,19 @@
             <div class="flex gap-3">
                <a href="#"
                   class="footer-social">
-               <i class="ri-facebook-fill"></i>
+                  <i class="ri-facebook-fill"></i>
                </a>
                <a href="#"
                   class="footer-social">
-               <i class="ri-linkedin-fill"></i>
+                  <i class="ri-linkedin-fill"></i>
                </a>
                <a href="#"
                   class="footer-social">
-               <i class="ri-twitter-x-line"></i>
+                  <i class="ri-twitter-x-line"></i>
                </a>
                <a href="#"
                   class="footer-social">
-               <i class="ri-youtube-fill"></i>
+                  <i class="ri-youtube-fill"></i>
                </a>
             </div>
          </div>
@@ -74,32 +73,32 @@
             <ul class="footer-links">
                <li>
                   <a href="/">
-                  Home
+                     Home
                   </a>
                </li>
                <li>
                   <a href="/about">
-                  About Us
+                     About Us
                   </a>
                </li>
                <li>
                   <a href="/programs">
-                  Programs
+                     Programs
                   </a>
                </li>
                <li>
                   <a href="/publications">
-                  Publications
+                     Publications
                   </a>
                </li>
                <li>
                   <a href="/gallery">
-                  Gallery
+                     Gallery
                   </a>
                </li>
                <li>
                   <a href="/contact">
-                  Contact
+                     Contact
                   </a>
                </li>
             </ul>
@@ -112,27 +111,27 @@
             <ul class="footer-links">
                <li>
                   <a href="#">
-                  Volunteer Capacity Building
+                     Volunteer Capacity Building
                   </a>
                </li>
                <li>
                   <a href="#">
-                  Leadership Development
+                     Leadership Development
                   </a>
                </li>
                <li>
                   <a href="#">
-                  Community Outreach
+                     Community Outreach
                   </a>
                </li>
                <li>
                   <a href="#">
-                  Knowledge Sharing
+                     Knowledge Sharing
                   </a>
                </li>
                <li>
                   <a href="#">
-                  National Volunteer Events
+                     National Volunteer Events
                   </a>
                </li>
             </ul>
@@ -146,19 +145,19 @@
                <div class="flex gap-4">
                   <i class="ri-map-pin-line text-xl text-[var(--primary)]-light"></i>
                   <span class="text-white/70">
-                  Kathmandu, Nepal
+                     Kathmandu, Nepal
                   </span>
                </div>
                <div class="flex gap-4">
                   <i class="ri-phone-line text-xl text-[var(--primary)]-light"></i>
                   <span class="text-white/70">
-                  +977-XXXXXXXXXX
+                     +977-XXXXXXXXXX
                   </span>
                </div>
                <div class="flex gap-4">
                   <i class="ri-mail-line text-xl text-[var(--primary)]-light"></i>
                   <span class="text-white/70">
-                  info@runvan.org.np
+                     info@runvan.org.np
                   </span>
                </div>
             </div>
@@ -176,7 +175,7 @@
                   <button
                      type="submit"
                      class="footer-submit">
-                  <i class="ri-send-plane-fill"></i>
+                     <i class="ri-send-plane-fill"></i>
                   </button>
                </form>
             </div>
@@ -195,20 +194,28 @@
             </p>
             <div
                class="flex gap-6 text-sm">
-               <a href="#">
+               <!-- <a href="#">
                Privacy Policy
                </a>
                <a href="#">
                Terms & Conditions
-               </a>
+               </a> -->
+               <p class="text-white/60 text-sm text-center lg:text-right">
+                  Design & Developed By
+                  <span class="text-secondary font-medium hover:text-white">
+                     <a href="https://cyberlink.com.np/">
+                        Cyberlink Pvt. Ltd.
+                     </a>
+                  </span>
+               </p>
             </div>
          </div>
       </div>
    </div>
 </footer>
 <?php
-   include './includes/backtotop.php';
-   ?>
+include './includes/backtotop.php';
+?>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 <script src="./assets/js/scripts.js"></script>
@@ -225,5 +232,13 @@
 <script src="./assets/js/certificates.js"></script>
 <script src="./assets/js/teams.js"></script>
 <script src="./assets/js/programs.js"></script>
+<script>
+   AOS.init({
+      offset: 80,
+      duration: 700,
+      once: true
+   });
+</script>
 </body>
+
 </html>
