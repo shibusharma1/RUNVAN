@@ -165,7 +165,7 @@ include './includes/header.php';
    </div>
 </section>
 
-<section class="bg-[var(--bg-light)] pt-0">
+<section class="bg-[var(--bg-dark-light)]">
    <div class="container">
       <div
          class="max-w-3xl mx-auto text-center mb-14"
@@ -308,6 +308,7 @@ include './includes/header.php';
       </div>
    </div>
 </div>
+
 <?php
 include './includes/footer.php';
 ?>

@@ -3,10 +3,10 @@
    ?>
 <section class="relative overflow-hidden pt-40 pb-24 bg-gradient-to-br from-[var(--primary)] to-[var(--primary-dark)] overflow-hidden">
    <div class="absolute inset-0">
-      <img
-         src="./assets/images/biography/detail-bg.jpg"
+      <!-- <img
+         src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500"
          alt=""
-         class="w-full h-full object-cover">
+         class="w-full h-full object-cover"> -->
       <div class="absolute inset-0 bg-[var(--primary)]/85"></div>
    </div>
    <div class="container relative z-10">
@@ -37,8 +37,31 @@
                src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500"
                alt=""
                class="w-full rounded-[10px] shadow-lg">
-            <div
-               class="bg-white border border-border rounded-[10px] p-6 mt-6">
+           
+         </div>
+         <!-- Content -->
+         <div>
+            <span
+               class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-5">
+            <i class="ri-book-open-line"></i>
+            Biography
+            </span>
+            <h2 class="mb-6">
+               A Journey of Leadership and Service
+            </h2>
+            <p class="text-muted leading-relaxed mb-5">
+               Biography content goes here...
+            </p>
+            <p class="text-muted leading-relaxed mb-5">
+               Professional background, volunteer assignments,
+               leadership journey, and organizational contributions.
+            </p>
+            <p class="text-muted leading-relaxed">
+               Additional achievements and long-term impact on
+               communities and volunteer development.
+            </p>
+            <p>
+                <div class="bg-white border border-border rounded-[10px] p-6 mt-6">
                <div class="space-y-5">
                   <div>
                      <p class="text-muted text-sm mb-1">
@@ -66,27 +89,6 @@
                   </div>
                </div>
             </div>
-         </div>
-         <!-- Content -->
-         <div>
-            <span
-               class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-5">
-            <i class="ri-book-open-line"></i>
-            Biography
-            </span>
-            <h2 class="mb-6">
-               A Journey of Leadership and Service
-            </h2>
-            <p class="text-muted leading-relaxed mb-5">
-               Biography content goes here...
-            </p>
-            <p class="text-muted leading-relaxed mb-5">
-               Professional background, volunteer assignments,
-               leadership journey, and organizational contributions.
-            </p>
-            <p class="text-muted leading-relaxed">
-               Additional achievements and long-term impact on
-               communities and volunteer development.
             </p>
          </div>
       </div>
@@ -174,9 +176,9 @@
       </div>
    </div>
 </section>
-<section class="bg-[var(--bg-light)]">
+<section class="bg-[var(--bg-dark-light)]">
    <div class="container">
-      <div class="max-w-3xl mb-14">
+      <div class="max-w-3xl">
          <span
             class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-5">
          <i class="ri-profile-line"></i>
@@ -194,7 +196,7 @@
             class="group bg-white rounded-[10px] overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 hover:-translate-y-2">
             <div class="overflow-hidden">
                <img
-                  src="./assets/images/biography/person-1.jpg"
+                  src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500"
                   alt=""
                   class="w-full h-80 object-cover transition duration-700 group-hover:scale-110">
             </div>
@@ -225,7 +227,7 @@
       </div>
    </div>
 </section>
-<section class="pb-24">
+<section class="pt-0">
    <div class="container">
       <div
          class="relative overflow-hidden rounded-[10px] bg-gradient-to-r from-[var(--primary)] to-[var(--primary-dark)] p-10 md:p-16">
