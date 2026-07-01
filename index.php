@@ -813,56 +813,172 @@ include './includes/header.php';
             programs, workshops, and events across Nepal.
          </p>
       </div>
-      <div
-         class="grid grid-cols-2 md:grid-cols-4 gap-5">
-         <!-- Large -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-5">
+         <!-- Large Image -->
          <div
-            class="md:col-span-2 md:row-span-2 overflow-hidden rounded-[10px] group"
+            class="md:col-span-2 md:row-span-2 overflow-hidden rounded-[10px] group relative"
             data-aos="zoom-in">
-            <img
-               src="./assets/images/program-main.png"
-               alt=""
-               class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
+            <a
+               href="./assets/images/program-main.png"
+               class="gallery-popup block h-full">
+               <img
+                  src="./assets/images/program-main.png"
+                  alt=""
+                  class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
+               <!-- Overlay -->
+               <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300">
+                  <!-- Eye Icon -->
+                  <div class="absolute inset-0 flex items-center justify-center">
+                     <div class="w-12 h-12 rounded-full bg-white text-primary flex items-center justify-center">
+                        <i class="ri-eye-line text-xl"></i>
+                     </div>
+                  </div>
+
+                  <!-- Gradient -->
+                  <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent">
+                     <!-- Text -->
+                     <div class="absolute bottom-5 left-5 right-5">
+                        <h5 class="text-white mb-1">
+                           Volunteer Activities
+                        </h5>
+                        <p class="text-white/80 text-sm">
+                           Community Development & Engagement Program
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </a>
          </div>
-         <!-- Image -->
+
+         <!-- Image 2 -->
          <div
-            class="relative overflow-hidden rounded-[10px] group"
+            class="gallery-item group"
             data-aos="zoom-in"
             data-aos-delay="100">
-            <img
-               src="./assets/images/about-main.png"
-               alt=""
-               class="w-full h-64 object-cover group-hover:scale-110 transition duration-700">
-            <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300"></div>
+            <a
+               href="./assets/images/about-main.png"
+               class="gallery-popup relative block overflow-hidden rounded-[10px]">
+               <img
+                  src="./assets/images/about-main.png"
+                  alt="Community Outreach"
+                  class="w-full h-64 object-cover transition duration-700 group-hover:scale-105">
+
+                  <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300">
+                  <div class="absolute inset-0 flex items-center justify-center">
+                     <div class="w-12 h-12 rounded-full bg-white text-primary flex items-center justify-center">
+                        <i class="ri-eye-line text-xl"></i>
+                     </div>
+                  </div>
+                  <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent">
+                     <div class="absolute bottom-5 left-5 right-5">
+                        <h5 class="text-white mb-1">
+                           Community Outreach
+                        </h5>
+                        <p class="text-white/80 text-sm">
+                           Local Community Engagement
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </a>
          </div>
+
+         <!-- Image 3 -->
          <div
-            class="overflow-hidden rounded-[10px] group"
+            class="gallery-item group"
             data-aos="zoom-in"
             data-aos-delay="200">
-            <img
-               src="./assets/images/blog-featured.png"
-               alt=""
-               class="w-full h-64 object-cover group-hover:scale-110 transition duration-700">
+            <a
+               href="./assets/images/blog-featured.png"
+               class="gallery-popup relative block overflow-hidden rounded-[10px]">
+               <img
+                  src="./assets/images/blog-featured.png"
+                  alt="Training Workshop"
+                  class="w-full h-64 object-cover transition duration-700 group-hover:scale-105">
+               <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300">
+                  <div class="absolute inset-0 flex items-center justify-center">
+                     <div class="w-12 h-12 rounded-full bg-white text-primary flex items-center justify-center">
+                        <i class="ri-eye-line text-xl"></i>
+                     </div>
+                  </div>
+                  <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent">
+                     <div class="absolute bottom-5 left-5 right-5">
+                        <h5 class="text-white mb-1">
+                           Training Workshop
+                        </h5>
+                        <p class="text-white/80 text-sm">
+                           Capacity Building Session
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </a>
          </div>
+
+         <!-- Image 4 -->
          <div
-            class="relative overflow-hidden rounded-[10px] group"
+            class="gallery-item group"
             data-aos="zoom-in"
             data-aos-delay="300">
-            <img
-               src="./assets/images/blog1.png"
-               alt=""
-               class="w-full h-64 object-cover group-hover:scale-110 transition duration-700">
-            <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300"></div>
+            <a
+               href="./assets/images/blog1.png"
+               class="gallery-popup relative block overflow-hidden rounded-[10px]">
+               <img
+                  src="./assets/images/blog1.png"
+                  alt="Leadership Program"
+                  class="w-full h-64 object-cover transition duration-700 group-hover:scale-105">
+               <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300">
+                  <div class="absolute inset-0 flex items-center justify-center">
+                     <div class="w-12 h-12 rounded-full bg-white text-primary flex items-center justify-center">
+                        <i class="ri-eye-line text-xl"></i>
+                     </div>
+                  </div>
+                  <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent">
+                     <div class="absolute bottom-5 left-5 right-5">
+                        <h5 class="text-white mb-1">
+                           Leadership Development
+                        </h5>
+                        <p class="text-white/80 text-sm">
+                           Volunteer Leadership Training
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </a>
          </div>
+
+         <!-- Image 5 -->
          <div
-            class="relative overflow-hidden rounded-[10px] group"
+            class="gallery-item group"
             data-aos="zoom-in"
             data-aos-delay="400">
-            <img
-               src="./assets/images/hero-1.png"
-               alt=""
-               class="w-full h-64 object-cover group-hover:scale-110 transition duration-700">
-            <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition duration-300"></div>
+            <a
+               href="./assets/images/hero-1.png"
+               class="gallery-popup relative block overflow-hidden rounded-[10px]">
+               <img
+                  src="./assets/images/hero-1.png"
+                  alt="National Event"
+                  class="w-full h-64 object-cover transition duration-700 group-hover:scale-105">
+
+               <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300">
+                  <div class="absolute inset-0 flex items-center justify-center">
+                     <div class="w-12 h-12 rounded-full bg-white text-primary flex items-center justify-center">
+                        <i class="ri-eye-line text-xl"></i>
+                     </div>
+                  </div>
+
+                  <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent">
+                     <div class="absolute bottom-5 left-5 right-5">
+                        <h5 class="text-white mb-1">
+                           National Volunteer Event
+                        </h5>
+                        <p class="text-white/80 text-sm">
+                           Collaboration & Networking
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </a>
          </div>
       </div>
       <div
