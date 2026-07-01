@@ -1,7 +1,7 @@
 <?php
-   include './includes/header.php';
-   ?>
-<section class="relative pt-40 pb-24 bg-gradient-to-br from-primary to-primary-dark overflow-hidden">
+include './includes/header.php';
+?>
+<section class="relative pt-40 pb-24 bg-gradient-to-br from-[var(--primary)] to-[var(--primary-dark)] overflow-hidden">
    <div class="absolute inset-0 bg-black/10"></div>
    <div class="container relative z-10">
       <div class="max-w-4xl">
@@ -11,18 +11,18 @@
             <a href="/">Home</a>
             <i class="ri-arrow-right-s-line"></i>
             <a href="/publications">
-            Publications
+               Publications
             </a>
             <i class="ri-arrow-right-s-line"></i>
             <span>
-            Volunteerism and Community Development Report
+               Volunteerism and Community Development Report
             </span>
          </nav>
          <span
             class="inline-flex items-center px-4 py-2 rounded-full bg-white/10 text-white text-sm mb-5"
             data-aos="fade-up"
             data-aos-delay="100">
-         Publication
+            Publication
          </span>
          <h1
             class="text-white mb-6"
@@ -56,13 +56,13 @@
          class="max-w-5xl mx-auto"
          data-aos="zoom-in">
          <img
-            src="assets/images/publication-cover.jpg"
+            src="assets/images/blog-featured.png"
             alt=""
             class="w-full h-[500px] object-cover rounded-[10px] shadow-lg">
       </div>
    </div>
 </section>
-<section class="pt-0">
+<section class="pt-0 pb-0">
    <div class="container">
       <div
          class="max-w-4xl mx-auto"
@@ -145,10 +145,26 @@
 </section>
 <section class="pt-0">
    <div class="container">
+      <div class="mb-12" data-aos="fade-up">
+         <span class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-[var(--primary)] text-sm font-medium mb-4">
+            <i class="ri-book-open-line"></i>
+            Explore More
+         </span>
+
+         <h2 class="mb-4">
+            Related Publications
+         </h2>
+
+         <p>
+            Discover additional reports, articles, and resources related to volunteerism,
+            community engagement, and sustainable development initiatives.
+         </p>
+      </div>
+
       <div
          id="publicationGrid"
          class="grid lg:grid-cols-3 md:grid-cols-2 gap-8">
-         Related Publication Cards
+         <!-- Related Publication Cards -->
          <!-- Card 1 -->
          <article
             class="publication-card group"
@@ -156,10 +172,10 @@
             data-aos="fade-up">
             <div class="publication-image">
                <img
-                  src="assets/images/publication-1.jpg"
+                  src="assets/images/publication-1.png"
                   alt="">
                <span class="publication-badge publication">
-               Publication
+                  Publication
                </span>
             </div>
             <div class="publication-content">
@@ -175,8 +191,8 @@
                   contributions to sustainable development.
                </p>
                <a href="#">
-               Download Publication
-               <i class="ri-download-line"></i>
+                  Download Publication
+                  <i class="ri-download-line"></i>
                </a>
             </div>
          </article>
@@ -188,10 +204,10 @@
             data-aos-delay="100">
             <div class="publication-image">
                <img
-                  src="assets/images/news-1.jpg"
+                  src="assets/images/blog1.png"
                   alt="">
                <span class="publication-badge news">
-               News
+                  News
                </span>
             </div>
             <div class="publication-content">
@@ -207,8 +223,8 @@
                   to strengthen leadership skills.
                </p>
                <a href="#">
-               Read Article
-               <i class="ri-arrow-right-line"></i>
+                  Read Article
+                  <i class="ri-arrow-right-line"></i>
                </a>
             </div>
          </article>
@@ -216,37 +232,7 @@
       </div>
    </div>
 </section>
-<section class="py-20">
-   <div class="container">
-      <div
-         class="bg-primary rounded-[10px] text-white text-center px-8 py-16">
-         <span
-            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 mb-5">
-         <i class="ri-mail-open-line"></i>
-         Stay Connected
-         </span>
-         <h2 class="text-white mb-5">
-            Get the Latest Publications and Updates
-         </h2>
-         <p
-            class="max-w-2xl mx-auto text-white/80 mb-8">
-            Stay informed about reports, news, volunteer opportunities,
-            and organizational achievements.
-         </p>
-         <div
-            class="flex flex-wrap justify-center gap-4">
-            <a href="#"
-               class="px-6 py-3 bg-white text-[var(--primary)] rounded-[10px] font-medium">
-            Subscribe
-            </a>
-            <a href="#"
-               class="px-6 py-3 border border-white/30 rounded-[10px]">
-            Contact Us
-            </a>
-         </div>
-      </div>
-   </div>
-</section>
+
 <?php
-   include './includes/footer.php';
-   ?>
+include './includes/footer.php';
+?>

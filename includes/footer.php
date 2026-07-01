@@ -162,7 +162,7 @@
                </div>
             </div>
             <!-- Newsletter -->
-            <div class="mt-8">
+            <!-- <div class="mt-8">
                <h6 class="mb-3 text-white">
                   Newsletter
                </h6>
@@ -178,7 +178,7 @@
                      <i class="ri-send-plane-fill"></i>
                   </button>
                </form>
-            </div>
+            </div> -->
          </div>
       </div>
    </div>
