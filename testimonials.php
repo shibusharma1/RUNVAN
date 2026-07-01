@@ -170,7 +170,7 @@
       </div>
    </div>
 </section>
-<section>
+<section class="pb-0">
    <div class="container">
       <div
          id="testimonialGrid"
@@ -255,11 +255,10 @@
 <?php
    include './includes/pagination.php';
    ?>
-<section class="overflow-hidden" style="padding-top: 0 !important;">
+<!-- <section class="overflow-hidden" style="padding-top: 0 !important;">
    <div class="container">
       <div
          class="relative rounded-[10px] overflow-hidden bg-gradient-to-r from-[var(--primary)] to-[var(--primary-dark)]">
-         <!-- Background Pattern -->
          <div class="absolute inset-0">
             <div
                class="absolute -top-20 -left-20 w-80 h-80 border border-white/10 rounded-full">
@@ -313,7 +312,7 @@
          </div>
       </div>
    </div>
-</section>
+</section> -->
 <!-- Testimonial Modal -->
 <div
    id="testimonialModal"
