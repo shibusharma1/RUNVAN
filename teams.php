@@ -250,99 +250,63 @@ include './includes/header.php';
 <div
    id="teamProfileModal"
    class="fixed inset-0 bg-black/60 z-[9999] hidden items-center justify-center p-4 transition-all duration-300">
-
    <div
       class="bg-white rounded-[10px] max-w-4xl w-full overflow-hidden relative transition-all duration-300">
-
       <!-- Close -->
-
       <button
          id="closeTeamModal"
          class="absolute top-4 right-4 text-2xl text-gray-500 hover:text-primary z-10">
-
          <i class="ri-close-line"></i>
-
       </button>
-
       <div class="grid lg:grid-cols-[350px_1fr]">
-
          <!-- Image -->
-
          <div class="bg-[var(--bg-light)]">
-
             <img
                id="modalTeamImage"
                src=""
                alt=""
                class="w-full h-full object-cover">
-
          </div>
-
          <!-- Content -->
-
          <div class="p-8">
-
             <span
                id="modalTeamPosition"
                class="inline-flex px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4">
-
             </span>
-
             <h3
                id="modalTeamName"
                class="mb-4">
             </h3>
-
             <p
                id="modalTeamDescription"
                class="text-muted leading-relaxed mb-6">
             </p>
-
             <div class="space-y-4 mb-8">
-
                <div class="flex items-center gap-3">
-
                   <i class="ri-mail-line text-primary"></i>
-
                   <span id="modalTeamEmail"></span>
-
                </div>
-
                <div class="flex items-center gap-3">
-
                   <i class="ri-linkedin-line text-primary"></i>
-
                   <a
                      id="modalTeamLinkedin"
                      href="#"
                      target="_blank"
                      class="text-primary">
-
                      LinkedIn Profile
-
                   </a>
-
                </div>
-
             </div>
-
             <!-- <a
                id="modalTeamProfileLink"
                href="#"
                class="btn-primary inline-flex items-center gap-2">
-
                View Detailed Profile
-
                <i class="ri-arrow-right-line"></i>
-
             </a> -->
-
          </div>
-
       </div>
-
    </div>
-
 </div>
 <?php
 include './includes/footer.php';

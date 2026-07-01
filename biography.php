@@ -45,7 +45,6 @@ include './includes/header.php';
    </div>
 </section>
 
-
 <section>
    <div class="container">
       <div class="grid lg:grid-cols-2 gap-16 items-center">

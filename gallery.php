@@ -119,50 +119,31 @@ include './includes/header.php';
                   class="w-full rounded-[10px] transition duration-700 group-hover:scale-105">
 
                <!-- Overlay -->
-
                <div
                   class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300">
-
                   <!-- Eye Icon -->
-
                   <div class="absolute inset-0 flex items-center justify-center">
-
                      <div
                         class="w-12 h-12 rounded-full bg-white text-primary flex items-center justify-center">
-
                         <i class="ri-eye-line text-xl"></i>
-
                      </div>
-
                   </div>
-
                   <!-- Bottom Content -->
-
                   <div
                      class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent">
-
                      <div
                         class="absolute bottom-5 left-5 right-5">
-
                         <h5 class="text-white mb-1">
                            Volunteer Activities
                         </h5>
-
                         <p class="text-white/80 text-sm">
                            Community Engagement Program
                         </p>
-
                      </div>
-
                   </div>
-
                </div>
-
             </a>
-
          </div>
-
-
       </div>
    </div>
 </section>
