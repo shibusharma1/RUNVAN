@@ -77,8 +77,11 @@
                             </a>
                         </li>
                         <li>
-                            <a href="./teams.php">
-                                Core Team
+                            <a href="./executive-teams.php">
+                                Executive Board
+                            </a>
+                            <a href="./general-teams.php">
+                                General Members
                             </a>
                         </li>
                         <!-- <li>
@@ -95,7 +98,7 @@
                 </li>
                 <li class="dropdown">
                     <a href="#" class="nav-link dropdown-toggle">
-                        Resources
+                        Media and Information
                         <i class="ri-arrow-down-s-line"></i>
                     </a>
                     <ul class="dropdown-menu">
@@ -109,14 +112,42 @@
                                 Gallery
                             </a>
                         </li>
-                        <li>
+                        <!-- <li>
                             <a href="./testimonials.php">
                                 Testimonials
+                            </a>
+                        </li> -->
+                        <li>
+                            <a href="./partners.php">
+                                Partners/Affiliations
                             </a>
                         </li>
                         <li>
                             <a href="./certifications.php">
                                 Certifications
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./announcements.php">
+                                Announcements/Latest News
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="nav-link dropdown-toggle">
+                        Join us
+                        <i class="ri-arrow-down-s-line"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="./membership.php">
+                                Membership
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./vacancies.php">
+                                Vacancies
                             </a>
                         </li>
                     </ul>
@@ -125,6 +156,9 @@
             </ul>
             <!-- CTA -->
             <div class="nav-actions">
+                <a href="./donations.php" class="btn-primary">
+                    Donate Us
+                </a>
                 <a href="./contact.php" class="btn-primary">
                     Contact Us
                 </a>
@@ -146,7 +180,8 @@
                 </button>
                 <div class="mobile-dropdown-content">
                     <a href="./about.php" class="mobile-link">About RUNVAN</a>
-                    <a href="./teams.php" class="mobile-link">Core Team</a>
+                    <a href="./executive-teams.php" class="mobile-link">Executive Board</a>
+                    <a href="./general-teams.php" class="mobile-link">General Members</a>
                     <!-- <a href="./biography.php" class="mobile-link">Biographies</a> -->
                 </div>
             </div>
@@ -155,16 +190,31 @@
             </a>
             <div class="mobile-dropdown">
                 <button class="mobile-dropdown-btn">
-                    Resources
+                    Media and Information
                     <i class="ri-arrow-down-s-line"></i>
                 </button>
                 <div class="mobile-dropdown-content">
                     <a href="./publications.php" class="mobile-link">Publications</a>
                     <a href="./gallery.php" class="mobile-link">Gallery</a>
-                    <a href="./testimonials.php" class="mobile-link">Testimonials</a>
+                    <!-- <a href="./testimonials.php" class="mobile-link">Testimonials</a> -->
+                    <a href="./partners.php" class="mobile-link">Partners/Affiliations</a>
                     <a href="./certifications.php" class="mobile-link">Certifications</a>
+                    <a href="./announcements.php" class="mobile-link">Announcements/Latest News</a>
                 </div>
             </div>
+            <div class="mobile-dropdown">
+                <button class="mobile-dropdown-btn">
+                    Join Us
+                    <i class="ri-arrow-down-s-line"></i>
+                </button>
+                <div class="mobile-dropdown-content">
+                    <a href="./membership.php" class="mobile-link">Membership</a>
+                    <a href="./vacancies.php" class="mobile-link">Vacancies</a>
+                </div>
+            </div>
+            <a href="./donations.php" class="btn-primary mobile-btn">
+                Donate Us
+            </a>
             <a href="./contact.php" class="btn-primary mobile-btn">
                 Contact Us
             </a>

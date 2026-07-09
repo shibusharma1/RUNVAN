@@ -1,6 +1,6 @@
 </main>
 <footer class="bg-footer text-white overflow-hidden">
-   <!-- <div class="border-b border-white/10">
+   <div class="border-b border-white/10">
       <div class="container">
          <div
             class="py-10 flex flex-col lg:flex-row items-center justify-between gap-6">
@@ -14,7 +14,7 @@
                </p>
             </div>
             <div class="flex flex-wrap gap-4">
-               <a href="#"
+               <a href="./membership.php"
                   class="px-6 py-3 bg-white text-[var(--primary)] rounded-[10px] font-medium hover:-translate-y-1 transition-all">
                   Become a Member
                </a>
@@ -25,7 +25,7 @@
             </div>
          </div>
       </div>
-   </div> -->
+   </div>
    <!-- Main Footer -->
    <div class="container">
       <div

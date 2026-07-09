@@ -363,6 +363,7 @@ include './includes/header.php';
       </div>
    </div>
 </section>
+
 <section class="section-white">
    <div class="container">
       <div class="section-title" data-aos="fade-up">
@@ -578,6 +579,7 @@ include './includes/header.php';
       </div>
    </div>
 </section>
+
 <section class="bg-white overflow-hidden">
    <div class="container">
       <div class="section-title" data-aos="fade-up">
@@ -678,6 +680,7 @@ include './includes/header.php';
          </div>
       </div> -->
       </div>
+   </div>
 </section>
 <section class="section-light">
    <div class="container">
@@ -797,6 +800,7 @@ include './includes/header.php';
       </div>
    </div>
 </section>
+
 <section class="bg-white overflow-hidden">
    <div class="container">
       <div class="section-title" data-aos="fade-up">
@@ -863,7 +867,7 @@ include './includes/header.php';
                   alt="Community Outreach"
                   class="w-full h-64 object-cover transition duration-700 group-hover:scale-105">
 
-                  <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300">
+               <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300">
                   <div class="absolute inset-0 flex items-center justify-center">
                      <div class="w-12 h-12 rounded-full bg-white text-primary flex items-center justify-center">
                         <i class="ri-eye-line text-xl"></i>
@@ -1056,6 +1060,53 @@ include './includes/header.php';
       </div>
    </div>
 </section> -->
+<section class="bg-white pt-0">
+   <div class="container">
+      <div
+         class="relative overflow-hidden rounded-[10px] border border-[var(--border)] bg-[var(--bg-light)]">
+         <!-- Decorative Elements -->
+         <div
+            class="absolute -top-16 -right-16 w-48 h-48 rounded-full bg-primary/5">
+         </div>
+         <div
+            class="absolute -bottom-16 -left-16 w-48 h-48 rounded-full bg-primary/5">
+         </div>
+         <div
+            class="relative z-10 px-8 py-12 md:px-12 md:py-14">
+            <div
+               class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-8">
+               <!-- Content -->
+               <div class="max-w-3xl">
+                  <span
+                     class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-[var(--primary)] text-sm font-medium mb-5">
+                     <i class="ri-customer-service-2-line"></i>
+                     Feedback & Accountability
+                  </span>
+                  <h3 class="mb-4">
+                     Have a Concern or Complaint?
+                  </h3>
+                  <p class="text-muted leading-relaxed">
+                     RUNVAN is committed to transparency, accountability,
+                     and continuous improvement. If you have concerns,
+                     complaints, feedback, or suggestions regarding our
+                     programs, activities, volunteers, or services, we
+                     encourage you to share them with us.
+                  </p>
+               </div>
+               <!-- Button -->
+               <div class="shrink-0">
+                  <a
+                     href="mailto:complaints@runvan.org.np?subject=Concern%20or%20Complaint"
+                     class="btn btn-primary">
+                     <i class="ri-mail-send-line"></i>
+                     Drop a Concern
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
 
 <?php
 include './includes/footer.php';

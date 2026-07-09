@@ -42,17 +42,15 @@ include './includes/header.php';
    </div>
 </section>
 
-<section>
+<!-- <section>
    <div class="container">
       <div class="grid lg:grid-cols-2 gap-16 items-center">
-         <!-- Image -->
          <div data-aos="fade-right">
             <img
                src="./assets/images/team-overview.png"
                alt=""
                class="w-full rounded-[10px] shadow-lg">
          </div>
-         <!-- Content -->
          <div data-aos="fade-left">
             <span
                class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-5">
@@ -101,9 +99,9 @@ include './includes/header.php';
          </div>
       </div>
    </div>
-</section>
+</section> -->
 
-<section class="bg-[var(--bg-light)]">
+<!-- <section class="bg-[var(--bg-light)]">
    <div class="container">
       <div
          class="max-w-3xl mx-auto text-center mb-12"
@@ -163,7 +161,7 @@ include './includes/header.php';
          </a>
       </div>
    </div>
-</section>
+</section> -->
 
 <section class="bg-[var(--bg-dark-light)]">
    <div class="container">
@@ -226,15 +224,14 @@ include './includes/header.php';
                      data-position="President"
                      data-email="ramsharma@runvan.org"
                      data-linkedin="#"
-                     data-description="Returned UN Volunteer with extensive experience in community development, leadership, and volunteer management."
-                     >
+                     data-description="Returned UN Volunteer with extensive experience in community development, leadership, and volunteer management.">
                      View Profile
                      <i class="ri-arrow-right-line"></i>
                   </a>
                </div>
             </div>
          </article>
-         
+
       </div>
       <div class="text-center mt-12">
          <a href="./teams.php" class="btn-primary inline-flex items-center gap-2">
@@ -250,15 +247,17 @@ include './includes/header.php';
 <div
    id="teamProfileModal"
    class="fixed inset-0 bg-black/60 z-[9999] hidden items-center justify-center p-4 transition-all duration-300">
+   <!-- <div
+      class="bg-white rounded-[10px] max-w-4xl w-full overflow-hidden relative transition-all duration-300"> -->
    <div
-      class="bg-white rounded-[10px] max-w-4xl w-full overflow-hidden relative transition-all duration-300">
+      class="bg-white rounded-[10px] max-w-4xl w-full max-h-[90vh] overflow-hidden relative transition-all duration-300">
       <!-- Close -->
       <button
          id="closeTeamModal"
-         class="absolute top-4 right-4 text-2xl text-gray-500 hover:text-primary z-10">
+         class="absolute top-3 right-3 lg:top-4 lg:right-4 w-10 h-10 rounded-full bg-white shadow-md flex items-center justify-center text-gray-500 hover:text-primary z-20">
          <i class="ri-close-line"></i>
       </button>
-      <div class="grid lg:grid-cols-[350px_1fr]">
+      <div class="grid lg:grid-cols-[350px_1fr] h-full max-h-[80vh]">
          <!-- Image -->
          <div class="bg-[var(--bg-light)]">
             <img
@@ -268,10 +267,10 @@ include './includes/header.php';
                class="w-full h-full object-cover">
          </div>
          <!-- Content -->
-         <div class="p-8">
+         <div class="p-8 overflow-y-auto max-h-[90vh]">
             <span
                id="modalTeamPosition"
-               class="inline-flex px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4">
+               class="inline-flex py-1 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4">
             </span>
             <h3
                id="modalTeamName"
@@ -281,7 +280,7 @@ include './includes/header.php';
                id="modalTeamDescription"
                class="text-muted leading-relaxed mb-6">
             </p>
-            <div class="space-y-4 mb-8">
+            <div class="space-y-4 mb-12">
                <div class="flex items-center gap-3">
                   <i class="ri-mail-line text-primary"></i>
                   <span id="modalTeamEmail"></span>

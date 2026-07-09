@@ -9,3 +9,16 @@
 .team-card:hover {
   border-color: var(--primary);
 }
+
+#teamProfileModal .overflow-y-auto::-webkit-scrollbar {
+    width: 6px;
+}
+
+#teamProfileModal .overflow-y-auto::-webkit-scrollbar-thumb {
+    background: var(--primary);
+    border-radius: 20px;
+}
+
+#teamProfileModal .overflow-y-auto::-webkit-scrollbar-track {
+    background: #f1f5f9;
+}

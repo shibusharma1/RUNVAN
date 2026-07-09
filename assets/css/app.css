@@ -325,7 +325,7 @@ section {
 .nav-menu {
   display: flex;
   align-items: center;
-  gap: 36px;
+  gap: 32px;
 }
 
 .nav-link {
@@ -425,6 +425,7 @@ section {
 
 .nav-actions {
   display: flex;
+  gap:12px;
   align-items: center;
 }
 
@@ -500,7 +501,7 @@ section {
 }
 
 .mobile-btn {
-  margin: 20px;
+  margin: 12px;
   justify-content: center;
 }
 
