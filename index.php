@@ -226,6 +226,7 @@ include './includes/header.php';
       </div>
    </div>
 </section>
+
 <section class="section-light">
    <div class="container">
       <div class="section-title" data-aos="fade-up">
@@ -494,6 +495,7 @@ include './includes/header.php';
       </div>
    </div>
 </section>
+
 <section class="section-light overflow-hidden relative">
    <div
       class="absolute top-0 left-0 w-72 h-72 bg-primary/5 rounded-full blur-3xl">
@@ -682,6 +684,192 @@ include './includes/header.php';
       </div>
    </div>
 </section>
+
+<section class="section-light">
+   <div class="container">
+
+      <div class="section-title" data-aos="fade-up">
+         <span
+            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-50 text-[var(--primary)] text-sm font-semibold mb-4">
+            <i class="ri-file-list-3-line"></i>
+            Information Center
+         </span>
+
+         <h2>
+            Notices & Reports
+         </h2>
+
+         <p>
+            Stay informed with the latest organizational notices,
+            reports, announcements, and important updates.
+         </p>
+      </div>
+
+      <div class="grid lg:grid-cols-2 gap-8 mt-16">
+
+         <!-- Notices -->
+
+         <div
+            class="bg-white rounded-[10px] border border-[var(--border)] overflow-hidden">
+
+            <div class="p-6 border-b border-[var(--border)]">
+               <h3 class="mb-0">
+                  Latest Notices
+               </h3>
+            </div>
+
+            <div class="divide-y divide-[var(--border)]">
+
+               <a href="#"
+                  class="block p-6 hover:bg-[var(--bg-light)] transition">
+
+                  <div class="flex gap-4">
+
+                     <div
+                        class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
+                        <i class="ri-notification-3-line text-[var(--primary)]"></i>
+                     </div>
+
+                     <div>
+                        <h5 class="mb-2">
+                           Annual General Meeting Notice
+                        </h5>
+
+                        <div class="flex flex-wrap gap-3 text-sm text-muted">
+                           <span>
+                              <i class="ri-calendar-line"></i>
+                              10 July 2026
+                           </span>
+
+                           <span>
+                              Governance
+                           </span>
+                        </div>
+                     </div>
+
+                  </div>
+
+               </a>
+
+               <a href="#"
+                  class="block p-6 hover:bg-[var(--bg-light)] transition">
+
+                  <div class="flex gap-4">
+
+                     <div
+                        class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
+                        <i class="ri-notification-3-line text-[var(--primary)]"></i>
+                     </div>
+
+                     <div>
+                        <h5 class="mb-2">
+                           Volunteer Membership Registration Open
+                        </h5>
+
+                        <div class="flex flex-wrap gap-3 text-sm text-muted">
+                           <span>
+                              <i class="ri-calendar-line"></i>
+                              08 July 2026
+                           </span>
+
+                           <span>
+                              Membership
+                           </span>
+                        </div>
+                     </div>
+
+                  </div>
+
+               </a>
+
+            </div>
+
+            <div class="p-5 border-t border-[var(--border)]">
+               <a href="./notices.php"
+                  class="font-semibold text-[var(--primary)]">
+                  View All Notices →
+               </a>
+            </div>
+
+         </div>
+
+         <!-- Reports -->
+
+         <div
+            class="bg-white rounded-[10px] border border-[var(--border)] overflow-hidden">
+
+            <div class="p-6 border-b border-[var(--border)]">
+               <h3 class="mb-0">
+                  Reports & Resources
+               </h3>
+            </div>
+
+            <div class="divide-y divide-[var(--border)]">
+
+               <a href="#"
+                  class="block p-6 hover:bg-[var(--bg-light)] transition">
+
+                  <div class="flex gap-4">
+
+                     <div
+                        class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
+                        <i class="ri-file-pdf-line text-[var(--primary)]"></i>
+                     </div>
+
+                     <div>
+                        <h5 class="mb-2">
+                           Annual Impact Report 2025
+                        </h5>
+
+                        <div class="text-sm text-muted">
+                           Published July 2026
+                        </div>
+                     </div>
+
+                  </div>
+
+               </a>
+
+               <a href="#"
+                  class="block p-6 hover:bg-[var(--bg-light)] transition">
+
+                  <div class="flex gap-4">
+
+                     <div
+                        class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
+                        <i class="ri-file-chart-line text-[var(--primary)]"></i>
+                     </div>
+
+                     <div>
+                        <h5 class="mb-2">
+                           Volunteer Engagement Report
+                        </h5>
+
+                        <div class="text-sm text-muted">
+                           Published June 2026
+                        </div>
+                     </div>
+
+                  </div>
+
+               </a>
+
+            </div>
+
+            <div class="p-5 border-t border-[var(--border)]">
+               <a href="./publications.php"
+                  class="font-semibold text-[var(--primary)]">
+                  Explore Resources →
+               </a>
+            </div>
+
+         </div>
+
+      </div>
+
+   </div>
+</section>
+
 <section class="section-light">
    <div class="container">
       <div class="section-title" data-aos="fade-up">
