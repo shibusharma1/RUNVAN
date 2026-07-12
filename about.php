@@ -20,6 +20,7 @@ include './includes/header.php';
       </div>
    </div>
 </section>
+
 <!-- option 1 -->
 <section class="bg-white overflow-hidden">
    <div class="container">
@@ -432,6 +433,7 @@ include './includes/header.php';
       </div>
    </div>
 </section>
+
 <section class="bg-white overflow-hidden">
    <div class="container">
       <!-- Section Header -->
@@ -556,6 +558,7 @@ include './includes/header.php';
       </div>
    </div>
 </section>
+
 <section class="section-light overflow-hidden">
    <div class="container">
       <!-- Section Heading -->
@@ -713,6 +716,7 @@ include './includes/header.php';
       </div>
    </div>
 </section>
+
 <!-- <section>
    <div class="container">
       <div
@@ -758,6 +762,7 @@ include './includes/header.php';
       </div>
    </div>
 </section> -->
+
 <?php
 include './includes/footer.php';
 ?>

@@ -1,6 +1,7 @@
 <?php
 include './includes/header.php';
 ?>
+
 <section class="relative pt-40 pb-24 bg-gradient-to-br from-[var(--primary)] to-[var(--primary-dark)] overflow-hidden">
    <div class="absolute inset-0 bg-black/10"></div>
    <div class="container relative z-10">
@@ -30,6 +31,7 @@ include './includes/header.php';
       </div>
    </div>
 </section>
+
 <section>
    <div class="container">
       <div class="grid lg:grid-cols-2 gap-4 items-center">
@@ -59,6 +61,7 @@ include './includes/header.php';
       </div>
    </div>
 </section>
+
 <section class="pt-0">
    <div class="container">
       <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-8">
@@ -117,6 +120,7 @@ include './includes/header.php';
       </div>
    </div>
 </section>
+
 <section>
    <div class="container">
       <div class="grid lg:grid-cols-2 gap-12">
@@ -191,6 +195,7 @@ include './includes/header.php';
       </div>
    </div>
 </section>
+
 <section class="pt-0">
    <div class="container">
       <div
@@ -200,6 +205,7 @@ include './includes/header.php';
       </div>
    </div>
 </section>
+
 <?php
 include './includes/footer.php';
 ?>

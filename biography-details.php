@@ -1,6 +1,7 @@
 <?php
    include './includes/header.php';
    ?>
+   
 <section class="relative overflow-hidden pt-40 pb-24 bg-gradient-to-br from-[var(--primary)] to-[var(--primary-dark)] overflow-hidden">
    <div class="absolute inset-0">
       <!-- <img
@@ -28,6 +29,7 @@
       </p>
    </div>
 </section>
+
 <section>
    <div class="container">
       <div class="grid lg:grid-cols-[350px_1fr] gap-12">
@@ -94,6 +96,7 @@
       </div>
    </div>
 </section>
+
 <section class="bg-[var(--bg-light)]">
    <div class="container">
       <div class="max-w-3xl mb-14">
@@ -141,6 +144,7 @@
       </div>
    </div>
 </section>
+
 <section>
    <div class="container">
       <div class="max-w-3xl mb-14">
@@ -176,6 +180,7 @@
       </div>
    </div>
 </section>
+
 <section class="bg-[var(--bg-dark-light)]">
    <div class="container">
       <div class="max-w-3xl">
@@ -227,6 +232,7 @@
       </div>
    </div>
 </section>
+
 <!-- <section class="pt-0">
    <div class="container">
       <div

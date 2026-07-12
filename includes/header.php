@@ -128,7 +128,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="./announcements.php">
+                            <a href="./notice-reports.php">
                                 Announcements/Latest News
                             </a>
                         </li>
@@ -199,7 +199,7 @@
                     <!-- <a href="./testimonials.php" class="mobile-link">Testimonials</a> -->
                     <a href="./partners.php" class="mobile-link">Partners/Affiliations</a>
                     <a href="./certifications.php" class="mobile-link">Certifications</a>
-                    <a href="./announcements.php" class="mobile-link">Announcements/Latest News</a>
+                    <a href="./notice-reports.php" class="mobile-link">Announcements/Latest News</a>
                 </div>
             </div>
             <div class="mobile-dropdown">

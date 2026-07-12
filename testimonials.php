@@ -1,6 +1,7 @@
 <?php
    include './includes/header.php';
    ?>
+
 <section class="relative pt-40 pb-24 overflow-hidden bg-gradient-to-br from-[var(--primary)] to-[var(--primary-dark)]">
    <!-- Background Effects -->
    <div class="absolute inset-0 bg-black/10"></div>
@@ -36,6 +37,7 @@
       </div>
    </div>
 </section>
+
 <section>
    <div class="container">
       <div class="grid lg:grid-cols-2 gap-16 items-center">
@@ -96,6 +98,7 @@
       </div>
    </div>
 </section>
+
 <section class="pt-0 overflow-hidden">
    <div class="container">
       <div
@@ -137,6 +140,7 @@
       </div>
    </div>
 </section>
+
 <section class="pt-0">
    <div class="container">
       <div
@@ -170,6 +174,7 @@
       </div>
    </div>
 </section>
+
 <section class="pb-0">
    <div class="container">
       <div
@@ -252,9 +257,11 @@
       </div>
    </div>
 </section>
+
 <?php
    include './includes/pagination.php';
    ?>
+
 <!-- <section class="overflow-hidden" style="padding-top: 0 !important;">
    <div class="container">
       <div
@@ -313,6 +320,7 @@
       </div>
    </div>
 </section> -->
+
 <!-- Testimonial Modal -->
 <div
    id="testimonialModal"
@@ -453,6 +461,7 @@
       </div>
    </div>
 </div>
+
 <?php
    include './includes/footer.php';
    ?>

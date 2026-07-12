@@ -1,6 +1,7 @@
 <?php
 include './includes/header.php';
 ?>
+
 <section class="relative overflow-hidden pt-40 pb-28">
    <div class="absolute inset-0">
       <img
@@ -162,6 +163,7 @@ include './includes/header.php';
       </div>
    </div>
 </section>
+
 <!-- 
 <section class="bg-[var(--bg-dark-light)]">
    <div class="container">
@@ -237,7 +239,6 @@ include './includes/header.php';
       </div>
    </div>
 </section>
-
 
 <div
    id="teamProfileModal"

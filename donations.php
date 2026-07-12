@@ -1,6 +1,7 @@
 <?php
 include './includes/header.php';
 ?>
+
 <section class="relative pt-40 pb-24 overflow-hidden bg-gradient-to-br from-[var(--primary)] to-[var(--primary-dark)]">
     <!-- Background Effects -->
     <div class="absolute inset-0 bg-black/10"></div>
@@ -36,6 +37,7 @@ include './includes/header.php';
         </div>
     </div>
 </section>
+
 <section class="section-light">
     <div class="container">
         <div
@@ -86,6 +88,7 @@ include './includes/header.php';
         </div>
     </div>
 </section>
+
 <section class="bg-white">
     <div class="container">
         <div class="section-title">
@@ -171,6 +174,7 @@ include './includes/header.php';
         </div>
     </div>
 </section>
+
 <?php
 include './includes/footer.php';
 ?>

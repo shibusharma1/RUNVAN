@@ -36,6 +36,7 @@ include './includes/header.php';
       </div>
    </div>
 </section>
+
 <section class="section-light">
    <div class="container">
       <div class="max-w-4xl mx-auto text-center">
@@ -110,6 +111,7 @@ include './includes/header.php';
       </div>
    </div>
 </section>
+
 <?php
 include './includes/footer.php';
 ?>

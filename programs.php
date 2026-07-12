@@ -1,6 +1,7 @@
 <?php
 include './includes/header.php';
 ?>
+
 <section class="relative overflow-hidden pt-40 pb-24">
    <div class="absolute inset-0 bg-gradient-to-r from-[var(--primary)] to-[var(--primary-dark)]"></div>
    <div
@@ -39,6 +40,7 @@ include './includes/header.php';
       </div>
    </div>
 </section>
+
 <section class="bg-white">
    <div class="container">
       <div class="grid lg:grid-cols-2 gap-16 items-center">
@@ -110,6 +112,7 @@ include './includes/header.php';
       </div>
    </div>
 </section>
+
 <section class="section-light">
    <div class="container">
       <div class="section-title" data-aos="fade-up">
@@ -249,6 +252,7 @@ include './includes/header.php';
       </div>
    </div>
 </section>
+
 <?php
 include './includes/footer.php';
 ?>

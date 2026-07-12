@@ -157,6 +157,7 @@ include './includes/header.php';
 
     </div>
 </section>
+
 <section class="bg-white">
     <div class="container">
 
@@ -215,6 +216,7 @@ include './includes/header.php';
 
     </div>
 </section>
+
 <!-- <section>
     <div class="container">
 

@@ -720,7 +720,7 @@ include './includes/header.php';
 
             <div class="divide-y divide-[var(--border)]">
 
-               <a href="#"
+               <a href="./notice-reports-details.php"
                   class="block p-6 hover:bg-[var(--bg-light)] transition">
 
                   <div class="flex gap-4">
@@ -751,7 +751,7 @@ include './includes/header.php';
 
                </a>
 
-               <a href="#"
+               <a href="./notice-reports-details.php"
                   class="block p-6 hover:bg-[var(--bg-light)] transition">
 
                   <div class="flex gap-4">
@@ -785,7 +785,7 @@ include './includes/header.php';
             </div>
 
             <div class="p-5 border-t border-[var(--border)]">
-               <a href="./notices.php"
+               <a href="./notice-reports.php"
                   class="font-semibold text-[var(--primary)]">
                   View All Notices →
                </a>
@@ -806,7 +806,7 @@ include './includes/header.php';
 
             <div class="divide-y divide-[var(--border)]">
 
-               <a href="#"
+               <a href="./notice-reports-details.php"
                   class="block p-6 hover:bg-[var(--bg-light)] transition">
 
                   <div class="flex gap-4">
@@ -830,7 +830,7 @@ include './includes/header.php';
 
                </a>
 
-               <a href="#"
+               <a href="./notice-reports-details.php"
                   class="block p-6 hover:bg-[var(--bg-light)] transition">
 
                   <div class="flex gap-4">
@@ -857,7 +857,7 @@ include './includes/header.php';
             </div>
 
             <div class="p-5 border-t border-[var(--border)]">
-               <a href="./publications.php"
+               <a href="./notice-reports.php"
                   class="font-semibold text-[var(--primary)]">
                   Explore Resources →
                </a>
@@ -1248,6 +1248,7 @@ include './includes/header.php';
       </div>
    </div>
 </section> -->
+
 <section class="bg-white pt-0">
    <div class="container">
       <div

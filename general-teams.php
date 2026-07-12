@@ -242,7 +242,6 @@ include './includes/header.php';
    </div>
 </section>
 
-
 <!-- model to view the team profile -->
 <div
    id="teamProfileModal"

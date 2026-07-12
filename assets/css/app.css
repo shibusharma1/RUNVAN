@@ -425,7 +425,7 @@ section {
 
 .nav-actions {
   display: flex;
-  gap:12px;
+  gap: 12px;
   align-items: center;
 }
 
@@ -724,4 +724,25 @@ main {
   background: var(--primary);
   color: #fff;
   border-radius: 0 10px 10px 0;
+}
+
+/* notice report detail page */
+.content-area {
+  font-size: 1.05rem;
+  line-height: 1.9;
+  color: var(--text-dark);
+}
+.content-area p {
+  margin-bottom: 1.5rem;
+}
+.content-area h3 {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+.content-area ul {
+  margin: 1rem 0 1.5rem;
+  padding-left: 1.5rem;
+}
+.content-area li {
+  margin-bottom: 0.75rem;
 }
