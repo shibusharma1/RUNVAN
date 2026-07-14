@@ -51,26 +51,25 @@ include './includes/header.php';
                alt="RUNVAN Certifications"
                class="rounded-[10px] shadow-lg w-full">
             <!-- Floating Badge -->
-            <div
+            <!-- <div
                class="absolute -bottom-6 -right-6 bg-white rounded-[10px] shadow-xl p-5 max-w-[220px]">
                <div
-                  class="w-12 h-12 rounded-[10px] bg-primary/10 flex items-center justify-center text-primary mb-3">
-                  <i class="ri-award-line text-xl"></i>
+                  class="w-12 h-12 rounded-[10px] bg-primary/10 flex items-center justify-center text-[var(--primary)] mb-2">
+                  <i class="text-[var(--primary)] ri-award-line text-xl"></i>
                </div>
-               <h5 class="mb-2">
+               <h5 class="mb-2 hidden text-[var(--primary)] lg:block">
                   Trusted Organization
                </h5>
-               <p class="text-muted text-sm">
-                  Recognized through memberships, certifications,
-                  and strategic partnerships.
+               <p class="text-muted text-sm hidden lg:block">
+                  Recognized through certifications.
                </p>
-            </div>
+            </div> -->
          </div>
          <!-- Content Side -->
          <div
             data-aos="fade-left">
             <span
-               class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-5">
+               class="inline-flex items-center gap-2 py-2 rounded-full bg-primary/10 text-[var(--primary)] text-sm font-medium">
                <i class="ri-shield-check-line"></i>
                Commitment to Excellence
             </span>
@@ -84,18 +83,18 @@ include './includes/header.php';
                certifications, affiliations, and institutional
                partnerships.
             </p>
-            <p class="text-muted leading-relaxed mb-8">
+            <!-- <p class="text-muted leading-relaxed mb-8">
                These recognitions reflect our dedication to
                transparency, accountability, collaboration, and
                sustainable development while serving returned
                United Nations Volunteers across Nepal.
-            </p>
+            </p> -->
             <!-- Highlights -->
             <div class="grid sm:grid-cols-2 gap-4">
                <div
                   class="flex gap-3 p-4 rounded-[10px] bg-[var(--bg-light)]">
                   <i
-                     class="ri-checkbox-circle-fill text-primary text-xl mt-1">
+                     class="ri-checkbox-circle-fill text-[var(--primary)] text-xl mt-1">
                   </i>
                   <div>
                      <h6 class="mb-1">
@@ -110,7 +109,7 @@ include './includes/header.php';
                <div
                   class="flex gap-3 p-4 rounded-[10px] bg-[var(--bg-light)]">
                   <i
-                     class="ri-checkbox-circle-fill text-primary text-xl mt-1">
+                     class="ri-checkbox-circle-fill text-[var(--primary)] text-xl mt-1">
                   </i>
                   <div>
                      <h6 class="mb-1">
@@ -122,10 +121,10 @@ include './includes/header.php';
                      </p>
                   </div>
                </div>
-               <div
+               <!-- <div
                   class="flex gap-3 p-4 rounded-[10px] bg-[var(--bg-light)]">
                   <i
-                     class="ri-checkbox-circle-fill text-primary text-xl mt-1">
+                     class="ri-checkbox-circle-fill text-[var(--primary)] text-xl mt-1">
                   </i>
                   <div>
                      <h6 class="mb-1">
@@ -140,7 +139,7 @@ include './includes/header.php';
                <div
                   class="flex gap-3 p-4 rounded-[10px] bg-[var(--bg-light)]">
                   <i
-                     class="ri-checkbox-circle-fill text-primary text-xl mt-1">
+                     class="ri-checkbox-circle-fill text-[var(--primary)] text-xl mt-1">
                   </i>
                   <div>
                      <h6 class="mb-1">
@@ -150,7 +149,7 @@ include './includes/header.php';
                         Driving meaningful community outcomes.
                      </p>
                   </div>
-               </div>
+               </div> -->
             </div>
          </div>
       </div>
@@ -164,7 +163,7 @@ include './includes/header.php';
          class="max-w-3xl mx-auto text-center mb-12"
          data-aos="fade-up">
          <span
-            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-5">
+            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-[var(--primary)] text-sm font-medium mb-5">
             <i class="ri-folders-line"></i>
             Certification Categories
          </span>
@@ -184,7 +183,7 @@ include './includes/header.php';
             class="group bg-white rounded-[10px] p-8 border border-border hover:border-primary/20 hover:shadow-xl transition-all duration-500 hover:-translate-y-2"
             data-aos="fade-up">
             <div
-               class="w-16 h-16 rounded-[10px] bg-primary/10 text-primary flex items-center justify-center text-3xl mb-6 group-hover:bg-primary group-hover:text-white transition-all duration-500">
+               class="w-16 h-16 rounded-[10px] bg-primary/10 text-[var(--primary)] flex items-center justify-center text-3xl mb-6 group-hover:bg-[var(--primary)] group-hover:text-white transition-all duration-500">
                <i class="ri-team-line"></i>
             </div>
             <h4 class="mb-3">
@@ -201,7 +200,7 @@ include './includes/header.php';
             data-aos="fade-up"
             data-aos-delay="100">
             <div
-               class="w-16 h-16 rounded-[10px] bg-primary/10 text-primary flex items-center justify-center text-3xl mb-6 group-hover:bg-primary group-hover:text-white transition-all duration-500">
+               class="w-16 h-16 rounded-[10px] bg-primary/10 text-[var(--primary)] flex items-center justify-center text-3xl mb-6 group-hover:bg-[var(--primary)] group-hover:text-white transition-all duration-500">
                <i class="ri-award-line"></i>
             </div>
             <h4 class="mb-3">
@@ -218,7 +217,7 @@ include './includes/header.php';
             data-aos="fade-up"
             data-aos-delay="200">
             <div
-               class="w-16 h-16 rounded-[10px] bg-primary/10 text-primary flex items-center justify-center text-3xl mb-6 group-hover:bg-primary group-hover:text-white transition-all duration-500">
+               class="w-16 h-16 rounded-[10px] bg-primary/10 text-[var(--primary)] flex items-center justify-center text-3xl mb-6 group-hover:bg-[var(--primary)] group-hover:text-white transition-all duration-500">
                <i class="ri-shield-check-line"></i>
             </div>
             <h4 class="mb-3">
@@ -235,7 +234,7 @@ include './includes/header.php';
             data-aos="fade-up"
             data-aos-delay="300">
             <div
-               class="w-16 h-16 rounded-[10px] bg-primary/10 text-primary flex items-center justify-center text-3xl mb-6 group-hover:bg-primary group-hover:text-white transition-all duration-500">
+               class="w-16 h-16 rounded-[10px] bg-primary/10 text-[var(--primary)] flex items-center justify-center text-3xl mb-6 group-hover:bg-[var(--primary)] group-hover:text-white transition-all duration-500">
                <i class="ri-hand-heart-line"></i>
             </div>
             <h4 class="mb-3">
@@ -257,7 +256,7 @@ include './includes/header.php';
          class="max-w-3xl mx-auto text-center mb-14"
          data-aos="fade-up">
          <span
-            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-5">
+            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-[var(--primary)] text-sm font-medium mb-5">
             <i class="ri-award-line"></i>
             Certifications & Recognitions
          </span>
@@ -318,7 +317,7 @@ include './includes/header.php';
                <!-- Content -->
                <div class="p-6">
                   <span
-                     class="inline-flex px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-medium mb-4">
+                     class="inline-flex py-1 rounded-full bg-primary/10 text-[var(--primary)] text-xs font-medium mb-2">
                      Certification
                   </span>
                   <h4 class="mb-3">
@@ -335,7 +334,7 @@ include './includes/header.php';
                      transparency, and volunteer management practices.
                   </p>
                   <button
-                     class="view-certificate text-primary font-medium inline-flex items-center gap-2"
+                     class="view-certificate text-[var(--primary)] font-medium inline-flex items-center gap-2"
                      data-image="./assets/images/certifications/certificate-1.png"
                      data-title="Organizational Excellence Certification"
                      data-category="Certification"
@@ -370,7 +369,7 @@ include './includes/header.php';
          <!-- Close -->
          <button
             id="closeCertificateModal"
-            class="absolute top-5 right-5 z-20 w-10 h-10 rounded-[10px] bg-white shadow-md flex items-center justify-center">
+            class="absolute top-5 right-5 z-20 w-10 h-10 rounded-[10px] bg-white shadow-md flex items-center  hover:bg-[var(--primary)] hover:text-white justify-center">
             <i class="ri-close-line text-xl"></i>
          </button>
          <div class="grid lg:grid-cols-2">
@@ -386,7 +385,7 @@ include './includes/header.php';
             <div class="p-8 lg:p-10">
                <span
                   id="modalCategory"
-                  class="inline-flex px-3 py-1 rounded-full bg-primary/10 text-primary text-sm mb-4">
+                  class="inline-flex px-3 py-1 rounded-full bg-primary/10 text-[var(--primary)] text-sm mb-4">
                   Certification
                </span>
                <h3
@@ -399,7 +398,7 @@ include './includes/header.php';
                   class="text-muted leading-relaxed mb-8">
                   Certificate description.
                </p>
-               <div class="space-y-5 mb-8">
+               <div class="space-y-5">
                   <div>
                      <p class="text-sm text-muted mb-1">
                         Issued By
@@ -425,10 +424,10 @@ include './includes/header.php';
                      </h6>
                   </div>
                </div>
-               <div class="flex flex-wrap gap-4">
+               <!-- <div class="flex flex-wrap gap-4 hidden">
                   <a
                      id="modalPdf"
-                     href="#"
+                     href="./assets/pdf/sample.pdf"
                      download
                      class="btn-primary">
                      Download Certificate
@@ -438,7 +437,7 @@ include './includes/header.php';
                      class="px-6 py-3 border border-border rounded-[10px]">
                      Close
                   </button>
-               </div>
+               </div> -->
             </div>
          </div>
       </div>

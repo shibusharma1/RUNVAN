@@ -42,7 +42,7 @@ include './includes/header.php';
     <div class="container">
         <div class="section-title">
             <span
-                class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-[var(--primary)] text-sm font-medium mb-4">
+                class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-[var(--primary)] text-sm font-medium">
                 <i class="ri-briefcase-4-line"></i>
                 Open Positions
             </span>
@@ -53,7 +53,7 @@ include './includes/header.php';
                 Explore current opportunities available within RUNVAN.
             </p>
         </div>
-        <div class="space-y-6">
+        <div class="space-y-6 pt-0">
             <!-- Vacancy -->
             <div class="bg-white rounded-[10px] border border-[var(--border)] p-8 shadow-sm">
                 <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
@@ -78,7 +78,7 @@ include './includes/header.php';
                         </p>
                     </div>
                     <a href="#"
-                        class="btn btn-primary shrink-0">
+                        class="btn btn-primary shrink-0 self-center lg:self-auto">
                         Apply Now
                     </a>
                 </div>
@@ -107,7 +107,7 @@ include './includes/header.php';
                         </p>
                     </div>
                     <a href="#"
-                        class="btn btn-primary shrink-0">
+                        class="btn btn-primary shrink-0 self-center lg:self-auto">
                         Apply Now
                     </a>
                 </div>
@@ -218,7 +218,7 @@ include './includes/header.php';
                         class="w-full border border-[var(--border)] rounded-[10px] px-4 py-3">
                 </div>
                 <!-- Submit -->
-                <div class="mt-8">
+                <div class="mt-8 flex justify-center">
                     <button
                         type="submit"
                         class="btn btn-primary">
@@ -266,7 +266,7 @@ include './includes/header.php';
                 fair, and accessible.
             </p>
         </div>
-        <div class="grid md:grid-cols-3 gap-8">
+        <div class="grid md:grid-cols-3 gap-8 pt-0">
             <div class="bg-white rounded-[10px] p-8 text-center">
                 <div class="w-14 h-14 mx-auto rounded-full bg-primary/10 flex items-center justify-center mb-5">
                     <span class="font-semibold text-primary">01</span>

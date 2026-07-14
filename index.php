@@ -44,15 +44,15 @@ include './includes/header.php';
                <div class="swiper-wrapper">
                   <div class="swiper-slide">
                      <img src="assets/images/hero-1.png"
-                        class="w-full h-[600px] object-cover">
+                        class="w-full h-[520px] object-cover">
                   </div>
                   <div class="swiper-slide">
                      <img src="assets/images/hero-2.png"
-                        class="w-full h-[600px] object-cover">
+                        class="w-full h-[520px] object-cover">
                   </div>
                   <div class="swiper-slide">
                      <img src="assets/images/hero-3.png"
-                        class="w-full h-[600px] object-cover">
+                        class="w-full h-[520px] object-cover">
                   </div>
                </div>
             </div>
@@ -112,9 +112,9 @@ include './includes/header.php';
             <p class="text-muted mb-5">
                RUNVAN is a professional network of returned United Nations Volunteers dedicated to promoting volunteerism, leadership, community development, and sustainable social impact throughout Nepal.
             </p>
-            <p class="text-muted mb-8">
+            <!-- <p class="text-muted mb-8">
                The association brings together experienced professionals who have served internationally and nationally, leveraging their expertise to strengthen local communities, support development initiatives, and contribute to national progress.
-            </p>
+            </p> -->
             <!-- Highlights -->
             <div class="grid sm:grid-cols-2 gap-5 mb-8">
                <div class="card">
@@ -256,7 +256,7 @@ include './includes/header.php';
             <img
                src="./assets/images/program-main.png"
                alt=""
-               class="w-full h-full min-h-[350px] object-cover">
+               class="w-full h-[520px] min-h-[350px] object-cover">
             <div class="p-8 lg:p-12">
                <span
                   class="inline-block px-3 py-1 rounded-full bg-primary/10 text-[var(--primary)] text-sm font-medium mb-4">
@@ -265,18 +265,6 @@ include './includes/header.php';
                <h3 class="mb-4" style="  font-size: clamp(1.625rem, 2.8vw, 2.25rem) !important;line-height: 1.2;font-weight: 700 !important;">
                   Community Development & Volunteer Mobilization
                </h3>
-               <p class="text-muted mb-6">
-                  Through collaborative efforts and volunteer-driven
-                  initiatives, RUNVAN works closely with communities,
-                  institutions, and development partners to strengthen
-                  local capacity and promote sustainable social impact.
-               </p>
-               <p class="text-muted mb-6">
-                  Through collaborative efforts and volunteer-driven
-                  initiatives, RUNVAN works closely with communities,
-                  institutions, and development partners to strengthen
-                  local capacity and promote sustainable social impact.
-               </p>
                <p class="text-muted mb-6">
                   Through collaborative efforts and volunteer-driven
                   initiatives, RUNVAN works closely with communities,
@@ -314,10 +302,10 @@ include './includes/header.php';
                Promoting volunteer participation and strengthening
                networks of experienced professionals.
             </p>
-            <a href="./programs.php"
+            <!-- <a href="./programs.php"
                class="text-[var(--primary)] font-semibold">
                Learn More →
-            </a>
+            </a> -->
          </div>
          <!-- Card -->
          <div
@@ -335,10 +323,10 @@ include './includes/header.php';
                Training, mentoring, and knowledge sharing programs
                for communities and institutions.
             </p>
-            <a href="./programs.php"
+            <!-- <a href="./programs.php"
                class="text-[var(--primary)] font-semibold">
                Learn More →
-            </a>
+            </a> -->
          </div>
          <!-- Card -->
          <div
@@ -356,10 +344,10 @@ include './includes/header.php';
                Supporting initiatives that contribute to long-term
                social, economic, and environmental development.
             </p>
-            <a href="./programs.php"
+            <!-- <a href="./programs.php"
                class="text-[var(--primary)] font-semibold">
                Learn More →
-            </a>
+            </a> -->
          </div>
       </div>
    </div>
@@ -386,6 +374,7 @@ include './includes/header.php';
          data-aos="zoom-in">
       </div>
       <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+
          <!-- Team Member -->
          <div class="team-card card text-center"
             data-aos="fade-up">
@@ -405,11 +394,21 @@ include './includes/header.php';
                Former United Nations Volunteer with extensive experience
                in community development and leadership.
             </p>
-            <a href="./teams-details.php"
-               class="font-semibold text-[var(--primary)]">
+            <a
+               href="javascript:void(0)"
+               class="view-team-profile text-[var(--primary)] font-medium inline-flex items-center gap-2"
+               data-image="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500"
+               data-name="Mr. Ram Sharma"
+               data-position="President"
+               data-email="ramsharma@runvan.org"
+               data-linkedin="#"
+               data-description="Returned UN Volunteer with extensive experience in community development, leadership, and volunteer management.">
                View Profile
+               <i class="ri-arrow-right-line"></i>
             </a>
          </div>
+
+
          <!-- Team Member -->
          <div class="team-card card text-center"
             data-aos="fade-up"
@@ -453,10 +452,18 @@ include './includes/header.php';
             <p class="text-sm text-muted mb-5">
                Experienced development professional supporting strategic planning.
             </p>
-            <a href="./teams-details.php"
-               class="font-semibold text-[var(--primary)]">
-               View Profile
-            </a>
+           <a
+                     href="javascript:void(0)"
+                     class="view-team-profile text-[var(--primary)] font-medium inline-flex items-center gap-2"
+                     data-image="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500"
+                     data-name="Mr. Ram Sharma"
+                     data-position="President"
+                     data-email="ramsharma@runvan.org"
+                     data-linkedin="#"
+                     data-description="Returned UN Volunteer with extensive experience in community development, leadership, and volunteer management.">
+                  View Profile
+                  <i class="ri-arrow-right-line"></i>
+                  </a>
          </div>
          <!-- Team Member -->
          <div class="team-card card text-center"
@@ -477,17 +484,25 @@ include './includes/header.php';
             <p class="text-sm text-muted mb-5">
                Managing resources and ensuring transparency in organizational activities.
             </p>
-            <a href="./teams-details.php"
-               class="font-semibold text-[var(--primary)]">
-               View Profile
-            </a>
+            <a
+                     href="javascript:void(0)"
+                     class="view-team-profile text-[var(--primary)] font-medium inline-flex items-center gap-2"
+                     data-image="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500"
+                     data-name="Mr. Ram Sharma"
+                     data-position="President"
+                     data-email="ramsharma@runvan.org"
+                     data-linkedin="#"
+                     data-description="Returned UN Volunteer with extensive experience in community development, leadership, and volunteer management.">
+                  View Profile
+                  <i class="ri-arrow-right-line"></i>
+                  </a>
          </div>
       </div>
       <!-- CTA -->
       <div
          class="text-center mt-12"
          data-aos="fade-up">
-         <a href="./teams.php"
+         <a href="./general-teams.php"
             class="btn-outline">
             View Complete Team
             <i class="ri-arrow-right-line ml-2"></i>
@@ -582,7 +597,7 @@ include './includes/header.php';
    </div>
 </section>
 
-<section class="bg-white overflow-hidden">
+<section class="section-white overflow-hidden">
    <div class="container">
       <div class="section-title" data-aos="fade-up">
          <span
@@ -870,7 +885,7 @@ include './includes/header.php';
    </div>
 </section>
 
-<section class="section-light">
+<!-- <section class="section-light">
    <div class="container">
       <div class="section-title" data-aos="fade-up">
          <span
@@ -887,7 +902,6 @@ include './includes/header.php';
          </p>
       </div>
       <div class="grid lg:grid-cols-2 gap-8 mt-16">
-         <!-- Featured Post -->
          <div
             class="group bg-white rounded-[10px] overflow-hidden shadow-md hover:shadow-lg transition duration-300"
             data-aos="fade-right">
@@ -917,11 +931,9 @@ include './includes/header.php';
                </a>
             </div>
          </div>
-         <!-- Side Posts -->
          <div
             class="space-y-6"
             data-aos="fade-left">
-            <!-- Post -->
             <div
                class="bg-white rounded-[10px] shadow-md hover:shadow-lg transition duration-300 p-5 flex gap-5">
                <img
@@ -939,7 +951,6 @@ include './includes/header.php';
                   </a>
                </div>
             </div>
-            <!-- Post -->
             <div
                class="bg-white rounded-[10px] shadow-md hover:shadow-lg transition duration-300 p-5 flex gap-5">
                <img
@@ -957,7 +968,6 @@ include './includes/header.php';
                   </a>
                </div>
             </div>
-            <!-- Post -->
             <div
                class="bg-white rounded-[10px] shadow-md hover:shadow-lg transition duration-300 p-5 flex gap-5">
                <img
@@ -977,7 +987,6 @@ include './includes/header.php';
             </div>
          </div>
       </div>
-      <!-- CTA -->
       <div
          class="text-center mt-14"
          data-aos="fade-up">
@@ -987,9 +996,9 @@ include './includes/header.php';
          </a>
       </div>
    </div>
-</section>
+</section> -->
 
-<section class="bg-white overflow-hidden">
+<section class="section-white overflow-hidden">
    <div class="container">
       <div class="section-title" data-aos="fade-up">
          <span
@@ -1249,7 +1258,7 @@ include './includes/header.php';
    </div>
 </section> -->
 
-<section class="bg-white pt-0">
+<section class="section-white pt-0">
    <div class="container">
       <div
          class="relative overflow-hidden rounded-[10px] border border-[var(--border)] bg-[var(--bg-light)]">
@@ -1267,7 +1276,7 @@ include './includes/header.php';
                <!-- Content -->
                <div class="max-w-3xl">
                   <span
-                     class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-[var(--primary)] text-sm font-medium mb-5">
+                     class="inline-flex items-center gap-2 py-2 rounded-full bg-primary/10 text-[var(--primary)] text-sm font-medium mb-4">
                      <i class="ri-customer-service-2-line"></i>
                      Feedback & Accountability
                   </span>
@@ -1298,5 +1307,6 @@ include './includes/header.php';
 </section>
 
 <?php
+include './includes/general-team-modal.php';
 include './includes/footer.php';
 ?>

@@ -1,4 +1,5 @@
 </main>
+
 <footer class="bg-footer text-white overflow-hidden">
    <div class="border-b border-white/10">
       <div class="container">
@@ -72,32 +73,32 @@
             </h5>
             <ul class="footer-links">
                <li>
-                  <a href="/">
+                  <a href="./">
                      Home
                   </a>
                </li>
                <li>
-                  <a href="/about">
+                  <a href="./about.php">
                      About Us
                   </a>
                </li>
                <li>
-                  <a href="/programs">
+                  <a href="./programs.php">
                      Programs
                   </a>
                </li>
                <li>
-                  <a href="/publications">
+                  <a href="./publications.php">
                      Publications
                   </a>
                </li>
                <li>
-                  <a href="/gallery">
+                  <a href="./gallery.php">
                      Gallery
                   </a>
                </li>
                <li>
-                  <a href="/contact">
+                  <a href="./contact.php">
                      Contact
                   </a>
                </li>
@@ -213,9 +214,11 @@
       </div>
    </div>
 </footer>
+
 <?php
 include './includes/backtotop.php';
 ?>
+
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 <script src="./assets/js/scripts.js"></script>
@@ -232,6 +235,7 @@ include './includes/backtotop.php';
 <script src="./assets/js/certificates.js"></script>
 <script src="./assets/js/teams.js"></script>
 <script src="./assets/js/programs.js"></script>
+
 <script>
    AOS.init({
       offset: 80,
@@ -239,6 +243,6 @@ include './includes/backtotop.php';
       once: true
    });
 </script>
-</body>
 
+</body>
 </html>

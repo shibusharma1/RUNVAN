@@ -2,7 +2,7 @@
 include './includes/header.php';
 ?>
 
-<section class="relative overflow-hidden pt-40 pb-24">
+<section class="relative pt-40 pb-24 overflow-hidden">
    <div class="absolute inset-0 bg-gradient-to-r from-[var(--primary)] to-[var(--primary-dark)]"></div>
    <div
       class="absolute top-0 right-0 w-96 h-96 bg-white/5 rounded-full blur-3xl">
@@ -13,7 +13,7 @@ include './includes/header.php';
    <div class="container relative z-10">
       <div class="max-w-3xl">
          <div
-            class="flex items-center gap-2 text-white/70 text-sm mb-6"
+            class="flex items-center gap-2 text-white/70 text-sm mt-4 mb-6"
             data-aos="fade-up">
             <a href="./">
                Home
@@ -24,7 +24,7 @@ include './includes/header.php';
             </span>
          </div>
          <h1
-            class="text-white mb-6"
+            class="text-white mb-4"
             data-aos="fade-up"
             data-aos-delay="100">
             Programs & Activities
@@ -71,7 +71,7 @@ include './includes/header.php';
          </div>
          <div data-aos="fade-left">
             <span
-               class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-[var(--primary)] text-sm font-medium mb-4">
+               class="inline-flex items-center gap-2 py-2 rounded-full bg-primary/10 text-[var(--primary)] text-sm font-medium">
                <i class="ri-briefcase-line"></i>
                Programs Overview
             </span>

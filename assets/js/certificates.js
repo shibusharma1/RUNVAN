@@ -46,7 +46,7 @@ viewButtons.forEach((button) => {
     document.getElementById("modalDescription").textContent =
       button.dataset.description;
 
-    document.getElementById("modalPdf").href = button.dataset.pdf;
+    // document.getElementById("modalPdf").href = button.dataset.pdf;
 
     certificateModal.classList.remove("hidden");
 

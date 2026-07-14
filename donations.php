@@ -46,7 +46,7 @@ include './includes/header.php';
                 <!-- Content -->
                 <div class="p-8 lg:p-12 flex flex-col justify-center">
                     <span
-                        class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-5 w-fit">
+                        class="inline-flex items-center gap-2 py-2 rounded-full bg-primary/10 text-[var(--primary)] text-sm font-medium mb-2 w-fit">
                         <i class="ri-qr-code-line"></i>
                         Donate Now
                     </span>
@@ -93,7 +93,7 @@ include './includes/header.php';
     <div class="container">
         <div class="section-title">
             <span
-                class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4">
+                class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-[var(--primary)] text-sm font-medium mb-4">
                 <i class="ri-hand-heart-line"></i>
                 Transparency
             </span>

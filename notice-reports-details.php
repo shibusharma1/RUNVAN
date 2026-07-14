@@ -1,6 +1,6 @@
 <?php
-   include './includes/header.php';
-   ?>
+include './includes/header.php';
+?>
 
 <section class="relative pt-40 pb-24 bg-gradient-to-br from-[var(--primary)] to-[var(--primary-dark)] overflow-hidden">
    <div class="absolute inset-0 bg-black/10"></div>
@@ -12,18 +12,18 @@
             <a href="/">Home</a>
             <i class="ri-arrow-right-s-line"></i>
             <a href="/publications">
-            Notices
+               Notices
             </a>
             <i class="ri-arrow-right-s-line"></i>
             <span>
-            Volunteerism and Community Development Report
+               Volunteerism and Community Development Report
             </span>
          </nav>
          <span
             class="inline-flex items-center px-4 py-2 rounded-full bg-white/10 text-white text-sm mb-5"
             data-aos="fade-up"
             data-aos-delay="100">
-         Notices
+            Notices
          </span>
          <h1
             class="text-white mb-6"
@@ -62,11 +62,11 @@
                <div class="flex flex-wrap gap-3 mb-5">
                   <span
                      class="px-4 py-2 rounded-full bg-primary/10 text-[var(--primary)] text-sm">
-                  Notice
+                     Notice
                   </span>
                   <span
                      class="px-4 py-2 rounded-full bg-slate-100 text-sm">
-                  Governance
+                     Governance
                   </span>
                </div>
                <h2 class="mb-6">
@@ -87,7 +87,7 @@
             <div
                class="rounded-[10px] overflow-hidden border border-[var(--border)] mb-10">
                <img
-                  src="./assets/images/notice-banner.jpg"
+                  src="./assets/images/blog1.png"
                   class="w-full h-[450px] object-cover">
             </div>
             <!-- <iframe
@@ -98,7 +98,7 @@
                <div class="flex items-center gap-2 mb-8">
                   <span class="w-10 h-[2px] bg-[var(--primary)]"></span>
                   <span class="text-sm uppercase tracking-wider text-[var(--primary)] font-semibold">
-                  Official Notice
+                     Official Notice
                   </span>
                </div>
                <div class="content-area">
@@ -173,22 +173,22 @@
                      </p>
                      <div class="flex flex-wrap items-center gap-4 text-sm">
                         <span class="inline-flex items-center gap-2">
-                        <i class="ri-file-pdf-line text-[var(--primary)]"></i>
-                        PDF Document
+                           <i class="ri-file-pdf-line text-[var(--primary)]"></i>
+                           PDF Document
                         </span>
                         <span class="inline-flex items-center gap-2">
-                        <i class="ri-hard-drive-line text-[var(--primary)]"></i>
-                        1.8 MB
+                           <i class="ri-hard-drive-line text-[var(--primary)]"></i>
+                           1.8 MB
                         </span>
                         <span class="inline-flex items-center gap-2">
-                        <i class="ri-calendar-line text-[var(--primary)]"></i>
-                        Published July 2026
+                           <i class="ri-calendar-line text-[var(--primary)]"></i>
+                           Published July 2026
                         </span>
                      </div>
                   </div>
                   <a href="#" class="btn-primary">
-                  <i class="ri-download-line"></i>
-                  Download PDF
+                     <i class="ri-download-line"></i>
+                     Download PDF
                   </a>
                </div>
             </div>
@@ -219,6 +219,25 @@
                   </li>
                </ul>
             </div>
+
+            <div class="card mt-8">
+               <h4 class="flex items-center gap-2 mb-6">
+                  <i class="ri-share-line text-[var(--primary)]"></i>
+                  Share This Notice
+               </h4>
+               <div class="flex gap-3">
+                  <a href="#" class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
+                     <i class="ri-facebook-fill"></i>
+                  </a>
+                  <a href="#" class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
+                     <i class="ri-linkedin-fill"></i>
+                  </a>
+                  <a href="#" class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
+                     <i class="ri-twitter-x-line"></i>
+                  </a>
+               </div>
+            </div>
+
             <div class="card mt-8">
                <h4 class="flex items-center gap-2 mb-6">
                   <i class="ri-notification-3-line text-[var(--primary)]"></i>
@@ -229,7 +248,7 @@
                      class="block py-4 group">
                      <span
                         class="text-xs text-[var(--primary)] font-medium">
-                     08 Jul 2026
+                        08 Jul 2026
                      </span>
                      <h6
                         class="mt-2 group-hover:text-[var(--primary)] transition">
@@ -240,7 +259,7 @@
                      class="block py-4 group">
                      <span
                         class="text-xs text-[var(--primary)] font-medium">
-                     08 Jul 2026
+                        08 Jul 2026
                      </span>
                      <h6
                         class="mt-2 group-hover:text-[var(--primary)] transition">
@@ -251,7 +270,7 @@
                      class="block py-4 group">
                      <span
                         class="text-xs text-[var(--primary)] font-medium">
-                     08 Jul 2026
+                        08 Jul 2026
                      </span>
                      <h6
                         class="mt-2 group-hover:text-[var(--primary)] transition">
@@ -260,23 +279,7 @@
                   </a>
                </div>
             </div>
-            <div class="card mt-8">
-               <h4 class="flex items-center gap-2 mb-6">
-                  <i class="ri-share-line text-[var(--primary)]"></i>
-                  Share This Notice
-               </h4>
-               <div class="flex gap-3">
-                  <a href="#" class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
-                  <i class="ri-facebook-fill"></i>
-                  </a>
-                  <a href="#" class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
-                  <i class="ri-linkedin-fill"></i>
-                  </a>
-                  <a href="#" class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
-                  <i class="ri-twitter-x-line"></i>
-                  </a>
-               </div>
-            </div>
+
          </aside>
       </div>
    </div>
@@ -287,8 +290,8 @@
       <div class="text-center max-w-3xl mx-auto mb-12">
          <span
             class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-[var(--primary)] text-sm font-medium mb-4">
-         <i class="ri-links-line"></i>
-         Explore More
+            <i class="ri-links-line"></i>
+            Explore More
          </span>
          <h2>
             Related Notices & Updates
@@ -307,11 +310,11 @@
                <div class="flex items-center justify-between mb-5">
                   <span
                      class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-[var(--primary)] text-xs font-medium">
-                  <i class="ri-notification-3-line"></i>
-                  Notice
+                     <i class="ri-notification-3-line"></i>
+                     Notice
                   </span>
                   <span class="text-sm text-muted">
-                  10 Jul 2026
+                     10 Jul 2026
                   </span>
                </div>
                <h4 class="mb-4 group-hover:text-[var(--primary)] transition-colors">
@@ -324,12 +327,12 @@
                <div class="flex items-center justify-between">
                   <span
                      class="text-xs px-3 py-1 rounded-full bg-slate-100 text-muted">
-                  Governance
+                     Governance
                   </span>
                   <span
                      class="font-semibold text-[var(--primary)] inline-flex items-center gap-1">
-                  Read More
-                  <i class="ri-arrow-right-line"></i>
+                     Read More
+                     <i class="ri-arrow-right-line"></i>
                   </span>
                </div>
             </div>
@@ -341,11 +344,11 @@
                <div class="flex items-center justify-between mb-5">
                   <span
                      class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-[var(--primary)] text-xs font-medium">
-                  <i class="ri-notification-3-line"></i>
-                  Membership
+                     <i class="ri-notification-3-line"></i>
+                     Membership
                   </span>
                   <span class="text-sm text-muted">
-                  08 Jul 2026
+                     08 Jul 2026
                   </span>
                </div>
                <h4 class="mb-4 group-hover:text-[var(--primary)] transition-colors">
@@ -358,12 +361,12 @@
                <div class="flex items-center justify-between">
                   <span
                      class="text-xs px-3 py-1 rounded-full bg-slate-100 text-muted">
-                  Membership
+                     Membership
                   </span>
                   <span
                      class="font-semibold text-[var(--primary)] inline-flex items-center gap-1">
-                  Read More
-                  <i class="ri-arrow-right-line"></i>
+                     Read More
+                     <i class="ri-arrow-right-line"></i>
                   </span>
                </div>
             </div>
@@ -375,11 +378,11 @@
                <div class="flex items-center justify-between mb-5">
                   <span
                      class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-[var(--primary)] text-xs font-medium">
-                  <i class="ri-notification-3-line"></i>
-                  Event
+                     <i class="ri-notification-3-line"></i>
+                     Event
                   </span>
                   <span class="text-sm text-muted">
-                  05 Jul 2026
+                     05 Jul 2026
                   </span>
                </div>
                <h4 class="mb-4 group-hover:text-[var(--primary)] transition-colors">
@@ -392,12 +395,12 @@
                <div class="flex items-center justify-between">
                   <span
                      class="text-xs px-3 py-1 rounded-full bg-slate-100 text-muted">
-                  Volunteerism
+                     Volunteerism
                   </span>
                   <span
                      class="font-semibold text-[var(--primary)] inline-flex items-center gap-1">
-                  Read More
-                  <i class="ri-arrow-right-line"></i>
+                     Read More
+                     <i class="ri-arrow-right-line"></i>
                   </span>
                </div>
             </div>
@@ -407,5 +410,5 @@
 </section>
 
 <?php
-   include './includes/footer.php';
-   ?>
+include './includes/footer.php';
+?>

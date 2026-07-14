@@ -1,19 +1,37 @@
 <?php
 include './includes/header.php';
 ?>
-<section class="relative pt-40 pb-28 overflow-hidden">
+<section class="relative pt-40 pb-24 overflow-hidden">
    <div class="absolute inset-0 bg-gradient-to-r from-[var(--primary)] to-[var(--primary-dark)]"></div>
+   <div
+      class="absolute top-0 right-0 w-96 h-96 bg-white/5 rounded-full blur-3xl">
+   </div>
+   <div
+      class="absolute bottom-0 left-0 w-80 h-80 bg-white/5 rounded-full blur-3xl">
+   </div>
    <div class="container relative z-10">
-      <div class="max-w-3xl text-white">
-         <span
-            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 mb-6">
-            <i class="ri-information-line"></i>
+      <div class="max-w-3xl">
+         <div
+            class="flex items-center gap-2 text-white/70 text-sm mt-4 mb-6"
+            data-aos="fade-up">
+            <a href="./">
+               Home
+            </a>
+            <i class="ri-arrow-right-s-line"></i>
+            <span>
+               About
+            </span>
+         </div>
+         <h1
+            class="text-white mb-4"
+            data-aos="fade-up"
+            data-aos-delay="100">
             About RUNVAN
-         </span>
-         <h1 class="text-white mb-6">
-            Building Volunteer Leadership for Sustainable Development
          </h1>
-         <p class="text-white/80 text-lg">
+         <p
+            class="text-white/80 text-lg max-w-2xl"
+            data-aos="fade-up"
+            data-aos-delay="200">
             Strengthening communities through volunteerism, partnerships,
             and collective action.
          </p>
@@ -22,12 +40,11 @@ include './includes/header.php';
 </section>
 
 <!-- option 1 -->
-<section class="bg-white overflow-hidden">
+<!-- <section class="bg-white overflow-hidden">
    <div class="container">
 
       <div class="grid lg:grid-cols-2 gap-16 items-center">
 
-         <!-- Image -->
          <div data-aos="fade-right">
             <div class="relative">
 
@@ -48,7 +65,6 @@ include './includes/header.php';
             </div>
          </div>
 
-         <!-- Content -->
          <div data-aos="fade-left">
 
             <span
@@ -88,7 +104,7 @@ include './includes/header.php';
       </div>
 
    </div>
-</section>
+</section> -->
 
 <!-- Option 2 -->
 <section class="section-white overflow-hidden">
@@ -240,14 +256,10 @@ include './includes/header.php';
 </section>
 
 <!-- Option 3 -->
-<section class="bg-white overflow-hidden">
+<!-- <section class="bg-white overflow-hidden">
     <div class="container">
-
         <div class="grid lg:grid-cols-12 gap-12 items-center">
-
-            <!-- Left Content -->
             <div class="lg:col-span-7" data-aos="fade-right">
-
                 <span
                     class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-[var(--primary)] text-sm font-medium mb-4">
                     <i class="ri-history-line"></i>
@@ -285,11 +297,8 @@ include './includes/header.php';
 
             </div>
 
-            <!-- Right Highlights -->
             <div class="lg:col-span-5" data-aos="fade-left">
-
                 <div class="space-y-5">
-
                     <div class="bg-[var(--bg-light)] border border-[var(--border)] rounded-[10px] p-6">
                         <div class="flex gap-4">
                             <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
@@ -345,7 +354,7 @@ include './includes/header.php';
         </div>
 
     </div>
-</section>
+</section> -->
 
 <section class="section-light">
    <div class="container">
@@ -424,10 +433,10 @@ include './includes/header.php';
                   <i class="ri-check-line text-[var(--primary)] mt-1"></i>
                   Foster collaboration and partnerships.
                </li>
-               <li class="flex gap-3">
+               <!-- <li class="flex gap-3">
                   <i class="ri-check-line text-[var(--primary)] mt-1"></i>
                   Support sustainable development goals.
-               </li>
+               </li> -->
             </ul>
          </div>
       </div>
@@ -708,7 +717,7 @@ include './includes/header.php';
          <div
             class="text-center mt-12"
             data-aos="fade-up">
-            <a href="./teams.php"
+            <a href="./executive-teams.php"
                class="btn btn-primary">
                View Full Leadership Team
             </a>

@@ -1,6 +1,6 @@
 <?php
-include './includes/header.php';
-?>
+   include './includes/header.php';
+   ?>
 <section class="relative overflow-hidden pt-40 pb-28">
    <div class="absolute inset-0">
       <img
@@ -14,11 +14,11 @@ include './includes/header.php';
          class="flex items-center gap-2 text-white/70 text-sm mb-8"
          data-aos="fade-up">
          <a href="./" class="hover:text-white transition">
-            Home
+         Home
          </a>
          <i class="ri-arrow-right-s-line"></i>
          <span class="text-white">
-            Core Team
+         General Team
          </span>
       </nav>
       <div
@@ -27,8 +27,8 @@ include './includes/header.php';
          data-aos-delay="100">
          <span
             class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 text-white text-sm mb-6">
-            <i class="ri-team-line"></i>
-            Leadership & Governance
+         <i class="ri-team-line"></i>
+         Leadership & Governance
          </span>
          <h1 class="text-white mb-6">
             Meet Our Core Team
@@ -41,7 +41,6 @@ include './includes/header.php';
       </div>
    </div>
 </section>
-
 <!-- <section>
    <div class="container">
       <div class="grid lg:grid-cols-2 gap-16 items-center">
@@ -53,7 +52,7 @@ include './includes/header.php';
          </div>
          <div data-aos="fade-left">
             <span
-               class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-5">
+               class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-[var(--primary)] text-sm font-medium mb-5">
                <i class="ri-user-star-line"></i>
                Leadership Team
             </span>
@@ -72,25 +71,25 @@ include './includes/header.php';
             </p>
             <div class="grid sm:grid-cols-2 gap-4">
                <div class="flex gap-3">
-                  <i class="ri-check-line text-primary text-xl"></i>
+                  <i class="ri-check-line text-[var(--primary)] text-xl"></i>
                   <span>
                      Volunteer Leadership
                   </span>
                </div>
                <div class="flex gap-3">
-                  <i class="ri-check-line text-primary text-xl"></i>
+                  <i class="ri-check-line text-[var(--primary)] text-xl"></i>
                   <span>
                      Governance Excellence
                   </span>
                </div>
                <div class="flex gap-3">
-                  <i class="ri-check-line text-primary text-xl"></i>
+                  <i class="ri-check-line text-[var(--primary)] text-xl"></i>
                   <span>
                      Community Development
                   </span>
                </div>
                <div class="flex gap-3">
-                  <i class="ri-check-line text-primary text-xl"></i>
+                  <i class="ri-check-line text-[var(--primary)] text-xl"></i>
                   <span>
                      Strategic Partnerships
                   </span>
@@ -99,15 +98,14 @@ include './includes/header.php';
          </div>
       </div>
    </div>
-</section> -->
-
+   </section> -->
 <!-- <section class="bg-[var(--bg-light)]">
    <div class="container">
       <div
          class="max-w-3xl mx-auto text-center mb-12"
          data-aos="fade-up">
          <span
-            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-5">
+            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-[var(--primary)] text-sm font-medium mb-5">
             <i class="ri-profile-line"></i>
             Leadership Biographies
          </span>
@@ -131,7 +129,7 @@ include './includes/header.php';
             </div>
             <div class="p-6">
                <span
-                  class="inline-flex px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-medium mb-4">
+                  class="inline-flex px-3 py-1 rounded-full bg-primary/10 text-[var(--primary)] text-xs font-medium mb-4">
                   Former President
                </span>
                <h4 class="mb-2">
@@ -147,7 +145,7 @@ include './includes/header.php';
                </p>
                <a
                   href="biography-details.php"
-                  class="text-primary font-medium inline-flex items-center gap-2">
+                  class="text-[var(--primary)] font-medium inline-flex items-center gap-2">
                   Read Biography
                   <i class="ri-arrow-right-line"></i>
                </a>
@@ -161,17 +159,16 @@ include './includes/header.php';
          </a>
       </div>
    </div>
-</section> -->
-
+   </section> -->
 <section class="bg-[var(--bg-dark-light)]">
    <div class="container">
       <div
          class="max-w-3xl mx-auto text-center mb-14"
          data-aos="fade-up">
          <span
-            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-5">
-            <i class="ri-group-line"></i>
-            Core Team Members
+            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-[var(--primary)] text-sm font-medium mb-5">
+         <i class="ri-group-line"></i>
+         Core Team Members
          </span>
          <h2 class="mb-5">
             Leadership Team
@@ -194,7 +191,7 @@ include './includes/header.php';
                <h4 class="mb-2">
                   Mr. Ram Sharma
                </h4>
-               <p class="text-primary font-medium mb-4">
+               <p class="text-[var(--primary)] font-medium mb-4">
                   President
                </p>
                <p class="text-muted text-sm leading-relaxed mb-5">
@@ -203,110 +200,128 @@ include './includes/header.php';
                </p>
                <div class="flex items-center justify-between">
                   <div class="flex gap-3">
-                     <a href="#" class="text-muted hover:text-primary">
-                        <i class="ri-linkedin-line"></i>
+                     <a href="#" class="text-muted hover:text-[var(--primary)]">
+                     <i class="ri-linkedin-line"></i>
                      </a>
-                     <a href="#" class="text-muted hover:text-primary">
-                        <i class="ri-mail-line"></i>
+                     <a href="#" class="text-muted hover:text-[var(--primary)]">
+                     <i class="ri-mail-line"></i>
                      </a>
                   </div>
                   <!-- <a
                      href="team-detail.php"
-                     class="text-primary font-medium inline-flex items-center gap-2">
+                     class="text-[var(--primary)] font-medium inline-flex items-center gap-2">
                      View Profile
                      <i class="ri-arrow-right-line"></i>
-                  </a> -->
+                     </a> -->
                   <a
                      href="javascript:void(0)"
-                     class="view-team-profile text-primary font-medium inline-flex items-center gap-2"
+                     class="view-team-profile text-[var(--primary)] font-medium inline-flex items-center gap-2"
                      data-image="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500"
                      data-name="Mr. Ram Sharma"
                      data-position="President"
                      data-email="ramsharma@runvan.org"
                      data-linkedin="#"
                      data-description="Returned UN Volunteer with extensive experience in community development, leadership, and volunteer management.">
-                     View Profile
-                     <i class="ri-arrow-right-line"></i>
+                  View Profile
+                  <i class="ri-arrow-right-line"></i>
                   </a>
                </div>
             </div>
          </article>
-
       </div>
       <div class="text-center mt-12">
-         <a href="./teams.php" class="btn-primary inline-flex items-center gap-2">
-            View All Team Members
-            <i class="ri-arrow-right-line"></i>
+         <a href="./general-teams.php" class="btn-primary inline-flex items-center gap-2">
+         View All Team Members
+         <i class="ri-arrow-right-line"></i>
          </a>
       </div>
    </div>
 </section>
-
 <!-- model to view the team profile -->
-<div
+<!-- <div
    id="teamProfileModal"
    class="fixed inset-0 bg-black/60 z-[9999] hidden items-center justify-center p-4 transition-all duration-300">
-   <!-- <div
-      class="bg-white rounded-[10px] max-w-4xl w-full overflow-hidden relative transition-all duration-300"> -->
+   
    <div
-      class="bg-white rounded-[10px] max-w-4xl w-full max-h-[90vh] overflow-hidden relative transition-all duration-300">
-      <!-- Close -->
+      class="bg-white
+      rounded-[10px]
+      w-full
+      max-w-4xl
+  
+      overflow-y-auto
+      max-h-[calc(95vh-240px)]
+      lg:max-h-[90vh]
+      overflow-hidden
+      relative">
       <button
          id="closeTeamModal"
-         class="absolute top-3 right-3 lg:top-4 lg:right-4 w-10 h-10 rounded-full bg-white shadow-md flex items-center justify-center text-gray-500 hover:text-primary z-20">
-         <i class="ri-close-line"></i>
+         class="absolute top-3 right-3 sm:top-4 sm:right-4 w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-white shadow-md flex items-center justify-center text-gray-500 hover:bg-[var(--primary)] hover:text-white z-20">
+      <i class="ri-close-line"></i>
       </button>
-      <div class="grid lg:grid-cols-[350px_1fr] h-full max-h-[80vh]">
-         <!-- Image -->
+      <div class="grid
+         grid-cols-1
+         lg:grid-cols-[350px_1fr]
+         h-full">
          <div class="bg-[var(--bg-light)]">
             <img
                id="modalTeamImage"
                src=""
                alt=""
-               class="w-full h-full object-cover">
+               class="w-full
+               h-60
+               sm:h-72
+               md:h-80
+               lg:h-full
+               object-cover">
          </div>
-         <!-- Content -->
-         <div class="p-8 overflow-y-auto max-h-[90vh]">
+         <div class="p-5
+            sm:p-6
+            lg:p-8
+            overflow-y-auto">
             <span
                id="modalTeamPosition"
-               class="inline-flex py-1 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4">
+               class="inline-flex py-1 rounded-full bg-primary/10 text-[var(--primary)] text-sm font-medium mb-4">
             </span>
             <h3
                id="modalTeamName"
-               class="mb-4">
+               class="mb-3
+               text-2xl
+               sm:text-3xl">
             </h3>
             <p
                id="modalTeamDescription"
-               class="text-muted leading-relaxed mb-6">
+               class="text-muted
+               text-sm
+               sm:text-base
+               leading-relaxed
+               mb-5
+               sm:mb-6">
             </p>
-            <div class="space-y-4 mb-12">
+            <div class=" space-y-3
+               sm:space-y-4
+               mb-8
+               sm:mb-10">
                <div class="flex items-center gap-3">
-                  <i class="ri-mail-line text-primary"></i>
+                  <i class="ri-mail-line text-[var(--primary)]"></i>
                   <span id="modalTeamEmail"></span>
                </div>
                <div class="flex items-center gap-3">
-                  <i class="ri-linkedin-line text-primary"></i>
+                  <i class="ri-linkedin-line text-[var(--primary)]"></i>
                   <a
                      id="modalTeamLinkedin"
                      href="#"
                      target="_blank"
-                     class="text-primary">
-                     LinkedIn Profile
+                     class="text-[var(--primary)]">
+                  LinkedIn Profile
                   </a>
                </div>
             </div>
-            <!-- <a
-               id="modalTeamProfileLink"
-               href="#"
-               class="btn-primary inline-flex items-center gap-2">
-               View Detailed Profile
-               <i class="ri-arrow-right-line"></i>
-            </a> -->
+          
          </div>
       </div>
    </div>
-</div>
-
+</div> -->
 <?php
-include './includes/footer.php';
-?>
+   include './includes/general-team-modal.php';
+   include './includes/footer.php';
+   ?>

@@ -43,7 +43,7 @@ include './includes/header.php';
          </div>
          <div data-aos="fade-left">
             <span
-               class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-[var(--primary)] text-sm font-medium mb-5">
+               class="inline-flex items-center gap-2 py-2 rounded-full bg-primary/10 text-[var(--primary)] text-sm font-medium mb-4">
                <i class="ri-customer-service-2-line"></i>
                Get In Touch
             </span>
@@ -161,7 +161,7 @@ include './includes/header.php';
             class="flex flex-col justify-center"
             data-aos="fade-left">
             <span
-               class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-[var(--primary)] text-sm font-medium mb-5">
+               class="inline-flex items-center gap-2 py-2 rounded-full bg-primary/10 text-[var(--primary)] text-sm font-medium mb-5">
                <i class="ri-customer-service-2-line"></i>
                Get In Touch
             </span>
