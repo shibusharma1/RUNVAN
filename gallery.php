@@ -31,53 +31,6 @@ include './includes/header.php';
    </div>
 </section>
 
-<!-- <section>
-   <div class="container">
-      <div class="grid lg:grid-cols-2 gap-16 items-center">
-         <div data-aos="fade-right">
-            <img
-               src="assets/images/gallery-overview.jpg"
-               alt=""
-               class="w-full max-w-[500px] h-[350px] object-cover rounded-[10px]">
-         </div>
-         <div data-aos="fade-left">
-            <span
-               class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-[var(--primary)] text-sm font-medium mb-5">
-            <i class="ri-image-line"></i>
-            Visual Stories
-            </span>
-            <h2 class="mb-5">
-               Capturing Volunteerism in Action
-            </h2>
-            <p class="text-muted mb-6">
-               Through photographs, RUNVAN documents volunteer
-               engagement, community development initiatives,
-               knowledge sharing activities, and collaborative
-               efforts that contribute to positive social impact.
-            </p>
-            <ul class="space-y-4">
-               <li class="flex items-center gap-3">
-                  <i class="ri-check-line text-[var(--primary)]"></i>
-                  Volunteer Activities
-               </li>
-               <li class="flex items-center gap-3">
-                  <i class="ri-check-line text-[var(--primary)]"></i>
-                  Community Outreach Programs
-               </li>
-               <li class="flex items-center gap-3">
-                  <i class="ri-check-line text-[var(--primary)]"></i>
-                  Training & Workshops
-               </li>
-               <li class="flex items-center gap-3">
-                  <i class="ri-check-line text-[var(--primary)]"></i>
-                  Conferences & Events
-               </li>
-            </ul>
-         </div>
-      </div>
-   </div>
-</section> -->
-
 <section>
    <div class="container">
       <div
@@ -114,11 +67,11 @@ include './includes/header.php';
             data-category="volunteer">
 
             <a
-               href="assets/images/about-main.png"
+               href="assets/images/about-main.webp"
                class="gallery-popup relative block overflow-hidden rounded-[10px]">
 
                <img
-                  src="assets/images/about-main.png"
+                  src="assets/images/about-main.webp"
                   alt=""
                   class="w-full rounded-[10px] transition duration-700 group-hover:scale-105">
 

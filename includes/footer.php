@@ -34,7 +34,7 @@
          <!-- Column 1 -->
          <div class="lg:col-span-4">
             <a href="./" class="logo mb-6">
-               <img src="assets/images/logo.jpg" alt="RUNVAN">
+               <img src="assets/images/logo.avif" alt="RUNVAN">
                <div class="logo-text">
                   <span class="logo-title">RUNVAN</span>
                   <span class="logo-subtitle">Returned United Nations Volunteers Association, Nepal</span>
@@ -215,26 +215,16 @@
    </div>
 </footer>
 
-<?php
-include './includes/backtotop.php';
-?>
+<!-- Back to Top -->
+<button
+    id="scrollTop"
+    class="scroll-top">
+    <i class="ri-arrow-up-line"></i>
+</button>
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 <script src="./assets/js/scripts.js"></script>
-<script src="./assets/js/menu-toggle.js"></script>
-<script src="./assets/js/drop-down.js"></script>
-<script src="./assets/js/heroSwiper.js"></script>
-<script src="./assets/js/herotext-typewriter.js"></script>
-<script src="./assets/js/testimonialSwiper.js"></script>
-<script src="./assets/js/certificationSwiper.js"></script>
-<script src="./assets/js/publications.js"></script>
-<script src="./assets/js/gallery.js"></script>
-<script src="./assets/js/backtotop.js"></script>
-<script src="./assets/js/testimonial.js"></script>
-<script src="./assets/js/certificates.js"></script>
-<script src="./assets/js/teams.js"></script>
-<script src="./assets/js/programs.js"></script>
 
 <script>
    AOS.init({

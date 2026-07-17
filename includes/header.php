@@ -12,7 +12,7 @@
     <meta name="author"
         content="RUNVAN">
     <link rel="icon"
-        href="./assets/images/logo.jpg">
+        href="./assets/images/logo.avif">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
     <!-- Tailwind -->
@@ -31,15 +31,7 @@
         href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
     <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
     <link rel="stylesheet" href="./assets/css/app.css">
-    <link rel="stylesheet" href="./assets/css/teams.css">
-    <link rel="stylesheet" href="./assets/css/testimonial.css">
-    <link rel="stylesheet" href="./assets/css/publications.css">
-    <link rel="stylesheet" href="./assets/css/pagination.css">
-    <link rel="stylesheet" href="./assets/css/gallery.css">
-    <link rel="stylesheet" href="./assets/css/contact.css">
-    <link rel="stylesheet" href="./assets/css/backtotop.css">
-    <link rel="stylesheet" href="./assets/css/certificates.css">
-    <link rel="stylesheet" href="./assets/css/programs.css">
+    
     <style>
         body {
             font-family: "Inter", sans-serif;
@@ -56,7 +48,7 @@
         <div class="container nav-container">
             <!-- Logo -->
             <a href="./" class="logo">
-                <img src="assets/images/logo.jpg" alt="RUNVAN">
+                <img src="assets/images/logo.avif" alt="RUNVAN">
                 <div class="logo-text">
                     <span class="logo-title">RUNVAN</span>
                     <span class="logo-subtitle">Returned United Nations Volunteers Association, Nepal</span>

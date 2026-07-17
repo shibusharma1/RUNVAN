@@ -47,23 +47,9 @@ include './includes/header.php';
             class="relative"
             data-aos="fade-right">
             <img
-               src="./assets/images/certifications/overview.png"
+               src="./assets/images/certifications/overview.webp"
                alt="RUNVAN Certifications"
                class="rounded-[10px] shadow-lg w-full">
-            <!-- Floating Badge -->
-            <!-- <div
-               class="absolute -bottom-6 -right-6 bg-white rounded-[10px] shadow-xl p-5 max-w-[220px]">
-               <div
-                  class="w-12 h-12 rounded-[10px] bg-primary/10 flex items-center justify-center text-[var(--primary)] mb-2">
-                  <i class="text-[var(--primary)] ri-award-line text-xl"></i>
-               </div>
-               <h5 class="mb-2 hidden text-[var(--primary)] lg:block">
-                  Trusted Organization
-               </h5>
-               <p class="text-muted text-sm hidden lg:block">
-                  Recognized through certifications.
-               </p>
-            </div> -->
          </div>
          <!-- Content Side -->
          <div
@@ -83,12 +69,7 @@ include './includes/header.php';
                certifications, affiliations, and institutional
                partnerships.
             </p>
-            <!-- <p class="text-muted leading-relaxed mb-8">
-               These recognitions reflect our dedication to
-               transparency, accountability, collaboration, and
-               sustainable development while serving returned
-               United Nations Volunteers across Nepal.
-            </p> -->
+
             <!-- Highlights -->
             <div class="grid sm:grid-cols-2 gap-4">
                <div
@@ -121,35 +102,7 @@ include './includes/header.php';
                      </p>
                   </div>
                </div>
-               <!-- <div
-                  class="flex gap-3 p-4 rounded-[10px] bg-[var(--bg-light)]">
-                  <i
-                     class="ri-checkbox-circle-fill text-[var(--primary)] text-xl mt-1">
-                  </i>
-                  <div>
-                     <h6 class="mb-1">
-                        Strategic Partnerships
-                     </h6>
-                     <p class="text-sm text-muted">
-                        Collaborating with national and
-                        international institutions.
-                     </p>
-                  </div>
-               </div>
-               <div
-                  class="flex gap-3 p-4 rounded-[10px] bg-[var(--bg-light)]">
-                  <i
-                     class="ri-checkbox-circle-fill text-[var(--primary)] text-xl mt-1">
-                  </i>
-                  <div>
-                     <h6 class="mb-1">
-                        Sustainable Impact
-                     </h6>
-                     <p class="text-sm text-muted">
-                        Driving meaningful community outcomes.
-                     </p>
-                  </div>
-               </div> -->
+               
             </div>
          </div>
       </div>
@@ -310,7 +263,7 @@ include './includes/header.php';
                <!-- Image -->
                <div class="overflow-hidden">
                   <img
-                     src="./assets/images/certifications/certificate-1.png"
+                     src="./assets/images/certifications/certificate-1.webp"
                      alt=""
                      class="w-full h-64 object-cover transition duration-700 group-hover:scale-110">
                </div>
@@ -335,14 +288,14 @@ include './includes/header.php';
                   </p>
                   <button
                      class="view-certificate text-[var(--primary)] font-medium inline-flex items-center gap-2"
-                     data-image="./assets/images/certifications/certificate-1.png"
+                     data-image="./assets/images/certifications/certificate-1.webp"
                      data-title="Organizational Excellence Certification"
                      data-category="Certification"
                      data-issuer="Development Standards Council"
                      data-date="January 2026"
                      data-number="CERT-001"
                      data-description="Recognition of organizational governance, transparency, and volunteer management practices."
-                     data-pdf="./assets/images/certifications/certificate-1.png">
+                     data-pdf="./assets/images/certifications/certificate-1.webp">
                      View Certificate
                      <i class="ri-arrow-right-line"></i>
                   </button>
@@ -424,73 +377,12 @@ include './includes/header.php';
                      </h6>
                   </div>
                </div>
-               <!-- <div class="flex flex-wrap gap-4 hidden">
-                  <a
-                     id="modalPdf"
-                     href="./assets/pdf/sample.pdf"
-                     download
-                     class="btn-primary">
-                     Download Certificate
-                  </a>
-                  <button
-                     id="closeModalBtn"
-                     class="px-6 py-3 border border-border rounded-[10px]">
-                     Close
-                  </button>
-               </div> -->
+               
             </div>
          </div>
       </div>
    </div>
 </div>
-
-<!-- <section class="relative overflow-hidden">
-   <div
-      class="absolute inset-0 bg-gradient-to-r from-[var(--primary)] to-[var(--primary-dark)]">
-   </div>
-   <div
-      class="absolute top-0 left-0 w-72 h-72 border border-white/10 rounded-full -translate-x-1/2 -translate-y-1/2">
-   </div>
-   <div
-      class="absolute bottom-0 right-0 w-96 h-96 border border-white/10 rounded-full translate-x-1/3 translate-y-1/3">
-   </div>
-   <div class="container relative z-10">
-      <div
-         class="max-w-4xl mx-auto text-center"
-         data-aos="fade-up">
-         <span
-            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 text-white text-sm mb-6">
-            <i class="ri-award-line"></i>
-            Trusted • Recognized • Impact Driven
-         </span>
-         <h2 class="text-white mb-6">
-            Committed to Excellence and Sustainable Impact
-         </h2>
-         <p
-            class="text-white/80 text-lg leading-relaxed mb-10">
-            Through professional standards, strategic partnerships,
-            and continuous engagement with returned United Nations
-            Volunteers, RUNVAN remains dedicated to strengthening
-            volunteerism, leadership, and community development
-            across Nepal.
-         </p>
-         <div
-            class="flex flex-wrap justify-center gap-4">
-            <a
-               href="membership.php"
-               class="btn-light">
-               Become a Member
-            </a>
-            <a
-               href="contact.php"
-               class="px-6 py-3 border border-white/20 text-white rounded-[10px] hover:bg-white hover:text-[var(--primary)] transition-all duration-300">
-               Contact Us
-            </a>
-         </div>
-      </div>
-   </div>
-</section> -->
-
 <?php
 include './includes/footer.php';
 ?>

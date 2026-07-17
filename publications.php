@@ -39,65 +39,6 @@ include './includes/header.php';
    </div>
 </section>
 
-<!-- <section>
-   <div class="container">
-      <div class="grid lg:grid-cols-2 gap-16 items-center">
-         <div
-            class="relative"
-            data-aos="fade-right">
-            <img
-               src="assets/images/publications-overview.png"
-               alt="RUNVAN Publications"
-               class="w-full max-w-[500px] h-[350px] object-cover rounded-[10px]">
-            <div
-               class="absolute -bottom-6 -right-6 bg-white rounded-[10px] shadow-lg p-5">
-               <div class="text-3xl font-semibold text-[var(--primary)]">
-                  100+
-               </div>
-               <p class="text-muted text-sm">
-                  Publications & Resources
-               </p>
-            </div>
-         </div>
-         <div data-aos="fade-left">
-            <span
-               class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-[var(--primary)] text-sm font-medium mb-5">
-               <i class="ri-book-open-line"></i>
-               Knowledge Hub
-            </span>
-            <h2 class="mb-5">
-               Sharing Knowledge, Experience & Impact
-            </h2>
-            <p class="text-muted mb-6">
-               RUNVAN promotes learning and knowledge sharing through
-               publications, reports, case studies, news articles,
-               and volunteer experiences. These resources capture
-               achievements, lessons learned, and contributions toward
-               community development and volunteer engagement.
-            </p>
-            <ul class="space-y-4">
-               <li class="flex items-center gap-3">
-                  <i class="ri-check-line text-[var(--primary)]"></i>
-                  Annual Reports & Organizational Publications
-               </li>
-               <li class="flex items-center gap-3">
-                  <i class="ri-check-line text-[var(--primary)]"></i>
-                  Success Stories & Volunteer Experiences
-               </li>
-               <li class="flex items-center gap-3">
-                  <i class="ri-check-line text-[var(--primary)]"></i>
-                  Research & Knowledge Resources
-               </li>
-               <li class="flex items-center gap-3">
-                  <i class="ri-check-line text-[var(--primary)]"></i>
-                  News, Events & Organizational Updates
-               </li>
-            </ul>
-         </div>
-      </div>
-   </div>
-</section> -->
-
 <section>
    <div class="container">
       <div
@@ -144,7 +85,7 @@ include './includes/header.php';
             data-aos="fade-up">
             <div class="publication-image">
                <img
-                  src="./assets/images/publication-1.png"
+                  src="./assets/images/publication-1.webp"
                   alt="">
                <span class="publication-badge publication">
                   Publication
@@ -162,7 +103,7 @@ include './includes/header.php';
                   Insights and findings highlighting volunteer
                   contributions to sustainable development.
                </p>
-               <a href="./assets/images/publication-1.png" download>
+               <a href="./assets/images/publication-1.webp" download>
                   Download Publication
                   <i class="ri-download-line"></i>
                </a>
@@ -176,7 +117,7 @@ include './includes/header.php';
             data-aos-delay="100">
             <div class="publication-image">
                <img
-                  src="assets/images/blog1.png"
+                  src="assets/images/blog1.webp"
                   alt="">
                <span class="publication-badge news">
                   News

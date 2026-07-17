@@ -37,7 +37,7 @@ include './includes/header.php';
       <div class="grid lg:grid-cols-2 gap-4 items-center">
          <div data-aos="fade-right">
             <img
-               src="assets/images/contact-overview.png"
+               src="assets/images/contact-overview.webp"
                alt=""
                class="w-full max-w-[700px] h-[350px] object-cover rounded-[10px]">
          </div>

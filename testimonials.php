@@ -46,7 +46,7 @@
             class="relative"
             data-aos="fade-right">
             <img
-               src="assets/images/testimonial-overview.png"
+               src="assets/images/testimonial-overview.webp"
                alt="Testimonials"
                class="w-full max-w-[500px] h-[350px] object-cover rounded-[10px]">
             <!-- <div
@@ -237,7 +237,7 @@
             data-aos-delay="200">
             <div class="testimonial-top">
                <img
-                  src="./assets/images/logo.jpg"
+                  src="./assets/images/logo.avif"
                   alt="">
                <div>
                   <h5>
@@ -261,65 +261,6 @@
 <?php
    include './includes/pagination.php';
    ?>
-
-<!-- <section class="overflow-hidden" style="padding-top: 0 !important;">
-   <div class="container">
-      <div
-         class="relative rounded-[10px] overflow-hidden bg-gradient-to-r from-[var(--primary)] to-[var(--primary-dark)]">
-         <div class="absolute inset-0">
-            <div
-               class="absolute -top-20 -left-20 w-80 h-80 border border-white/10 rounded-full">
-            </div>
-            <div
-               class="absolute -bottom-32 -right-32 w-full max-w-[500px] h-[500px] border border-white/10 rounded-full">
-            </div>
-            <div
-               class="absolute top-1/2 left-1/2 w-[300px] h-[300px] border border-white/5 rounded-full -translate-x-1/2 -translate-y-1/2">
-            </div>
-         </div>
-         <div
-            class="relative z-10 px-8 md:px-16 py-16">
-            <div class="max-w-4xl mx-auto text-center">
-               <span
-                  data-aos="zoom-in"
-                  class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 text-white text-sm mb-6">
-               <i class="ri-chat-quote-line"></i>
-               Share Your Story
-               </span>
-               <h2
-                  class="text-white mb-6"
-                  data-aos="fade-up">
-                  Your Experience Can Inspire Others
-               </h2>
-               <p
-                  class="text-white/80 text-lg max-w-3xl mx-auto mb-10"
-                  data-aos="fade-up"
-                  data-aos-delay="100">
-                  Have you participated in RUNVAN programs,
-                  volunteer initiatives, workshops, conferences,
-                  or community development activities?
-                  Share your experience and help inspire future
-                  volunteers, partners, and changemakers.
-               </p>
-               <div
-                  class="flex flex-wrap justify-center gap-4"
-                  data-aos="fade-up"
-                  data-aos-delay="200">
-                  <button
-                     id="openTestimonialModal"
-                     class="px-7 py-3 rounded-[10px] bg-white text-primary font-medium hover:-translate-y-1 transition-all duration-300">
-                  Submit Testimonial
-                  </button>
-                  <a href="#"
-                     class="px-7 py-3 rounded-[10px] border border-white/20 text-white hover:bg-white/10 transition-all duration-300">
-                  Become a Member
-                  </a>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-</section> -->
 
 <!-- Testimonial Modal -->
 <div
@@ -354,7 +295,7 @@
                <div
                   class="relative mb-8">
                   <img
-                     src="assets/images/testimonial-overview.png"
+                     src="assets/images/testimonial-overview.webp"
                      alt=""
                      class="w-full h-[240px] object-cover rounded-[10px] shadow-lg">
                </div>

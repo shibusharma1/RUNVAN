@@ -48,7 +48,7 @@ include './includes/header.php';
             class="relative mx-auto lg:mx-0"
             data-aos="fade-right">
             <img
-               src="./assets/images/program-main.png"
+               src="./assets/images/program-main.webp"
                alt="Programs Overview"
                class="w-full max-w-[500px] h-[350px] object-cover rounded-[10px] shadow-md">
             <div
@@ -165,7 +165,7 @@ include './includes/header.php';
             data-aos="fade-up">
             <div class="overflow-hidden">
                <img
-                  src="./assets/images/program-main.png"
+                  src="./assets/images/program-main.webp"
                   alt=""
                   class="w-full h-[220px] object-cover group-hover:scale-105 transition duration-500">
             </div>
@@ -196,7 +196,7 @@ include './includes/header.php';
             data-aos-delay="100">
             <div class="overflow-hidden">
                <img
-                  src="./assets/images/blog1.png"
+                  src="./assets/images/blog1.webp"
                   alt="Community Outreach Campaign"
                   class="w-full h-[220px] object-cover group-hover:scale-105 transition duration-500">
             </div>
@@ -226,7 +226,7 @@ include './includes/header.php';
             data-aos-delay="200">
             <div class="overflow-hidden">
                <img
-                  src="./assets/images/blog-featured.png"
+                  src="./assets/images/blog-featured.webp"
                   alt="National Volunteer Gathering"
                   class="w-full h-[220px] object-cover group-hover:scale-105 transition duration-500">
             </div>

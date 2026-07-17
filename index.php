@@ -43,15 +43,15 @@ include './includes/header.php';
             <div class="swiper heroSwiper rounded-[20px] overflow-hidden shadow-2xl">
                <div class="swiper-wrapper">
                   <div class="swiper-slide">
-                     <img src="assets/images/hero-1.png"
+                     <img src="assets/images/hero-1.webp"
                         class="w-full h-[520px] object-cover">
                   </div>
                   <div class="swiper-slide">
-                     <img src="assets/images/hero-2.png"
+                     <img src="assets/images/hero-2.webp"
                         class="w-full h-[520px] object-cover">
                   </div>
                   <div class="swiper-slide">
-                     <img src="assets/images/hero-3.png"
+                     <img src="assets/images/hero-3.webp"
                         class="w-full h-[520px] object-cover">
                   </div>
                </div>
@@ -79,7 +79,7 @@ include './includes/header.php';
             class="relative"
             data-aos="fade-right">
             <img
-               src="./assets/images/about-main.png"
+               src="./assets/images/about-main.webp"
                alt="RUNVAN Activities"
                class="rounded-[10px] shadow-lg w-full h-[500px] object-cover">
             <!-- Floating Card -->
@@ -254,7 +254,7 @@ include './includes/header.php';
          data-aos="fade-up">
          <div class="grid lg:grid-cols-2">
             <img
-               src="./assets/images/program-main.png"
+               src="./assets/images/program-main.webp"
                alt=""
                class="w-full h-[520px] min-h-[350px] object-cover">
             <div class="p-8 lg:p-12">
@@ -688,14 +688,7 @@ include './includes/header.php';
                </div>
             </div>
          </div>
-         <!-- <div
-            class="grid grid-cols-2 md:grid-cols-4 gap-8 mt-16 items-center opacity-70">
-            <img src="./assets/images/logo.jpg" alt="" class="h-16 mx-auto grayscale hover:grayscale-0 transition duration-300">
-            <img src="./assets/images/logo.jpg" alt="" class="h-16 mx-auto grayscale hover:grayscale-0 transition duration-300">
-            <img src="./assets/images/logo.jpg" alt="" class="h-16 mx-auto grayscale hover:grayscale-0 transition duration-300">
-            <img src="./assets/images/logo.jpg" alt="" class="h-16 mx-auto grayscale hover:grayscale-0 transition duration-300">
-         </div>
-      </div> -->
+
       </div>
    </div>
 </section>
@@ -885,118 +878,6 @@ include './includes/header.php';
    </div>
 </section>
 
-<!-- <section class="section-light">
-   <div class="container">
-      <div class="section-title" data-aos="fade-up">
-         <span
-            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-50 text-[var(--primary)] text-sm font-semibold mb-4">
-            <i class="ri-newspaper-line"></i>
-            Publications & Updates
-         </span>
-         <h2>
-            Latest News & Publications
-         </h2>
-         <p>
-            Stay updated with our reports, success stories, events,
-            newsletters, and community initiatives.
-         </p>
-      </div>
-      <div class="grid lg:grid-cols-2 gap-8 mt-16">
-         <div
-            class="group bg-white rounded-[10px] overflow-hidden shadow-md hover:shadow-lg transition duration-300"
-            data-aos="fade-right">
-            <div class="overflow-hidden">
-               <img
-                  src="./assets/images/blog-featured.png"
-                  alt=""
-                  class="w-full h-[350px] object-cover group-hover:scale-105 transition duration-500">
-            </div>
-            <div class="p-8">
-               <span
-                  class="inline-block px-3 py-1 rounded-full bg-primary/10 text-[var(--primary)] text-sm font-medium mb-4">
-                  Annual Report
-               </span>
-               <h3 class="mb-4">
-                  RUNVAN Annual Impact Report 2025
-               </h3>
-               <p class="text-muted mb-6">
-                  Discover achievements, volunteer contributions,
-                  partnerships, and community impact highlights from the
-                  past year.
-               </p>
-               <a href="./publication-details.php"
-                  class="font-semibold text-[var(--primary)] inline-flex items-center gap-2">
-                  Read More
-                  <i class="ri-arrow-right-line"></i>
-               </a>
-            </div>
-         </div>
-         <div
-            class="space-y-6"
-            data-aos="fade-left">
-            <div
-               class="bg-white rounded-[10px] shadow-md hover:shadow-lg transition duration-300 p-5 flex gap-5">
-               <img
-                  src="./assets/images/blog1.png"
-                  class="w-28 h-28 rounded-lg object-cover">
-               <div>
-                  <span class="text-[var(--primary)] text-sm">
-                     Newsletter
-                  </span>
-                  <h5 class="mt-2 mb-2">
-                     Quarterly Volunteer Newsletter
-                  </h5>
-                  <a href="./publication-details.php" class="text-[var(--primary)] text-sm">
-                     Read Article →
-                  </a>
-               </div>
-            </div>
-            <div
-               class="bg-white rounded-[10px] shadow-md hover:shadow-lg transition duration-300 p-5 flex gap-5">
-               <img
-                  src="./assets/images/blog1.png"
-                  class="w-28 h-28 rounded-lg object-cover">
-               <div>
-                  <span class="text-[var(--primary)] text-sm">
-                     Event Update
-                  </span>
-                  <h5 class="mt-2 mb-2">
-                     National Volunteer Gathering
-                  </h5>
-                  <a href="./publication-details.php" class="text-[var(--primary)] text-sm">
-                     Read Article →
-                  </a>
-               </div>
-            </div>
-            <div
-               class="bg-white rounded-[10px] shadow-md hover:shadow-lg transition duration-300 p-5 flex gap-5">
-               <img
-                  src="./assets/images/blog1.png"
-                  class="w-28 h-28 rounded-lg object-cover">
-               <div>
-                  <span class="text-[var(--primary)] text-sm">
-                     Success Story
-                  </span>
-                  <h5 class="mt-2 mb-2">
-                     Empowering Communities Through Volunteerism
-                  </h5>
-                  <a href="./publication-details.php" class="text-[var(--primary)] text-sm">
-                     Read Article →
-                  </a>
-               </div>
-            </div>
-         </div>
-      </div>
-      <div
-         class="text-center mt-14"
-         data-aos="fade-up">
-         <a href="./publications.php"
-            class="btn btn-primary">
-            View All Publications
-         </a>
-      </div>
-   </div>
-</section> -->
 
 <section class="section-white overflow-hidden">
    <div class="container">
@@ -1020,10 +901,10 @@ include './includes/header.php';
             class="md:col-span-2 md:row-span-2 overflow-hidden rounded-[10px] group relative"
             data-aos="zoom-in">
             <a
-               href="./assets/images/program-main.png"
+               href="./assets/images/program-main.webp"
                class="gallery-popup block h-full">
                <img
-                  src="./assets/images/program-main.png"
+                  src="./assets/images/program-main.webp"
                   alt=""
                   class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
                <!-- Overlay -->
@@ -1057,10 +938,10 @@ include './includes/header.php';
             data-aos="zoom-in"
             data-aos-delay="100">
             <a
-               href="./assets/images/about-main.png"
+               href="./assets/images/about-main.webp"
                class="gallery-popup relative block overflow-hidden rounded-[10px]">
                <img
-                  src="./assets/images/about-main.png"
+                  src="./assets/images/about-main.webp"
                   alt="Community Outreach"
                   class="w-full h-64 object-cover transition duration-700 group-hover:scale-105">
 
@@ -1090,10 +971,10 @@ include './includes/header.php';
             data-aos="zoom-in"
             data-aos-delay="200">
             <a
-               href="./assets/images/blog-featured.png"
+               href="./assets/images/blog-featured.webp"
                class="gallery-popup relative block overflow-hidden rounded-[10px]">
                <img
-                  src="./assets/images/blog-featured.png"
+                  src="./assets/images/blog-featured.webp"
                   alt="Training Workshop"
                   class="w-full h-64 object-cover transition duration-700 group-hover:scale-105">
                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300">
@@ -1122,10 +1003,10 @@ include './includes/header.php';
             data-aos="zoom-in"
             data-aos-delay="300">
             <a
-               href="./assets/images/blog1.png"
+               href="./assets/images/blog1.webp"
                class="gallery-popup relative block overflow-hidden rounded-[10px]">
                <img
-                  src="./assets/images/blog1.png"
+                  src="./assets/images/blog1.webp"
                   alt="Leadership Program"
                   class="w-full h-64 object-cover transition duration-700 group-hover:scale-105">
                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300">
@@ -1154,10 +1035,10 @@ include './includes/header.php';
             data-aos="zoom-in"
             data-aos-delay="400">
             <a
-               href="./assets/images/hero-1.png"
+               href="./assets/images/hero-1.webp"
                class="gallery-popup relative block overflow-hidden rounded-[10px]">
                <img
-                  src="./assets/images/hero-1.png"
+                  src="./assets/images/hero-1.webp"
                   alt="National Event"
                   class="w-full h-64 object-cover transition duration-700 group-hover:scale-105">
 
@@ -1192,71 +1073,6 @@ include './includes/header.php';
       </div>
    </div>
 </section>
-<!-- <section class="relative overflow-hidden">
-   <div
-      class="absolute inset-0 bg-gradient-to-r from-[var(--primary)] to-[var(--secondary)]">
-   </div>
-   <div
-      class="absolute -top-20 -left-20 w-72 h-72 bg-white/10 rounded-full blur-3xl">
-   </div>
-   <div
-      class="absolute -bottom-20 -right-20 w-72 h-72 bg-white/10 rounded-full blur-3xl">
-   </div>
-   <div class="container relative z-10">
-      <div
-         class="max-w-4xl mx-auto text-center text-white"
-         data-aos="zoom-in">
-         <span
-            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/15 text-white text-sm font-medium mb-6">
-            <i class="ri-heart-line"></i>
-            Join Our Mission
-         </span>
-         <h2 class="text-white mb-6">
-            Together We Can Create Lasting Change
-         </h2>
-         <p
-            class="text-white/80 text-lg leading-relaxed max-w-3xl mx-auto mb-10">
-            Become part of a growing network of returned UN volunteers,
-            development professionals, and change-makers committed to
-            strengthening communities across Nepal.
-         </p>
-         <div
-            class="flex flex-wrap justify-center gap-4">
-            <a href="#"
-               class="bg-white text-[var(--primary)] px-8 py-4 rounded-[10px] font-semibold hover:-translate-y-1 transition-all duration-300">
-               Become a Member
-            </a>
-            <a href="#"
-               class="border border-white/30 text-white px-8 py-4 rounded-[10px] font-semibold hover:bg-white/10 transition-all duration-300">
-               Partner With Us
-            </a>
-            <a href="./contact.php"
-               class="border border-white/30 text-white px-8 py-4 rounded-[10px] font-semibold hover:bg-white/10 transition-all duration-300">
-               Contact Us
-            </a>
-         </div>
-         <div
-            class="grid grid-cols-2 md:grid-cols-4 gap-8 mt-16 text-center">
-            <div>
-               <h3 class="text-white">500+</h3>
-               <p class="text-white/70">Volunteers</p>
-            </div>
-            <div>
-               <h3 class="text-white">120+</h3>
-               <p class="text-white/70">Programs</p>
-            </div>
-            <div>
-               <h3 class="text-white">50+</h3>
-               <p class="text-white/70">Partners</p>
-            </div>
-            <div>
-               <h3 class="text-white">25+</h3>
-               <p class="text-white/70">Districts</p>
-            </div>
-         </div>
-      </div>
-   </div>
-</section> -->
 
 <section class="section-white pt-0">
    <div class="container">

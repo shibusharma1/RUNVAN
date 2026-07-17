@@ -56,7 +56,7 @@ include './includes/header.php';
             class="bg-white rounded-[10px] border border-[var(--border)] overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
             <div class="h-44 flex items-center justify-center p-8 border-b border-[var(--border)]">
                <img
-                  src="./assets/images/partners/unv.jpg"
+                  src="./assets/images/partners/unv.webp"
                   alt="UN Volunteers"
                   class="max-h-24 object-contain">
             </div>
@@ -75,7 +75,7 @@ include './includes/header.php';
             class="bg-white rounded-[10px] border border-[var(--border)] overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
             <div class="h-44 flex items-center justify-center p-8 border-b border-[var(--border)]">
                <img
-                  src="./assets/images/partners/undp.jpg"
+                  src="./assets/images/partners/undp.webp"
                   alt="UNDP"
                   class="max-h-24 object-contain">
             </div>
@@ -94,7 +94,7 @@ include './includes/header.php';
             class="bg-white rounded-[10px] border border-[var(--border)] overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
             <div class="h-44 flex items-center justify-center p-8 border-b border-[var(--border)]">
                <img
-                  src="./assets/images/partners/ngo.png"
+                  src="./assets/images/partners/ngo.webp"
                   alt="Partner Organization"
                   class="max-h-24 object-contain">
             </div>

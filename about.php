@@ -49,7 +49,7 @@ include './includes/header.php';
             <div class="relative">
 
                <img
-                  src="./assets/images/about-main.png"
+                  src="./assets/images/about-main.webp"
                   alt="RUNVAN History"
                   class="w-full rounded-[10px] object-cover shadow-lg">
 

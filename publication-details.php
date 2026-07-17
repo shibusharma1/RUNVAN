@@ -58,7 +58,7 @@ include './includes/header.php';
          class="max-w-5xl mx-auto"
          data-aos="zoom-in">
          <img
-            src="assets/images/blog-featured.png"
+            src="assets/images/blog-featured.webp"
             alt=""
             class="w-full h-[500px] object-cover rounded-[10px] shadow-lg">
       </div>
@@ -177,7 +177,7 @@ include './includes/header.php';
             data-aos="fade-up">
             <div class="publication-image">
                <img
-                  src="assets/images/publication-1.png"
+                  src="assets/images/publication-1.webp"
                   alt="">
                <span class="publication-badge publication">
                   Publication
@@ -209,7 +209,7 @@ include './includes/header.php';
             data-aos-delay="100">
             <div class="publication-image">
                <img
-                  src="assets/images/blog1.png"
+                  src="assets/images/blog1.webp"
                   alt="">
                <span class="publication-badge news">
                   News

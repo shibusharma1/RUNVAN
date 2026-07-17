@@ -233,49 +233,6 @@
    </div>
 </section>
 
-<!-- <section class="pt-0">
-   <div class="container">
-      <div
-         class="relative overflow-hidden rounded-[10px] bg-gradient-to-r from-[var(--primary)] to-[var(--primary-dark)] p-10 md:p-16">
-         <div
-            class="absolute -top-16 -right-16 w-48 h-48 bg-white/10 rounded-full">
-         </div>
-         <div
-            class="absolute -bottom-16 -left-16 w-48 h-48 bg-white/10 rounded-full">
-         </div>
-         <div
-            class="relative z-10 flex flex-col lg:flex-row items-center justify-between gap-8">
-            <div
-               class="max-w-2xl"
-               data-aos="fade-right">
-               <span
-                  class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 text-white text-sm mb-4">
-               <i class="ri-heart-line"></i>
-               Inspired by Their Journey?
-               </span>
-               <h2 class="text-white mb-4">
-                  Be Part of a Network Creating Positive Change
-               </h2>
-               <p class="text-white/80">
-                  Join a growing network of returned United Nations Volunteers and development professionals committed to creating positive change.
-               </p>
-            </div>
-            <div
-               class="flex flex-wrap gap-4"
-               data-aos="fade-left">
-               <a href="#"
-                  class="bg-white text-[var(--primary)] px-7 py-4 rounded-[10px] font-semibold hover:-translate-y-1 transition-all duration-300">
-               Become a Member
-               </a>
-               <a href="contact.html"
-                  class="border border-white/20 text-white px-7 py-4 rounded-[10px] font-semibold hover:bg-white/10 transition-all duration-300">
-               Contact Us
-               </a>
-            </div>
-         </div>
-      </div>
-   </div>
-</section> -->
 <?php
    include './includes/footer.php';
    ?>

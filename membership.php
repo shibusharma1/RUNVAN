@@ -1,6 +1,7 @@
 <?php
 include './includes/header.php';
 ?>
+
 <section class="relative pt-40 pb-24 overflow-hidden bg-gradient-to-br from-[var(--primary)] to-[var(--primary-dark)]">
     <!-- Background Effects -->
     <div class="absolute inset-0 bg-black/10"></div>
@@ -216,42 +217,6 @@ include './includes/header.php';
 
     </div>
 </section>
-
-<!-- <section>
-    <div class="container">
-
-        <div
-            class="relative overflow-hidden rounded-[10px] bg-gradient-to-r from-[var(--primary)] to-[var(--primary-dark)] p-10 md:p-14">
-
-            <div class="relative z-10 text-center max-w-3xl mx-auto">
-
-                <span
-                    class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 text-white text-sm mb-4">
-                    <i class="ri-user-add-line"></i>
-                    Join RUNVAN
-                </span>
-
-                <h2 class="text-white mb-4">
-                    Ready to Become a Member?
-                </h2>
-
-                <p class="text-white/80 mb-8">
-                    Join a growing network of volunteers and professionals working
-                    together to create positive and sustainable change.
-                </p>
-
-                <a
-                    href="./contact.php"
-                    class="btn btn-light">
-                    Apply for Membership
-                </a>
-
-            </div>
-
-        </div>
-
-    </div>
-</section> -->
 
 <?php
 include './includes/footer.php';

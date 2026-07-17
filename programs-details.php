@@ -40,7 +40,7 @@
       <div class="grid lg:grid-cols-2 gap-16 items-center">
          <div data-aos="fade-right">
             <img
-               src="./assets/images/program-main.png"
+               src="./assets/images/program-main.webp"
                alt=""
                class="w-full max-w-[550px] h-[400px] object-cover rounded-[10px] shadow-md">
          </div>
@@ -115,16 +115,16 @@
       </div>
       <div class="grid md:grid-cols-2 gap-6 mt-14">
          <img
-            src="./assets/images/blog-featured.png"
+            src="./assets/images/blog-featured.webp"
             class="w-full h-[250px] object-cover rounded-[10px]">
          <img
-            src="./assets/images/blog1.png"
+            src="./assets/images/blog1.webp"
             class="w-full h-[250px] object-cover rounded-[10px]">
          <img
-            src="./assets/images/hero-2.png"
+            src="./assets/images/hero-2.webp"
             class="w-full h-[250px] object-cover rounded-[10px]">
          <img
-            src="./assets/images/program-main.png"
+            src="./assets/images/program-main.webp"
             class="w-full h-[250px] object-cover rounded-[10px]">
       </div>
    </div>
@@ -164,7 +164,7 @@
             data-aos="fade-up">
             <div class="relative overflow-hidden">
                <img
-                  src="./assets/images/program-main.png"
+                  src="./assets/images/program-main.webp"
                   alt=""
                   class="w-full h-[220px] object-cover group-hover:scale-110 transition duration-700">
                <span
@@ -194,7 +194,7 @@
             data-aos-delay="100">
             <div class="relative overflow-hidden">
                <img
-                  src="./assets/images/blog-featured.png"
+                  src="./assets/images/blog-featured.webp"
                   alt=""
                   class="w-full h-[220px] object-cover group-hover:scale-110 transition duration-700">
                <span
@@ -224,7 +224,7 @@
             data-aos-delay="200">
             <div class="relative overflow-hidden">
                <img
-                  src="./assets/images/blog1.png"
+                  src="./assets/images/blog1.webp"
                   alt=""
                   class="w-full h-[220px] object-cover group-hover:scale-110 transition duration-700">
                <span
@@ -251,62 +251,6 @@
    </div>
 </section>
 
-<!-- <section class="py-20 overflow-hidden">
-   <div class="container">
-      <div
-         class="relative overflow-hidden rounded-[10px] bg-[var(--primary)] text-white">
-         <div
-            class="absolute inset-0 opacity-10">
-            <div
-               class="absolute -top-20 -left-20 w-72 h-72 border border-white rounded-full">
-            </div>
-            <div
-               class="absolute -bottom-24 -right-24 w-96 h-96 border border-white rounded-full">
-            </div>
-         </div>
-         <div
-            class="relative z-10 px-8 md:px-16 py-14">
-            <div
-               class="max-w-4xl mx-auto text-center">
-               <span
-                  data-aos="zoom-in"
-                  class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 text-sm mb-6">
-               <i class="ri-hand-heart-line"></i>
-               Get Involved
-               </span>
-               <h2
-                  data-aos="fade-up"
-                  class="text-white mb-5">
-                  Contribute Your Skills and Experience for Positive Change
-               </h2>
-               <p
-                  data-aos="fade-up"
-                  data-aos-delay="100"
-                  class="text-white/80 max-w-2xl mx-auto mb-8">
-                  Join RUNVAN’s network of returned United Nations
-                  Volunteers and development professionals working
-                  together to strengthen communities, promote
-                  volunteerism, and support sustainable development
-                  initiatives across Nepal.
-               </p>
-               <div
-                  data-aos="fade-up"
-                  data-aos-delay="200"
-                  class="flex flex-wrap justify-center gap-4">
-                  <a href="#"
-                     class="px-7 py-3 rounded-[10px] bg-white text-[var(--primary)] font-medium hover:-translate-y-1 transition-all duration-300">
-                  Become a Member
-                  </a>
-                  <a href="./contact.php"
-                     class="px-7 py-3 rounded-[10px] border border-white/30 hover:bg-white/10 transition-all duration-300">
-                  Contact Us
-                  </a>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-</section> -->
 <?php
    include './includes/footer.php';
    ?>

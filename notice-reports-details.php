@@ -87,7 +87,7 @@ include './includes/header.php';
             <div
                class="rounded-[10px] overflow-hidden border border-[var(--border)] mb-10">
                <img
-                  src="./assets/images/blog1.png"
+                  src="./assets/images/blog1.webp"
                   class="w-full h-[450px] object-cover">
             </div>
             <!-- <iframe

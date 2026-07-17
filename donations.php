@@ -79,7 +79,7 @@ include './includes/header.php';
                     <div
                         class="bg-white p-6 rounded-[10px] shadow-sm border border-[var(--border)]">
                         <img
-                            src="./assets/images/qr.png"
+                            src="./assets/images/qr.webp"
                             alt="Donation QR"
                             class="w-64 h-64 object-contain">
                     </div>
