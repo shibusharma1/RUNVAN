@@ -4,13 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RUNVAN</title>
-    <meta name="description"
-        content="Experience luxury beauty treatments, hair styling, skin care, spa therapies and bridal services at RUNVAN.">
-    <meta name="keywords"
-        content="Beauty Salon, Spa, Hair Styling, Bridal Makeup, Skin Care">
-    <meta name="author"
-        content="RUNVAN">
+    <title>RUNVAN Nepal | Returned United Nations Volunteers Association Nepal</title>
+    <meta name="description" content="RUNVAN Nepal is a professional network of Returned United Nations Volunteers promoting volunteerism, leadership, community development, sustainable initiatives, training, and social impact across Nepal.">
+    <meta name="keywords" content="RUNVAN Nepal, Returned United Nations Volunteers Association Nepal, volunteerism Nepal, United Nations Volunteers, UN Volunteers Nepal, community development Nepal, sustainable development, leadership, volunteer network, social impact, NGO Nepal, nonprofit Nepal, capacity building, volunteer engagement, community empowerment">
+    <meta property="og:title" content="RUNVAN Nepal | Returned United Nations Volunteers Association Nepal">
+    <meta property="og:description" content="Discover RUNVAN Nepal, a network of Returned United Nations Volunteers dedicated to promoting volunteerism, leadership, community development, and sustainable social impact throughout Nepal.">
+    <meta property="og:type" content="website">
     <link rel="icon"
         href="./assets/images/logo.avif">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,7 +30,7 @@
         href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
     <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
     <link rel="stylesheet" href="./assets/css/app.css">
-    
+
     <style>
         body {
             font-family: "Inter", sans-serif;
@@ -162,7 +161,7 @@
                 <span></span>
             </button>
         </div>
-        
+
         <!-- Mobile Menu -->
         <div class="mobile-menu text-center" id="mobileMenu">
             <a href="./" class="mobile-link">Home</a>
