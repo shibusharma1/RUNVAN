@@ -38,25 +38,25 @@
             ]
         }
     </script> -->
-    <link rel="icon"
+    <link rel="preload" rel="icon"
         href="./assets/images/logo.avif">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preload" rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
     <!-- Tailwind -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script rel="preload" src="https://cdn.tailwindcss.com"></script>
     <!-- Swiper -->
-    <link rel="stylesheet"
+    <link rel="preload" rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <!-- AOS -->
-    <link rel="stylesheet"
+    <link rel="preload" rel="stylesheet"
         href="https://unpkg.com/aos@2.3.4/dist/aos.css">
     <!-- Remix Icons -->
-    <link rel="stylesheet"
+    <link rel="preload" rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css">
-    <link
+    <link rel="preload"
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+    <script rel="preload" src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
     <link rel="stylesheet" href="./assets/css/app.css">
 
     <style>

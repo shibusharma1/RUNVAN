@@ -222,9 +222,9 @@
     <i class="ri-arrow-up-line"></i>
 </button>
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-<script src="./assets/js/scripts.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js" defer></script>
+<script src="./assets/js/scripts.js" defer></script>
 
 <script>
    AOS.init({
