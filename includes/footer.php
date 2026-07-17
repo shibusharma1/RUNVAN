@@ -226,13 +226,5 @@
 <script src="https://unpkg.com/aos@2.3.4/dist/aos.js" defer></script>
 <script src="./assets/js/scripts.js" defer></script>
 
-<script>
-   AOS.init({
-      offset: 80,
-      duration: 700,
-      once: true
-   });
-</script>
-
 </body>
 </html>

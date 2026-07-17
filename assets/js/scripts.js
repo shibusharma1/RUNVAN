@@ -1,3 +1,11 @@
+document.addEventListener('DOMContentLoaded', function () {
+    AOS.init({
+        offset: 80,
+        duration: 700,
+        once: true
+    });
+});
+
 //Back To Top
 function initBackToTop() {
   const scrollTopBtn = document.getElementById("scrollTop");
