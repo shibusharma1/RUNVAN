@@ -39,73 +39,6 @@ include './includes/header.php';
    </div>
 </section>
 
-<!-- option 1 -->
-<!-- <section class="bg-white overflow-hidden">
-   <div class="container">
-
-      <div class="grid lg:grid-cols-2 gap-16 items-center">
-
-         <div data-aos="fade-right">
-            <div class="relative">
-
-               <img
-                  src="./assets/images/about-main.webp"
-                  alt="RUNVAN History"
-                  class="w-full rounded-[10px] object-cover shadow-lg">
-
-               <div class="absolute -bottom-6 -right-6 bg-white rounded-[10px] shadow-lg p-6 hidden md:block">
-                  <h3 class="text-[var(--primary)] mb-1">
-                     20+
-                  </h3>
-                  <p class="text-sm text-muted">
-                     Years of Volunteer Leadership
-                  </p>
-               </div>
-
-            </div>
-         </div>
-
-         <div data-aos="fade-left">
-
-            <span
-               class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-[var(--primary)] text-sm font-medium mb-5">
-               <i class="ri-history-line"></i>
-               Our History
-            </span>
-
-            <h2 class="mb-6">
-               A Legacy of Service, Leadership & Volunteerism
-            </h2>
-
-            <p class="text-muted mb-5 leading-relaxed">
-               Returned United Nations Volunteers Association Nepal (RUNVAN)
-               was established by former United Nations Volunteers with a
-               shared commitment to continue serving communities beyond
-               their international assignments.
-            </p>
-
-            <p class="text-muted mb-5 leading-relaxed">
-               Drawing upon diverse experiences gained through volunteer
-               service across different countries and development sectors,
-               RUNVAN was formed as a platform to promote volunteerism,
-               leadership, knowledge sharing, and sustainable development
-               initiatives throughout Nepal.
-            </p>
-
-            <p class="text-muted leading-relaxed">
-               Over the years, RUNVAN has expanded its network of dedicated
-               professionals and volunteers, strengthening partnerships with
-               communities, government agencies, development organizations,
-               and civil society to create meaningful and lasting impact.
-            </p>
-
-         </div>
-
-      </div>
-
-   </div>
-</section> -->
-
 <!-- Option 2 -->
 <section class="section-white overflow-hidden">
    <div class="container">
@@ -254,107 +187,6 @@ include './includes/header.php';
 
    </div>
 </section>
-
-<!-- Option 3 -->
-<!-- <section class="bg-white overflow-hidden">
-    <div class="container">
-        <div class="grid lg:grid-cols-12 gap-12 items-center">
-            <div class="lg:col-span-7" data-aos="fade-right">
-                <span
-                    class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-[var(--primary)] text-sm font-medium mb-4">
-                    <i class="ri-history-line"></i>
-                    Our History
-                </span>
-
-                <h2 class="mb-6">
-                    A Network Built on Service, Experience, and Commitment
-                </h2>
-
-                <div class="space-y-5 text-muted">
-
-                    <p>
-                        Returned United Nations Volunteers Association Nepal (RUNVAN)
-                        was founded by former United Nations Volunteers who shared
-                        a common commitment to continue serving communities after
-                        completing their international assignments.
-                    </p>
-
-                    <p>
-                        Recognizing the value of volunteer expertise, leadership,
-                        and cross-cultural experience, RUNVAN was established as a
-                        platform to connect professionals, strengthen partnerships,
-                        and contribute to Nepal's development priorities.
-                    </p>
-
-                    <p>
-                        Today, RUNVAN brings together experienced volunteers,
-                        development practitioners, and community leaders to promote
-                        volunteerism, knowledge sharing, and sustainable development
-                        initiatives throughout the country.
-                    </p>
-
-                </div>
-
-            </div>
-
-            <div class="lg:col-span-5" data-aos="fade-left">
-                <div class="space-y-5">
-                    <div class="bg-[var(--bg-light)] border border-[var(--border)] rounded-[10px] p-6">
-                        <div class="flex gap-4">
-                            <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
-                                <i class="ri-user-star-line text-xl text-[var(--primary)]"></i>
-                            </div>
-
-                            <div>
-                                <h5 class="mb-2">Founded by Returned UN Volunteers</h5>
-                                <p class="text-muted text-sm">
-                                    Built upon the experience, skills, and dedication
-                                    of former United Nations Volunteers.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="bg-[var(--bg-light)] border border-[var(--border)] rounded-[10px] p-6">
-                        <div class="flex gap-4">
-                            <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
-                                <i class="ri-team-line text-xl text-[var(--primary)]"></i>
-                            </div>
-
-                            <div>
-                                <h5 class="mb-2">Strengthening Volunteerism</h5>
-                                <p class="text-muted text-sm">
-                                    Encouraging active participation and civic
-                                    engagement for community development.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="bg-[var(--bg-light)] border border-[var(--border)] rounded-[10px] p-6">
-                        <div class="flex gap-4">
-                            <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
-                                <i class="ri-earth-line text-xl text-[var(--primary)]"></i>
-                            </div>
-
-                            <div>
-                                <h5 class="mb-2">Driving Sustainable Impact</h5>
-                                <p class="text-muted text-sm">
-                                    Supporting initiatives that contribute to
-                                    sustainable development and social progress.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-</section> -->
 
 <section class="section-light">
    <div class="container">
@@ -655,7 +487,7 @@ include './includes/header.php';
                data-aos="zoom-in">
                <img
                   src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500"
-                  alt=""
+                  alt="John Doe" loading="lazy"
                   class="w-[120px] h-[120px] rounded-full object-cover mx-auto mb-5">
                <h5>
                   John Doe
@@ -671,7 +503,7 @@ include './includes/header.php';
                data-aos-delay="100">
                <img
                   src="https://randomuser.me/api/portraits/men/32.jpg"
-                  alt=""
+                  alt="Jane Smith" loading="lazy"
                   class="w-[120px] h-[120px] rounded-full object-cover mx-auto mb-5">
                <h5>
                   Jane Smith
@@ -687,7 +519,7 @@ include './includes/header.php';
                data-aos-delay="200">
                <img
                   src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500"
-                  alt=""
+                  alt="Michael Rai" loading="lazy"
                   class="w-[120px] h-[120px] rounded-full object-cover mx-auto mb-5">
                <h5>
                   Michael Rai
@@ -703,7 +535,7 @@ include './includes/header.php';
                data-aos-delay="300">
                <img
                   src="https://randomuser.me/api/portraits/men/32.jpg"
-                  alt=""
+                  alt="Sita Gurung" loading="lazy"
                   class="w-[120px] h-[120px] rounded-full object-cover mx-auto mb-5">
                <h5>
                   Sita Gurung
@@ -725,52 +557,6 @@ include './includes/header.php';
       </div>
    </div>
 </section>
-
-<!-- <section>
-   <div class="container">
-      <div
-         class="relative overflow-hidden rounded-[10px] bg-gradient-to-r from-[var(--primary)] to-[var(--primary-dark)] p-10 md:p-16">
-         <div
-            class="absolute -top-16 -right-16 w-48 h-48 bg-white/10 rounded-full">
-         </div>
-         <div
-            class="absolute -bottom-16 -left-16 w-48 h-48 bg-white/10 rounded-full">
-         </div>
-         <div
-            class="relative z-10 flex flex-col lg:flex-row items-center justify-between gap-8">
-            <div
-               class="max-w-2xl"
-               data-aos="fade-right">
-               <span
-                  class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 text-white text-sm mb-4">
-               <i class="ri-heart-line"></i>
-               Join RUNVAN
-               </span>
-               <h2 class="text-white mb-4">
-                  Be Part of a Network Creating Positive Change
-               </h2>
-               <p class="text-white/80">
-                  Connect with experienced volunteers, development
-                  professionals, and partners working together for
-                  sustainable development and community empowerment.
-               </p>
-            </div>
-            <div
-               class="flex flex-wrap gap-4"
-               data-aos="fade-left">
-               <a href="#"
-                  class="bg-white text-[var(--primary)] px-7 py-4 rounded-[10px] font-semibold hover:-translate-y-1 transition-all duration-300">
-               Become a Member
-               </a>
-               <a href="contact.html"
-                  class="border border-white/20 text-white px-7 py-4 rounded-[10px] font-semibold hover:bg-white/10 transition-all duration-300">
-               Contact Us
-               </a>
-            </div>
-         </div>
-      </div>
-   </div>
-</section> -->
 
 <?php
 include './includes/footer.php';

@@ -47,7 +47,7 @@
             data-aos="fade-right">
             <img
                src="assets/images/testimonial-overview.webp"
-               alt="Testimonials"
+               alt="Testimonials" loading="lazy"
                class="w-full max-w-[500px] h-[350px] object-cover rounded-[10px]">
             <!-- <div
                class="absolute -bottom-6 -right-6 bg-white rounded-[10px] shadow-lg p-5">
@@ -109,7 +109,7 @@
             <div class="lg:col-span-2">
                <img
                   src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500"
-                  alt=""
+                  alt="Dr. Sarah Sharma" loading="lazy"
                   class="w-full h-full object-cover max-h-[450px]">
             </div>
             <!-- Content -->
@@ -188,7 +188,7 @@
             <div class="testimonial-top">
                <img
                   src="https://randomuser.me/api/portraits/men/32.jpg"
-                  alt="">
+                  alt="Rajesh Adhikari" loading="lazy">
                <div>
                   <h5>
                      Rajesh Adhikari
@@ -213,7 +213,7 @@
             <div class="testimonial-top">
                <img
                   src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500"
-                  alt="">
+                  alt="Maya Karki" loading="lazy">
                <div>
                   <h5>
                      Maya Karki
@@ -238,7 +238,7 @@
             <div class="testimonial-top">
                <img
                   src="./assets/images/logo.avif"
-                  alt="">
+                  alt="Community Action Nepal" loading="lazy">
                <div>
                   <h5>
                      Community Action Nepal
@@ -296,7 +296,7 @@
                   class="relative mb-8">
                   <img
                      src="assets/images/testimonial-overview.webp"
-                     alt=""
+                     alt="Your Experience Matters" loading="lazy"
                      class="w-full h-[240px] object-cover rounded-[10px] shadow-lg">
                </div>
                <!-- Quote -->

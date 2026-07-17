@@ -43,15 +43,15 @@ include './includes/header.php';
             <div class="swiper heroSwiper rounded-[20px] overflow-hidden shadow-2xl">
                <div class="swiper-wrapper">
                   <div class="swiper-slide">
-                     <img src="assets/images/hero-1.webp"
+                     <img src="assets/images/hero-1.webp" alt="Hero1" loading="lazy"
                         class="w-full h-[520px] object-cover">
                   </div>
                   <div class="swiper-slide">
-                     <img src="assets/images/hero-2.webp"
+                     <img src="assets/images/hero-2.webp" alt="Hero2" loading="lazy"
                         class="w-full h-[520px] object-cover">
                   </div>
                   <div class="swiper-slide">
-                     <img src="assets/images/hero-3.webp"
+                     <img src="assets/images/hero-3.webp" alt="Hero2" loading="lazy"
                         class="w-full h-[520px] object-cover">
                   </div>
                </div>
@@ -80,7 +80,7 @@ include './includes/header.php';
             data-aos="fade-right">
             <img
                src="./assets/images/about-main.webp"
-               alt="RUNVAN Activities"
+               alt="RUNVAN Activities" loading="lazy"
                class="rounded-[10px] shadow-lg w-full h-[500px] object-cover">
             <!-- Floating Card -->
             <div
@@ -255,7 +255,7 @@ include './includes/header.php';
          <div class="grid lg:grid-cols-2">
             <img
                src="./assets/images/program-main.webp"
-               alt=""
+               alt="Community Development & Volunteer Mobilization" loading="lazy"
                class="w-full h-[520px] min-h-[350px] object-cover">
             <div class="p-8 lg:p-12">
                <span
@@ -381,7 +381,7 @@ include './includes/header.php';
             <div class="relative mb-6">
                <img
                   src="https://randomuser.me/api/portraits/men/32.jpg"
-                  alt=""
+                  alt="John Doe" loading="lazy"
                   class="w-44 h-44 mx-auto rounded-full object-cover border-4 border-white shadow-lg">
             </div>
             <h4 class="mb-1">
@@ -416,7 +416,7 @@ include './includes/header.php';
             <div class="relative mb-6">
                <img
                   src="https://randomuser.me/api/portraits/men/75.jpg"
-                  alt=""
+                  alt="Jane Smith" loading="lazy"
                   class="w-44 h-44 mx-auto rounded-full object-cover border-4 border-white shadow-lg">
             </div>
             <h4 class="mb-1">
@@ -440,7 +440,7 @@ include './includes/header.php';
             <div class="relative mb-6">
                <img
                   src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500"
-                  alt=""
+                  alt="Michael Brown" loading="lazy"
                   class="w-44 h-44 mx-auto rounded-full object-cover border-4 border-white shadow-lg">
             </div>
             <h4 class="mb-1">
@@ -472,7 +472,7 @@ include './includes/header.php';
             <div class="relative mb-6">
                <img
                   src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500"
-                  alt=""
+                  alt="Sarah Wilson" loading="lazy"
                   class="w-44 h-44 mx-auto rounded-full object-cover border-4 border-white shadow-lg">
             </div>
             <h4 class="mb-1">
@@ -554,7 +554,7 @@ include './includes/header.php';
                      community impact.
                   </p>
                   <img
-                     src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500"
+                     src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500" alt="John Doe" loading="lazy"
                      class="w-20 h-20 rounded-full mx-auto object-cover mb-4">
                   <h5>
                      John Doe
@@ -580,7 +580,7 @@ include './includes/header.php';
                      inspired collaborative action.
                   </p>
                   <img
-                     src="https://randomuser.me/api/portraits/men/32.jpg"
+                     src="https://randomuser.me/api/portraits/men/32.jpg" alt="Jane Smith" loading="lazy"
                      class="w-20 h-20 rounded-full mx-auto object-cover mb-4">
                   <h5>
                      Jane Smith
@@ -905,7 +905,7 @@ include './includes/header.php';
                class="gallery-popup block h-full">
                <img
                   src="./assets/images/program-main.webp"
-                  alt=""
+                  alt="Volunteer Activities" loading="lazy"
                   class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
                <!-- Overlay -->
                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300">
@@ -942,7 +942,7 @@ include './includes/header.php';
                class="gallery-popup relative block overflow-hidden rounded-[10px]">
                <img
                   src="./assets/images/about-main.webp"
-                  alt="Community Outreach"
+                  alt="Community Outreach" loading="lazy"
                   class="w-full h-64 object-cover transition duration-700 group-hover:scale-105">
 
                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300">
@@ -975,7 +975,7 @@ include './includes/header.php';
                class="gallery-popup relative block overflow-hidden rounded-[10px]">
                <img
                   src="./assets/images/blog-featured.webp"
-                  alt="Training Workshop"
+                  alt="Training Workshop" loading="lazy"
                   class="w-full h-64 object-cover transition duration-700 group-hover:scale-105">
                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300">
                   <div class="absolute inset-0 flex items-center justify-center">
@@ -1007,7 +1007,7 @@ include './includes/header.php';
                class="gallery-popup relative block overflow-hidden rounded-[10px]">
                <img
                   src="./assets/images/blog1.webp"
-                  alt="Leadership Program"
+                  alt="Leadership Program" loading="lazy"
                   class="w-full h-64 object-cover transition duration-700 group-hover:scale-105">
                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300">
                   <div class="absolute inset-0 flex items-center justify-center">
@@ -1039,7 +1039,7 @@ include './includes/header.php';
                class="gallery-popup relative block overflow-hidden rounded-[10px]">
                <img
                   src="./assets/images/hero-1.webp"
-                  alt="National Event"
+                  alt="National Event" loading="lazy"
                   class="w-full h-64 object-cover transition duration-700 group-hover:scale-105">
 
                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition duration-300">

@@ -86,7 +86,7 @@ include './includes/header.php';
             <div class="publication-image">
                <img
                   src="./assets/images/publication-1.webp"
-                  alt="">
+                  alt="Volunteerism and Community Development Report" loading="lazy">
                <span class="publication-badge publication">
                   Publication
                </span>
@@ -118,7 +118,7 @@ include './includes/header.php';
             <div class="publication-image">
                <img
                   src="assets/images/blog1.webp"
-                  alt="">
+                  alt="RUNVAN Conducts Leadership Workshop" loading="lazy">
                <span class="publication-badge news">
                   News
                </span>

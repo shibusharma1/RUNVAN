@@ -41,7 +41,7 @@
          <div data-aos="fade-right">
             <img
                src="./assets/images/program-main.webp"
-               alt=""
+               alt="Building Skills for Greater Impact" loading="lazy"
                class="w-full max-w-[550px] h-[400px] object-cover rounded-[10px] shadow-md">
          </div>
          <div data-aos="fade-left">
@@ -115,16 +115,16 @@
       </div>
       <div class="grid md:grid-cols-2 gap-6 mt-14">
          <img
-            src="./assets/images/blog-featured.webp"
+            src="./assets/images/blog-featured.webp" alt="Gallery Image featured" loading="lazy" 
             class="w-full h-[250px] object-cover rounded-[10px]">
          <img
-            src="./assets/images/blog1.webp"
+            src="./assets/images/blog1.webp" alt="Gallery Image blog" loading="lazy"
             class="w-full h-[250px] object-cover rounded-[10px]">
          <img
-            src="./assets/images/hero-2.webp"
+            src="./assets/images/hero-2.webp" alt="Gallery Image blog2" loading="lazy"
             class="w-full h-[250px] object-cover rounded-[10px]">
          <img
-            src="./assets/images/program-main.webp"
+            src="./assets/images/program-main.webp" alt="Gallery Image programs" loading="lazy"
             class="w-full h-[250px] object-cover rounded-[10px]">
       </div>
    </div>
@@ -165,7 +165,7 @@
             <div class="relative overflow-hidden">
                <img
                   src="./assets/images/program-main.webp"
-                  alt=""
+                  alt="Community Outreach Campaign" loading="lazy"
                   class="w-full h-[220px] object-cover group-hover:scale-110 transition duration-700">
                <span
                   class="absolute top-4 left-4 px-3 py-1 rounded-full bg-green-100 text-green-700 text-sm">
@@ -195,7 +195,7 @@
             <div class="relative overflow-hidden">
                <img
                   src="./assets/images/blog-featured.webp"
-                  alt=""
+                  alt="Leadership Development Program" loading="lazy"
                   class="w-full h-[220px] object-cover group-hover:scale-110 transition duration-700">
                <span
                   class="absolute top-4 left-4 px-3 py-1 rounded-full bg-blue-100 text-[var(--primary)] text-sm">
@@ -225,7 +225,7 @@
             <div class="relative overflow-hidden">
                <img
                   src="./assets/images/blog1.webp"
-                  alt=""
+                  alt="National Volunteer Gathering" loading="lazy"
                   class="w-full h-[220px] object-cover group-hover:scale-110 transition duration-700">
                <span
                   class="absolute top-4 left-4 px-3 py-1 rounded-full bg-orange-100 text-orange-700 text-sm">

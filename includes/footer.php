@@ -34,7 +34,7 @@
          <!-- Column 1 -->
          <div class="lg:col-span-4">
             <a href="./" class="logo mb-6">
-               <img src="assets/images/logo.avif" alt="RUNVAN">
+               <img src="assets/images/logo.avif" alt="RUNVAN" loading="lazy">
                <div class="logo-text">
                   <span class="logo-title">RUNVAN</span>
                   <span class="logo-subtitle">Returned United Nations Volunteers Association, Nepal</span>

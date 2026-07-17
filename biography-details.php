@@ -4,10 +4,6 @@
    
 <section class="relative overflow-hidden pt-40 pb-24 bg-gradient-to-br from-[var(--primary)] to-[var(--primary-dark)] overflow-hidden">
    <div class="absolute inset-0">
-      <!-- <img
-         src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500"
-         alt=""
-         class="w-full h-full object-cover"> -->
       <div class="absolute inset-0 bg-[var(--primary)]/85"></div>
    </div>
    <div class="container relative z-10">
@@ -37,7 +33,7 @@
          <div>
             <img
                src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500"
-               alt=""
+               alt="Former President" loading="lazy"
                class="w-full rounded-[10px] shadow-lg">
            
          </div>
@@ -202,7 +198,7 @@
             <div class="overflow-hidden">
                <img
                   src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500"
-                  alt=""
+                  alt="Ram Sharma" loading="lazy"
                   class="w-full h-80 object-cover transition duration-700 group-hover:scale-110">
             </div>
             <div class="p-6">

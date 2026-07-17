@@ -57,7 +57,7 @@ include './includes/header.php';
             <div class="h-44 flex items-center justify-center p-8 border-b border-[var(--border)]">
                <img
                   src="./assets/images/partners/unv.webp"
-                  alt="UN Volunteers"
+                  alt="UN Volunteers" loading="lazy"
                   class="max-h-24 object-contain">
             </div>
             <div class="p-7">
@@ -76,7 +76,7 @@ include './includes/header.php';
             <div class="h-44 flex items-center justify-center p-8 border-b border-[var(--border)]">
                <img
                   src="./assets/images/partners/undp.webp"
-                  alt="UNDP"
+                  alt="UNDP" loading="lazy"
                   class="max-h-24 object-contain">
             </div>
             <div class="p-7">
@@ -95,7 +95,7 @@ include './includes/header.php';
             <div class="h-44 flex items-center justify-center p-8 border-b border-[var(--border)]">
                <img
                   src="./assets/images/partners/ngo.webp"
-                  alt="Partner Organization"
+                  alt="Partner Organization" loading="lazy"
                   class="max-h-24 object-contain">
             </div>
             <div class="p-7">

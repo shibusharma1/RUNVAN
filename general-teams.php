@@ -5,7 +5,7 @@
    <div class="absolute inset-0">
       <img
          src="./assets/images/team/team-hero.jpg"
-         alt="Core Team"
+         alt="Core Team" loading="lazy"
          class="w-full h-full object-cover">
       <div class="absolute inset-0 bg-[var(--primary)]"></div>
    </div>
@@ -66,7 +66,7 @@
             <div class="overflow-hidden">
                <img
                   src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500"
-                  alt=""
+                  alt="Ram Sharma" loading="lazy"
                   class="w-full h-80 object-cover transition duration-700 group-hover:scale-110">
             </div>
             <div class="p-6">

@@ -38,7 +38,7 @@ include './includes/header.php';
          <div data-aos="fade-right">
             <img
                src="assets/images/contact-overview.webp"
-               alt=""
+               alt="Contact Overview" loading="lazy"
                class="w-full max-w-[700px] h-[350px] object-cover rounded-[10px]">
          </div>
          <div data-aos="fade-left">

@@ -48,7 +48,7 @@ include './includes/header.php';
             data-aos="fade-right">
             <img
                src="./assets/images/certifications/overview.webp"
-               alt="RUNVAN Certifications"
+               alt="RUNVAN Certifications" loading="lazy"
                class="rounded-[10px] shadow-lg w-full">
          </div>
          <!-- Content Side -->
@@ -264,7 +264,7 @@ include './includes/header.php';
                <div class="overflow-hidden">
                   <img
                      src="./assets/images/certifications/certificate-1.webp"
-                     alt=""
+                     alt="Organizational Excellence Certification" loading="lazy"
                      class="w-full h-64 object-cover transition duration-700 group-hover:scale-110">
                </div>
                <!-- Content -->
@@ -331,7 +331,7 @@ include './includes/header.php';
                <img
                   id="modalCertificateImage"
                   src=""
-                  alt=""
+                  alt="Organization Name Certificate" loading="lazy"
                   class="w-full rounded-[10px] shadow-md">
             </div>
             <!-- Certificate Details -->

@@ -72,7 +72,7 @@ include './includes/header.php';
 
                <img
                   src="assets/images/about-main.webp"
-                  alt=""
+                  alt="Volunteer Activities" loading="lazy"
                   class="w-full rounded-[10px] transition duration-700 group-hover:scale-105">
 
                <!-- Overlay -->

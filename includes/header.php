@@ -10,6 +10,34 @@
     <meta property="og:title" content="RUNVAN Nepal | Returned United Nations Volunteers Association Nepal">
     <meta property="og:description" content="Discover RUNVAN Nepal, a network of Returned United Nations Volunteers dedicated to promoting volunteerism, leadership, community development, and sustainable social impact throughout Nepal.">
     <meta property="og:type" content="website">
+    <meta property="og:image" content="./assets/images/logo.avif">
+    <meta property="og:url" content="https://runvan.org.np/">
+    <meta property="og:site_name" content="RUNVAN Nepal">
+
+    <!-- <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "NGO",
+            "name": "Returned United Nations Volunteers Association Nepal (RUNVAN)",
+            "alternateName": "RUNVAN Nepal",
+            "url": "https://runvan.org.np",
+            "logo": "https://runvan.org.np/assets/images/logo.avif",
+            "image": "https://runvan.org.np/assets/images/logo.avif",
+            "description": "RUNVAN Nepal is a network of Returned United Nations Volunteers promoting volunteerism, leadership, community development, and sustainable development across Nepal.",
+            "email": "info@runvan.org.np",
+            "telephone": "+977-XXXXXXXXXX",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Kathmandu",
+                "addressCountry": "NP"
+            },
+            "sameAs": [
+                "https://facebook.com/yourpage",
+                "https://linkedin.com/company/yourpage",
+                "https://youtube.com/@yourchannel"
+            ]
+        }
+    </script> -->
     <link rel="icon"
         href="./assets/images/logo.avif">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -47,7 +75,7 @@
         <div class="container nav-container">
             <!-- Logo -->
             <a href="./" class="logo">
-                <img src="assets/images/logo.avif" alt="RUNVAN">
+                <img src="assets/images/logo.avif" alt="RUNVAN" loading="lazy">
                 <div class="logo-text">
                     <span class="logo-title">RUNVAN</span>
                     <span class="logo-subtitle">Returned United Nations Volunteers Association, Nepal</span>

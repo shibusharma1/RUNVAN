@@ -49,7 +49,7 @@ include './includes/header.php';
             data-aos="fade-right">
             <img
                src="./assets/images/program-main.webp"
-               alt="Programs Overview"
+               alt="Programs Overview" loading="lazy"
                class="w-full max-w-[500px] h-[350px] object-cover rounded-[10px] shadow-md">
             <div
                class="absolute -bottom-5 -right-5 bg-white rounded-[10px] shadow-lg px-6 py-4">
@@ -166,7 +166,7 @@ include './includes/header.php';
             <div class="overflow-hidden">
                <img
                   src="./assets/images/program-main.webp"
-                  alt=""
+                  alt="Volunteer Capacity Building" loading="lazy"
                   class="w-full h-[220px] object-cover group-hover:scale-105 transition duration-500">
             </div>
             <div class="p-6">
@@ -197,7 +197,7 @@ include './includes/header.php';
             <div class="overflow-hidden">
                <img
                   src="./assets/images/blog1.webp"
-                  alt="Community Outreach Campaign"
+                  alt="Community Outreach Campaign" loading="lazy"
                   class="w-full h-[220px] object-cover group-hover:scale-105 transition duration-500">
             </div>
             <div class="p-6">
@@ -227,7 +227,7 @@ include './includes/header.php';
             <div class="overflow-hidden">
                <img
                   src="./assets/images/blog-featured.webp"
-                  alt="National Volunteer Gathering"
+                  alt="National Volunteer Gathering" loading="lazy"
                   class="w-full h-[220px] object-cover group-hover:scale-105 transition duration-500">
             </div>
             <div class="p-6">

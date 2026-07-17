@@ -59,7 +59,7 @@ include './includes/header.php';
          data-aos="zoom-in">
          <img
             src="assets/images/blog-featured.webp"
-            alt=""
+            alt="Featured Blog" loading="lazy"
             class="w-full h-[500px] object-cover rounded-[10px] shadow-lg">
       </div>
    </div>
@@ -178,7 +178,7 @@ include './includes/header.php';
             <div class="publication-image">
                <img
                   src="assets/images/publication-1.webp"
-                  alt="">
+                  alt="Volunteerism and Community Development Report" loading="lazy">
                <span class="publication-badge publication">
                   Publication
                </span>
@@ -210,7 +210,7 @@ include './includes/header.php';
             <div class="publication-image">
                <img
                   src="assets/images/blog1.webp"
-                  alt="">
+                  alt="RUNVAN Conducts Leadership Workshop" loading="lazy">
                <span class="publication-badge news">
                   News
                </span>

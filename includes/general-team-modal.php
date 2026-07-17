@@ -26,7 +26,7 @@
                 <img
                     id="modalTeamImage"
                     src=""
-                    alt=""
+                    alt="Ram Sharma" loading="lazy"
                     class="w-full
                h-60
                sm:h-72

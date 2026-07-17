@@ -80,7 +80,7 @@ include './includes/header.php';
                         class="bg-white p-6 rounded-[10px] shadow-sm border border-[var(--border)]">
                         <img
                             src="./assets/images/qr.webp"
-                            alt="Donation QR"
+                            alt="Donation QR" loading="lazy"
                             class="w-64 h-64 object-contain">
                     </div>
                 </div>
