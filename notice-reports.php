@@ -1,6 +1,7 @@
 <?php
 include './includes/header.php';
 ?>
+
 <section class="relative pt-40 pb-24 overflow-hidden bg-gradient-to-br from-[var(--primary)] to-[var(--primary-dark)]">
    <div class="absolute inset-0">
       <div class="absolute inset-0 bg-black/20"></div>
